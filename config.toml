@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://riddledle.github.io/techblog/"
+baseurl = "<>"
 languageCode = "en-us"
-title = "Hugo Cactus Theme"
+title = "Riddle's"
 theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
