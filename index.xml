@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Riddle&#39;s</title>
+    <link>https://riddledle.github.io/hugoblog/</link>
+    <description>Recent content on Riddle&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Oct 2016 01:21:38 +0800</lastBuildDate>
+    <atom:link href="https://riddledle.github.io/hugoblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>整个开发流程的大致梳理</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E4%BA%A7%E5%93%81%E4%B8%8A%E7%BA%BF%E4%B9%8B%E5%89%8D/</link>
+      <pubDate>Thu, 20 Oct 2016 01:21:38 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E4%BA%A7%E5%93%81%E4%B8%8A%E7%BA%BF%E4%B9%8B%E5%89%8D/</guid>
+      <description>&lt;p&gt;最近一段时间外卖手机APP的项目进入了开发的收尾阶段，进行了问题的集中，调试，测试。&lt;/p&gt;
+
+&lt;p&gt;团队协作的项目非常追求效率，但并不是要牺牲质量。&lt;/p&gt;
+
+&lt;p&gt;仅是在一个小型外包工作室中，我学到的即是：一个商业项目的客户对项目完成的速度和质量要求是很严格的，作为执行者的我们并不是要牺牲哪一方去成就另一方，而是在开发的整个流程的每个阶段，都谨慎地为这两者效力，从代码角度来看，在开发流程的：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;开发前期：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;科学的系统架构能够为项目在以后的开发过程中省下大笔沟通和维护成本；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;目录的构建应该要遵循规范（层级结构，类别），不应该偷懒或者图省事简化目录结构，因为这样可能会使以后的维护成本大大提高；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;开发时的代码／调试测试的代码／正式发布的代码，应该划分明确，这样什么时候需要什么版本的代码就比较清晰了。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;正式开发：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;本地测试的代码不要提交版本库，提交的代码应该是正式的，测试完毕的；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;提交代码时的commit尽量详细准确，便于追踪代码更新的历史和进行版本管理；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;良好的代码习惯（完整的注释，接口的封装，正确的命名方式）；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;开发产品的某一特定功能时，遇到涉及性能或者架构的问题时应该（让产品经理）和其他开发人员沟通，找到最好最快的方式；&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;比如在这个项目中，在完成“收藏商家”这一功能时，需求是“点击收藏商家按钮，按钮变为实心状，用户在进入已收藏商家主页时，收藏按钮应作相应变化”，前端在开发这个任务时，需要检查当前用户的收藏列表里是否有当前商家，而后端返回的接口里是没有这一数据的，那么前端就需要去检查一遍用户的收藏商家列表，这样网络访问就需要两遍，前端是需要尽量减少网络请求次数的，后端则是要尽量减少数据接口的，那么当时这个问题就被抛出了，最终的解决方案落实为该功能的重构，也就是后端的调整。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;调试测试：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;前期的工作做得比较到位，开发时严谨高效的话，调试测试阶段耗费的精力将相对较少，但是我认为这一阶段是所有开发流程中最为重要的。在调试测试的过程中，不仅需要对以往工作的回顾总结，也需要对产品在功能性，体验性等方面的提升空间的摸索。调试测试时，重点对以下几个方面进行检查：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;BUG检查：或许要消灭所有bug是不可能的，甚至用来进行开发的工具自身都带有bug也不一定，但是需要知道的是这些bug是什么，在哪里，严重程度，可修复性；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;性能优化：性能的优化是在功能全部实现的前提下进行的，仅仅实现是不够的，在网络连接速度，数据获取速度等方面需要尽量优化，比如上面提到的“收藏商家”的例子；&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;优化性能时，除了考虑当前，还要考虑到以后的改动或者迭代，比如说，在优化一个“轮播点联动显示”的功能时，本身所有的轮播点是固定定位在轮播头底部某一位置的，但是轮播点的数量应该是对应轮播图片数量的，那么如果轮播图增加了，轮播点是否也应该相信增加并且做到完美的布局，所以这个任务完成之后，轮播点实现了自动靠右排列。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用户体验：在测试的过程中，以用户的身份去使用和体验产品，逻辑是否通顺，交互是否良好，细节是否完善，感受是怎样的，这些问题可以被自然地发现，从而得到修改优化。&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;比如在对整个APP的体验过程中，发现了动画显示不流畅，获取验证码按钮过小，等待页面显示时缺少加载动画等问题，这些问题只有在体验产品时才会被重视和提出，但往往这些问题对一款产品是否合格规范甚至完美是至关重要的。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lily桌面版v0.1</title>
+      <link>https://riddledle.github.io/hugoblog/post/Lily%E6%A1%8C%E9%9D%A2%E7%89%88v0.1/</link>
+      <pubDate>Thu, 20 Oct 2016 01:00:05 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/Lily%E6%A1%8C%E9%9D%A2%E7%89%88v0.1/</guid>
+      <description>
+
+&lt;h3 id=&#34;工具&#34;&gt;工具：&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Azure 7.0&lt;/li&gt;
+&lt;li&gt;Element components&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;原则&#34;&gt;原则：&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;风格清新&lt;/li&gt;
+&lt;li&gt;界面简洁&lt;/li&gt;
+&lt;li&gt;快速shuffle&lt;/li&gt;
+&lt;li&gt;突出评论&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;参考&#34;&gt;参考：&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Element官网配色&lt;/li&gt;
+&lt;li&gt;豆瓣FM&lt;/li&gt;
+&lt;li&gt;网易云音乐桌面版播放器&lt;/li&gt;
+&lt;li&gt;网易云音乐私人FM&lt;/li&gt;
+&lt;li&gt;Genuis.com &amp;gt; Comments&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-19%20%E4%B8%8B%E5%8D%8810.54.09.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>四点小建议</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E5%9B%9B%E7%82%B9%E5%B0%8F%E5%BB%BA%E8%AE%AE/</link>
+      <pubDate>Sun, 16 Oct 2016 01:16:26 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E5%9B%9B%E7%82%B9%E5%B0%8F%E5%BB%BA%E8%AE%AE/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;功能互相关联，不要造孤岛&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;酷狗的“听唱看玩”的集成&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;产品去引领用户，而不是单纯依赖调研&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;研究用户心理，被动变主动&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;注重用户体验，回归产品&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;没啥说&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;关注底层大众（屌丝宅男），但产品保持高大上&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“宅男还是喜欢林志玲的”&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lily功能梳理初稿</title>
+      <link>https://riddledle.github.io/hugoblog/post/Lily%E5%8A%9F%E8%83%BD%E6%A2%B3%E7%90%86%E5%88%9D%E7%A8%BF/</link>
+      <pubDate>Tue, 11 Oct 2016 23:51:37 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/Lily%E5%8A%9F%E8%83%BD%E6%A2%B3%E7%90%86%E5%88%9D%E7%A8%BF/</guid>
+      <description>
+
+&lt;h1 id=&#34;基本功能板块&#34;&gt;基本功能板块&lt;/h1&gt;
+
+&lt;h2 id=&#34;logo&#34;&gt;LOGO&lt;/h2&gt;
+
+&lt;p&gt;内容为“LILY”的logo，设计简洁，点击后展开导航菜单。&lt;/p&gt;
+
+&lt;h2 id=&#34;导航菜单&#34;&gt;导航菜单&lt;/h2&gt;
+
+&lt;p&gt;默认隐藏，歌曲播放时半透明显示，点击logo后滑出，包含四个模块：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;FM&lt;/li&gt;
+&lt;li&gt;推荐&lt;/li&gt;
+&lt;li&gt;所有歌曲&lt;/li&gt;
+&lt;li&gt;上传歌曲&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;动态变化的背景&#34;&gt;动态变化的背景&lt;/h2&gt;
+
+&lt;p&gt;参照桌面版网易云音乐／QQ音乐的歌曲播放主界面的背景处理方式，即对专辑图片的放大，虚化和渲染，并且参考&lt;a href=&#34;http://nipponcolors.com/#sakuranezumi&#34;&gt;NIPPON COLORS&lt;/a&gt;的变化效果，实现lily在歌曲切换或者在歌曲播放时，背景色调／图片的变换。&lt;/p&gt;
+
+&lt;h2 id=&#34;登录-注册-游客&#34;&gt;登录/注册/游客&lt;/h2&gt;
+
+&lt;p&gt;为登录的用户身份为游客，游客可以：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;发表弹幕&lt;/li&gt;
+&lt;li&gt;发表评论&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;已注册未完成邮箱验证的用户，可以上传图片；&lt;/p&gt;
+
+&lt;p&gt;完成邮箱验证的用户，可以上传歌曲。&lt;/p&gt;
+
+&lt;h2 id=&#34;播放列表&#34;&gt;播放列表&lt;/h2&gt;
+
+&lt;p&gt;游客和已登录用户都可以在点击播放一首歌曲后，立即创建当前播放列表并添加当前歌曲；&lt;/p&gt;
+
+&lt;p&gt;游客的列表在关闭页面后清空，已登录用户的列表将被保存。&lt;/p&gt;
+
+&lt;h2 id=&#34;评论区&#34;&gt;评论区&lt;/h2&gt;
+
+&lt;p&gt;评论板块包含：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;发表评论&lt;/li&gt;
+&lt;li&gt;图片评论&lt;/li&gt;
+&lt;li&gt;显示评论总数&lt;/li&gt;
+&lt;li&gt;精彩评论&lt;/li&gt;
+&lt;li&gt;最新评论&lt;/li&gt;
+&lt;li&gt;对评论点赞&lt;/li&gt;
+&lt;li&gt;回复某条评论&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;主体区域&#34;&gt;主体区域&lt;/h1&gt;
+
+&lt;p&gt;无论是在何种播放模式下，页面的主体部分都被等分成三个区域，分别是：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;播放器区 &lt;!--FM播放模式和正常播放模式，不必设计两套播放器，采用一致的播放器即可--&gt;
+
+&lt;ul&gt;
+&lt;li&gt;显示歌曲名，歌手名，专辑名，时长；&lt;/li&gt;
+&lt;li&gt;切换下一首&lt;/li&gt;
+&lt;li&gt;收藏按钮－－添加至播放列表&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;歌词区
+
+&lt;ul&gt;
+&lt;li&gt;点击可切换歌词是否滚动&lt;/li&gt;
+&lt;li&gt;不滚动－－对应评注区&lt;/li&gt;
+&lt;li&gt;滚动－－对应弹幕区&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;评注/弹幕区
+
+&lt;ul&gt;
+&lt;li&gt;参考genuis.com的评注方式&lt;/li&gt;
+&lt;li&gt;参考QQ音乐的弹幕形式&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;不同功能模块下的补充说明&#34;&gt;不同功能模块下的补充说明&lt;/h1&gt;
+
+&lt;h2 id=&#34;fm&#34;&gt;FM&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;播放器组件
+
+&lt;ul&gt;
+&lt;li&gt;垃圾箱功能，被放入垃圾箱的歌曲将从用户当前收听的频道的歌曲列表中移除&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;推荐&#34;&gt;推荐&lt;/h2&gt;
+
+&lt;p&gt;推荐的分类和歌曲内容由后台控制&lt;/p&gt;
+
+&lt;h2 id=&#34;所有歌曲&#34;&gt;所有歌曲&lt;/h2&gt;
+
+&lt;p&gt;采用LQIP – Low Quality Image Placeholders技术 （虽然是2013年的了）&lt;/p&gt;
+
+&lt;h2 id=&#34;上传歌曲&#34;&gt;上传歌曲&lt;/h2&gt;
+
+&lt;p&gt;仿照之前实现的湿湿娘的视频搬运功能，已登录的用户可以上传歌曲，上传时必需的相关信息是：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;歌曲名&lt;/li&gt;
+&lt;li&gt;歌手名&lt;/li&gt;
+&lt;li&gt;专辑名&lt;/li&gt;
+&lt;li&gt;歌曲文件&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MyProjectOneAssignment</title>
+      <link>https://riddledle.github.io/hugoblog/post/MyProjectOneAssignment/</link>
+      <pubDate>Tue, 11 Oct 2016 23:51:16 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/MyProjectOneAssignment/</guid>
+      <description>
+
+&lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;
+
+&lt;p&gt;I find myself interested in internet software engineering, front-end technology and internet product management when i was in grade 2.&lt;/p&gt;
+
+&lt;p&gt;My passion for those skills drove me to learn many basic skills related to front-end technology at first, such as html, css, javascript, ajax, jQuery…it’s easy to get familiar with these skills, but it’s hard to be a master of them.&lt;/p&gt;
+
+&lt;p&gt;When i was at a higher level, i started to use some front-end tools such as bootstrap or element to build up a website quickly, or use echarts to implement data visualization, or use fullpage to insert one-page sections in my website.&lt;/p&gt;
+
+&lt;p&gt;My next step is to get a web server of my own and bind my domain    to it. I made it by looking for free host in “wanwang” and luckily received a free one for two year’s ownership. I bought my domain in “wanwang” as well, which cost no more than 50 RMB each year.&lt;/p&gt;
+
+&lt;p&gt;At present, i’m using a ftp tool — FileZilla to manage my home site. All i need to do is to set up my site with the correct IP address and password, connect my computer to it, then i can upload or delete files in my host.&lt;/p&gt;
+
+&lt;p&gt;After the formation of my home site has been done, i used  a fast and flexible static site generator — hugo to generate my blog, which is used to save up all my experience and progress during my study and work as a front-end engineer and a product manager.&lt;/p&gt;
+
+&lt;p&gt;Another site generator — hexo has been used to build up my lyrics collection site for a japanese singer, i simply just chose the right template, modified its config and did some beautifications by css and js.&lt;/p&gt;
+
+&lt;p&gt;I’m working on a project called “Lily” as a product manager with a friend who acts as the engineer, this website will provide people with functions such as listening to their favorite singer’s FM radio, make comments and share their stories.&lt;/p&gt;
+
+&lt;p&gt;All those works mentioned above are deployed on github and i’m using git to control these remotes.&lt;/p&gt;
+
+&lt;h1 id=&#34;snapshots&#34;&gt;Snapshots&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/FE66A652-FA07-40AA-A9CD-67F949071E20.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/FE8AC9C6-7207-4432-A5AF-FF46FE9D71DA.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/40DA7AAC-3AEF-48B5-8743-8B6A8BCC56FD.png&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/090658EC-9FDD-4A6D-AE9F-C23C5DDF664E.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我的朋友给我的礼物</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E7%BB%99%E6%88%91%E7%9A%84%E7%A4%BC%E7%89%A9/</link>
+      <pubDate>Mon, 10 Oct 2016 01:44:27 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E7%BB%99%E6%88%91%E7%9A%84%E7%A4%BC%E7%89%A9/</guid>
+      <description>&lt;p&gt;谢谢，我很喜欢！&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>责任感和信用度</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E8%B4%A3%E4%BB%BB%E6%84%9F%E5%92%8C%E4%BF%A1%E7%94%A8%E5%BA%A6/</link>
+      <pubDate>Sat, 08 Oct 2016 23:38:41 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E8%B4%A3%E4%BB%BB%E6%84%9F%E5%92%8C%E4%BF%A1%E7%94%A8%E5%BA%A6/</guid>
+      <description>&lt;p&gt;在参与APP项目开发的过程中，我以产品经理的身份，担任着与前后端交流沟通，考查功能完整性和用户体验是否良好，监管整个产品从设计到部署，共三项主要职责。&lt;/p&gt;
+
+&lt;p&gt;一款APP的正常开发流程大致如下：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E4%BA%A7%E5%93%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;（以上仅供参考）&lt;/p&gt;
+
+&lt;p&gt;一个负责任的产品经理，应当在每一个阶段都能找到确实需要自己去做的事情。&lt;/p&gt;
+
+&lt;p&gt;在PRD制作阶段，思考产品功能性／逻辑性／易用性／用户体验上的欠缺；在设计阶段，给予正确的指导意见以确保产品风格；在开发的过程中，负责协调解决特定功能在实现过程中遇到的问题，最后在产品验收前，细心检查功能的完整性，用户体验是否良好，以及细节设计是否完善等。&lt;/p&gt;
+
+&lt;p&gt;因为要承担如此细琐繁杂的任务，我在协调组织的过程中，面临着：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;责任问题&lt;/li&gt;
+&lt;li&gt;信任问题&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这两个“长得很相似”的问题，不仅影响着我的工作的完成效果，个人能力得到提升的程度，也很大程度上牵动着项目的管理成本，以及是否能够获得和保持他人对我的信任。&lt;/p&gt;
+
+&lt;p&gt;当有许多任务同时出现时，即使是在很短的时间内，自己心里明确一下各项任务的优先级别。对团队内部的其它很多人员来说，任务无大小；但是作为一个对产品负责任的PM，你对任务的重视程度，处理方式和速度，决策方向，都会牵动项目的开发进程。&lt;/p&gt;
+
+&lt;p&gt;如果答应了任何人一项任务的完成时间（Due Date），那么，除非给出合理详细的解释说明，不然绝对不要轻易违背承诺或者擅改时间，这是我到目前为止深感重要的一点。大家协作时，看重的是什么呢？抛开其它因素不说，大家都希望获得的一个东西就是：完成度。互联网行业与其它行业不同之处之一，就是它非常看重“产出”，大到生产出改变经济结构或者人们思维方式的互联网产品，小到一个项目的某个环节中的一个bug的修复，都是奔着“产出”而去的，一家互联网公司没有产出就没有生命力，也没有市场。产出就需要严格把控好每一个环节的“完成度”。那么如果一个人员连完成度都失去了，无论是处在团队何种位置，都失去了很基本的价值吧。产品经理是和产品联系最紧密的职位，一个产品经理要对产品的整个生命周期负责，这就很像产品经理和它的产品有着同一颗心脏，这样的强联系注定了产品经理在项目的各个角落都需要搜集“完成度”。回归到“Due Date”，如果做出了承诺（自信和责任心的表现），并且按时完成（信用良好的表现），不仅保证了完成度，而且也向别人传达了这样的信息：“我是一个对完成度要求比较高的人，因为我想要做好的产品”，其他人会受到良性的影响，更重要的是，会&lt;strong&gt;更加信任&lt;/strong&gt;你。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>沟通对项目管理成本的影响</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E6%B2%9F%E9%80%9A%E5%AF%B9%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E6%88%90%E6%9C%AC%E7%9A%84%E5%BD%B1%E5%93%8D/</link>
+      <pubDate>Sat, 08 Oct 2016 23:35:08 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E6%B2%9F%E9%80%9A%E5%AF%B9%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E6%88%90%E6%9C%AC%E7%9A%84%E5%BD%B1%E5%93%8D/</guid>
+      <description>
+
+&lt;p&gt;“沟通”两个字浅显易懂，但是在现实生活中，沟通的方式很多，不同的方式带来的效果不同，参与沟通的人员之间的关系又很多样，因此沟通显得非常“不好捕捉”。在工作中的沟通，比起其它沟通来说，更不看重形式（可以是口头，邮件，微信，留言，团队协作工具等），更不看重信息背后隐藏的意思（最好是没有什么隐藏，完全充分地将需要传达的信息表达出来），但是它非常看重的是：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;准确性&lt;/li&gt;
+&lt;li&gt;及时性&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;准确性&#34;&gt;准确性&lt;/h3&gt;
+
+&lt;p&gt;对项目内部相关的名词的引用是否正确？&lt;/p&gt;
+
+&lt;p&gt;专业术语或者特有名词的使用是否正确？&lt;/p&gt;
+
+&lt;p&gt;对某一个功能或者任务的指代是否清晰明确？&lt;/p&gt;
+
+&lt;p&gt;程度用词的使用是否比较符合涉及任务的重要/紧急程度？&lt;/p&gt;
+
+&lt;p&gt;是否已经涵盖了所有要点？&lt;/p&gt;
+
+&lt;p&gt;是否会造成严重的歧义？&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;及时性&#34;&gt;及时性&lt;/h3&gt;
+
+&lt;p&gt;还记得微博上面的一条热评是这样的：&lt;em&gt;工作的经历注定了每个人第一个学会的技能是及时地回复上司或者其他人的信息。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;及时地回复与工作相关的信息，告诉发送者“我看到了”，并且“我已经在做相关的处理了”，这对提高工作效率，促进沟通的协调，改进自己的工作方式，都很有帮助。另外，不及时地反馈信息，可能会导致项目中的“隐患”被保留和积压，在出现更严重的问题时，花费的项目管理成本和维护成本会是非常高的。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;工作中遇到的种种问题令我深刻感受到沟通的重要性，从而在对沟通内容的斟酌，沟通方式的选取，沟通效率的提高上，我都会进一步地去努力。&lt;/p&gt;
+
+&lt;p&gt;阅读相关书籍或者文章，提高沟通技巧，善用团队协作工具和及时聊天工具，做好工作任务的记录和安排，或许是我可以去做的事情。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>任务管理工具Trello</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7Trello/</link>
+      <pubDate>Thu, 06 Oct 2016 16:23:22 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7Trello/</guid>
+      <description>
+
+&lt;p&gt;我在以往的项目协作/管理经验中，使用过git，svn等版本控制系统；Teambition，coding，Tower等团队协作工具，今天开始使用Trello来帮助我管理日常工作和进行中的项目。&lt;/p&gt;
+
+&lt;h1 id=&#34;trello-https-trello-com&#34;&gt;&lt;a href=&#34;(https://trello.com/)&#34;&gt;Trello&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Trello提供清单式的管理方式，界面主深沉稳重的蓝色调，支持google账号登录，层级非常丰富，基本上是：Boards &amp;gt; Lists &amp;gt; Cards &amp;gt; Comments &amp;gt; Labels 的结构，&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“无限灵活。使用超级方便。移动应用程序超棒。完全免费。&lt;em&gt;Trello&lt;/em&gt; 能够跟踪一切,大至图片,小至记录细节。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;是它官网的宣传语。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Trello除了用来进行团队协作，也可以帮助个人进行日程／任务／愿望清单的管理，比如这套Template：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-07%20%E4%B8%8B%E5%8D%881.23.41.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;即可用于LifeStyle的管理，相关描述：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-07%20%E4%B8%8B%E5%8D%881.24.01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;我现在使用它进行如下的一些任务管理：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-07%20%E4%B8%8B%E5%8D%881.41.04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;国内现在比较火热的团队协作工具&lt;a href=&#34;https://www.teambition.com/&#34;&gt;Teambition&lt;/a&gt;是非常类似trello的，在宣传语上，tb：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Teambition&lt;/em&gt;  是一个简单,高效的项目协作工具,你可以在这里管理项目,跟踪任务进度,存储项目文件,让你的团队协作更高效。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;对比trello：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;无限灵活。使用超级方便。移动应用程序超棒。完全免费。&lt;em&gt;Trello&lt;/em&gt; 能够跟踪一切,大至图片,小至记录细节。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;所以tb是专注于提高项目管理效率的产品，trello是侧重追踪一切以使管理更加方便的产品。&lt;/p&gt;
+
+&lt;p&gt;现在试着浅析teambition（以下简称tb）和trello，最终从&lt;code&gt;功能性&lt;/code&gt;，&lt;code&gt;易用性&lt;/code&gt;，&lt;code&gt;逻辑性&lt;/code&gt;，&lt;code&gt;用户体验&lt;/code&gt;的维度进行总结：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;入口：作为纯粹的团队协作工具，tb提供了项目／企业两个入口，企业拥有其特有的功能；trello仅有Boards（对应tb下的“项目”）一个入口，boards分为三种类别：Private/Team/Public，一个board可以作为“专属个人的项目”，比如生活方式的安排，一周计划等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;尽管tb的项目也可以归类为“个人项目”，但是用户并不会使用它来安排个人的任务计划。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;项目管理：trello拥有左侧的Boards面板，tb没有。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这是因为trello有更广泛的应用范围，用户会拥有较多的boards；tb则省去了这一功能，以凸显其对高效的项目管理的追求，因为用户往往在一定时期内只会专注于完成一只两个项目。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;任务列表：tb的任务在创建时没有附加图片的功能，在任务列表上显示当前列表中的任务数，加强信息的压缩和提高效率；trello则拥有附带图片的功能，不显示当前列表中的任务数，这使得用户更愿意使用它来管理非工作项目之外的任务。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-07%20%E4%B8%8B%E5%8D%885.40.41.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;任务详情：tb中“执行者”，“截止时间”，“优先级”，“重复”（以提交工作日报等）的设置按钮以水平标签的形式呈现在任务详情的上方，便于快速设置任务的要求；trello的任务详情页面更多的表现为一个“讨论区”，“Checklist”，“Due date”等设置按钮垂直标签的形式排列在右侧，用户的焦点更多的放在当前任务的“内容”上，更加详细的任务描述促使用户添加更多类型的内容；tb的评论编辑框放置在目前评论内容列表的下方，因为项目参与人员阅读任务的需求大于发表讨论的需求；trello的“Add Comment”功能框放置在评论内容列表的上方，便于个人充分的发表讨论。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;更多功能：在对“更多”功能（复制任务；收藏任务；归档任务）的安排上，tb将更多功能折叠在任务详情面板的右上方，用户在参与项目的过程中，对这些功能的需求较小；trello则将这些功能和其它功能设置按钮一齐排列在任务详情面板的右侧，因为用户可能短期内进行多个项目（或安排）的管理。&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;通知功能：tb的具有通知功能的模块就包括“我的”，“通知”，“项目动态”，“日程”，“日历”，“群聊”，“私信”共七个，trello则仅有“Notifications”一项。&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;总体而言，tb的功能相当丰富，可以满足管理一个项目的大小需求，特别是通知功能非常强大，对效率的提高贡献很大，逻辑层次丰富，用户可能会在不了解该产品大部分或者所有功能的情况下较快的上手和适应产品，较快的参与到团队协作中；trello的功能相对较少，但是易于记录详细的内容，逻辑较简单，用户很方便地便能了解到该产品的所有功能并且立即上手，用户体验是很好的。以上和两者的宣传语是一致的。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>了解一些设计规范</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E4%BA%86%E8%A7%A3%E4%B8%80%E4%BA%9B%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/</link>
+      <pubDate>Tue, 04 Oct 2016 21:47:04 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E4%BA%86%E8%A7%A3%E4%B8%80%E4%BA%9B%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/</guid>
+      <description>
+
+&lt;p&gt;我选择使用&lt;a href=&#34;http://element.eleme.io/&#34;&gt;element&lt;/a&gt;这套组件库来制作Lily，它基于vue2.0，利用它提供的配套设计资源，我将完成Lily桌面版的产品原型设计。在设计原型的过程中，我应该会遇到各种各样未知的问题，在此先用element网站给出的设计规范开个小头，为产品设计之路铺下第一块石头，在将来塑造产品的过程中，再不断回顾和审视这条曲折之路。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;设计原则&#34;&gt;设计原则&lt;/h2&gt;
+
+&lt;h3 id=&#34;一致性-consistency&#34;&gt;一致性 Consistency&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;与现实生活一致：&lt;/strong&gt;与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Lily可以参考网易云音乐的界面操作规范，以符合用户使用音乐软件时的习惯&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;在界面中一致：&lt;/strong&gt;所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;在开始设计产品前，确定Lily桌面版整体布局的风格，并延续下去，保持各个页面布局风格的统一&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;反馈-feedback&#34;&gt;反馈 Feedback&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;控制反馈：&lt;/strong&gt;通过界面样式和交互动效让用户可以清晰的感知自己的操作；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;添加必要的交互动效&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;页面反馈：&lt;/strong&gt;操作后，通过页面元素的变化清晰地展现当前状态。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;在页面元素细节上增添变化，加强细节对用户的触动&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;效率-efficiency&#34;&gt;效率 Efficiency&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;简化流程：&lt;/strong&gt;设计简洁直观的操作流程；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Lily起始版本应当简洁直观&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;清晰明确：&lt;/strong&gt;语言表达清晰且表意明确，让用户快速理解进而作出决策；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;少点套路&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;帮助用户识别：&lt;/strong&gt;界面简单直白，让用户快速识别而非回忆，减少用户记忆负担。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;多借鉴已经成熟的音乐平台和软件的界面，帮助用户减轻记忆负担&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;可控-controllability&#34;&gt;可控 Controllability&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用户决策：&lt;/strong&gt;根据场景可给予用户操作建议或安全提示，但不能代替用户进行决策；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;可以由Lily向用户给出提示等，加强Lily的存在感&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;结果可控：&lt;/strong&gt;用户可以自由的进行操作，包括撤销、回退和终止当前操作等。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;始终保留对结果的处理操作&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>关于音乐社区的一篇竞品分析</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E9%9F%B3%E4%B9%90%E7%A4%BE%E5%8C%BA%E7%9A%84%E4%B8%80%E7%AF%87%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/</link>
+      <pubDate>Tue, 04 Oct 2016 00:39:49 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E9%9F%B3%E4%B9%90%E7%A4%BE%E5%8C%BA%E7%9A%84%E4%B8%80%E7%AF%87%E7%AB%9E%E5%93%81%E5%88%86%E6%9E%90/</guid>
+      <description>&lt;p&gt;此篇竞品分析主要分析的产品是mac桌面版的：网易云音乐，qq音乐，虾米音乐。音乐社区的用户有着抒发情怀的需要，特点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;主观感受性更强烈&lt;/li&gt;
+&lt;li&gt;评论区更易产生互动&lt;/li&gt;
+&lt;li&gt;容易受到当下热点和偶像效应的影响&lt;/li&gt;
+&lt;li&gt;时间跨度大&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;code&gt;云音乐&lt;/code&gt;： mac桌面版的云音乐，歌曲试听界面分为四大部分：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;封面区&lt;/li&gt;
+&lt;li&gt;歌词区&lt;/li&gt;
+&lt;li&gt;评论区&lt;/li&gt;
+&lt;li&gt;相关区&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这四大部分所占的比例几乎相等，这有助于塑造均衡，和谐，专业的感觉。
+  评论区又分为两大部分：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;精彩评论&lt;/li&gt;
+&lt;li&gt;最新评论&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;精彩评论是由点赞数较高的评论组成，不限制数量；最新评论按照时间排序。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;优点：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;精彩评论具有代表性，社区气氛良好；&lt;/li&gt;
+&lt;li&gt;精彩评论能引导一般用户进一步抒发自己的感情，活跃了评论区；&lt;/li&gt;
+&lt;li&gt;精彩评论帮助用户快速了解歌曲，较快的接受一首歌意味着用户可以收听更大量的歌曲；&lt;/li&gt;
+&lt;li&gt;评论相互回复，加强了社交功能；&lt;/li&gt;
+&lt;li&gt;人的信息被强化，用户的评论与他的社交网络形象息息相关；&lt;/li&gt;
+&lt;li&gt;寻找同城用户，从地域上拉近，加深社交关系，增强社区粘滞性；&lt;/li&gt;
+&lt;li&gt;在评论区可以直接@管理员，反馈及时，社区感浓重；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/EC8821AF-0E0D-4EF5-961D-BE02F75723A8.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;缺点：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;评论数较多时，一般的评论容易被忽略；&lt;/li&gt;
+&lt;li&gt;看评论时对歌曲的注意力就少了，有时间上的错位感；&lt;/li&gt;
+&lt;li&gt;评论属于有尽头的信息，使人产生“看完”的感觉。
+​&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;code&gt;虾米音乐&lt;/code&gt;：&lt;/p&gt;
+
+&lt;p&gt;虾米音乐mac桌面版的播放界面窄小，仅占据产品界面的三分之一左右。&lt;br /&gt;
+评论区也并未被包含在播放界面内，需要点击“评论”板块，才会显示评论列表。&lt;br /&gt;
+评论形式简单，内容简短。&lt;br /&gt;
+虾米精心打造的主题音乐活动，以及它的“寻光计划”，体现着虾米追求音乐品味的态度，作为内容驱动的产品，虾米的社区氛围是保守含蓄的。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;code&gt;qq音乐&lt;/code&gt;：&lt;/p&gt;
+
+&lt;p&gt;mac桌面版的qq音乐，没有加入用户评论功能。&lt;br /&gt;
+qq音乐移动端版本为专辑添加了豆瓣评论的展示，歌曲试听界面有弹幕评论功能和“送礼物”功能，尽管由于网络速度或者机器配置的不同，该功能的体验差别很大，但弹幕评论还是发挥了腾讯在即时聊天场景打造上的优势，加强了qq音乐的工具化。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;优点：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;弹幕具有即时性，弹幕的内容针对当前时间点的歌曲内容；&lt;/li&gt;
+&lt;li&gt;看或发弹幕和听歌可以同时进行，没有时间上的错位感；&lt;/li&gt;
+&lt;li&gt;例如“我在湖北听”，“我在火车站听”等弹幕，削弱的是人的信息，突出的是共情感；&lt;/li&gt;
+&lt;li&gt;用户可能因为看到了某一条弹幕而有了回复的冲动，弹幕的交流维持了社区的粘滞性。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;缺点：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;弹幕有瞬时性，内容简短，易重复，信息价值低；&lt;/li&gt;
+&lt;li&gt;弹幕放大了人说的内容，欠缺对歌曲本身的解读，精彩发言少；&lt;/li&gt;
+&lt;li&gt;弹幕更换快，用户之间的对话关系无法持续，也就无法进行下一步的社交行为。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;总结&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;网易云音乐&lt;/code&gt;：&lt;/p&gt;
+
+&lt;p&gt;企业背景：网易，擅长内容以及评论的打造；&lt;br /&gt;
+内容背景：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;歌曲种类多，小众音乐为主，也有许多原创音乐人，需要类似微博的明星－粉丝体系；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;用户可以建立自己的歌单，歌单的创建人有责任去回复内容；&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;社区粘滞性高，反馈及时，氛围活跃；&lt;br /&gt;
+推测未来走向：音乐结合社区的方向&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;code&gt;虾米音乐&lt;/code&gt;：&lt;/p&gt;
+
+&lt;p&gt;企业背景：阿里，擅长塑造专业性强的产品；&lt;br /&gt;
+内容背景：曲库质量高，大力支持有才华的独立音乐人和原创音乐人；
+推测未来走向：高质量音乐推介平台&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;code&gt;qq音乐&lt;/code&gt;：&lt;/p&gt;
+
+&lt;p&gt;企业背景：腾讯，擅长即时聊天场景的打造，氛围的营造；&lt;br /&gt;
+内容背景：泛音乐及主流大众音乐；&lt;br /&gt;
+推测未来的走向：防守为主，满足用户听音乐的诉求，提高内容的数量及质量，走工具方向&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;参考文章：《评论与弹幕的区别，QQ音乐与云音乐的对比分析》by枯叶咖啡馆&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lily的思维导图</title>
+      <link>https://riddledle.github.io/hugoblog/post/Lily%E7%9A%84%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</link>
+      <pubDate>Mon, 03 Oct 2016 23:53:57 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/Lily%E7%9A%84%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/</guid>
+      <description>&lt;p&gt;利用Xmind，选择“项目管理模版”，&lt;/p&gt;
+
+&lt;p&gt;依据思维导图的一些规范，例如：&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;色彩，每一个分支使用不同的颜色。&lt;/li&gt;
+&lt;li&gt;词，每一条线上只能放一个词，如果是一句话的话可以分散。&lt;/li&gt;
+&lt;li&gt;不间断，每个词都写在线条上，不使用框框来中断视觉连续性。&lt;/li&gt;
+&lt;li&gt;逻辑性，内在逻辑的合理才是更为重要的。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;设计出了Lily项目初期的思维导图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/Lily%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86.png&#34; alt=&#34;Lily项目思维导图&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;根据这个思维导图，可以做到：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;清晰的人员管理&lt;/li&gt;
+&lt;li&gt;对风险的调控&lt;/li&gt;
+&lt;li&gt;在不同阶段完成不同优先级的任务
+……&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;在项目进行的过程中，相应的修改思维导图，项目进行的过程就更加清晰和形象化了。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DeviceOne</title>
+      <link>https://riddledle.github.io/hugoblog/post/DeviceOne/</link>
+      <pubDate>Sat, 17 Sep 2016 22:38:29 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/DeviceOne/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m using &lt;a href=&#34;http://www.deviceone.net/&#34;&gt;DeviceOne&lt;/a&gt; to develop an APP recently, which i find easier than React native and convenient to debug on devices.&lt;/p&gt;
+
+&lt;p&gt;All the ui components in deviceone can be dragged and resized, each type of ui components also has its customized properties making it very quick to define a particular ui component.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m using deviceone to practice writing some native javascripts codes. All the basic functions of an APP can be supported by deviceone so i think it&amp;rsquo;s a good start for me to get more familiar with native javascripts and all the ajax stuff.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/do.png&#34; alt=&#34;capture&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://riddledle.github.io/hugoblog/post/Hugo/</link>
+      <pubDate>Sat, 10 Sep 2016 17:28:05 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/Hugo/</guid>
+      <description>
+
+&lt;p&gt;There&amp;rsquo;re many alternatives for a blog&amp;rsquo;s generator,such as wordpress,hexo,hugo&amp;hellip;They generate static site for the user to deploy.I have typically used three types of those generators: hexo,viki,hugo.&lt;/p&gt;
+
+&lt;h1 id=&#34;hugo-https-gohugo-io&#34;&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Hugo is a static site generator written in Go.
+Here is its repo on github:&lt;a href=&#34;https://github.com/spf13/hugo/&#34;&gt;hugo&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This blog you are visiting is deployed on github pages thus if you want to deploy a blog like this, an assumption is that you are equipped with &lt;code&gt;Git&lt;/code&gt;, &lt;code&gt;nodejs&lt;/code&gt;,a github account,along with some knowledge of basic operations on linux.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;tutorials&lt;/a&gt; on hugo&amp;rsquo;s official site is very detailed and easy to read.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+.
+|-- archetypes
+|-- config.toml
+|-- content
+|-- data
+|-- layouts
+`-- static
+
+5 directories, 1 file
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The basic file tree of a hugo directory&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I built up my site through this tutorial very fluently,&lt;em&gt;the only problem i encountered was on my way to deploy it on github pages&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Initially i created a new repo under the same account which dominates my lyrics collection site,and they conflicted!It turned out that the &lt;code&gt;pre&lt;/code&gt; and &lt;code&gt;next&lt;/code&gt; link on my blog would led to a wrong way to my default repo on github.&lt;/p&gt;
+
+&lt;p&gt;I solved this little tricky question using some kind of &amp;ldquo;brute force&amp;rdquo; strategy,i simply:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Register a new github account&lt;/li&gt;
+&lt;li&gt;Create a new repo for the blog&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Modified the &lt;code&gt;pagination.html&lt;/code&gt; file under &lt;code&gt;themes/layouts/partials&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Reference to the official site:&lt;a href=&#34;https://gohugo.io/extras/pagination#build-the-navigation&#34;&gt;Build the navigation&lt;/a&gt;
+&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/95BE7874-0B18-438E-B093-42B24C69FE16.png&#34; alt=&#34;&#34; /&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Here i noticed:
+&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/9173F112-E758-4B22-BAA8-F781C6282ED5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;So the problem is caught!The pre and next links will locate the pages under the home directory,which caused the conflict.
+I tried:
+&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/D3AFC6BE-9F64-43B1-A56E-0840B3098E20.png&#34; alt=&#34;&#34; /&gt;
+which can successfully solve the problem but seems a little ugly&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;pros-and-cons&#34;&gt;Pros and cons&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The theme i&amp;rsquo;m using parently is &lt;a href=&#34;http://themes.gohugo.io/cactus/&#34;&gt;cactus&lt;/a&gt;.The reason i abort hexo for hugo is that i used to think &lt;em&gt;hugo&amp;rsquo;s theme is prettier&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;hugo has no default theme thus you can use your first theme directly without changing the config file.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;hugo has a &lt;code&gt;live view&lt;/code&gt; function so you can watch your changes without refresh the site.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;hugo doesn&amp;rsquo;t have an integrated &lt;code&gt;deploy&lt;/code&gt; function while hexo has the &lt;code&gt;hexo d -g&lt;/code&gt; command to deploy
+the site conveniently.In hugo,you have to use the common git operations to deploy your site.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://riddledle.github.io/hugoblog/about/</link>
+      <pubDate>Thu, 08 Sep 2016 20:03:14 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m simply complex.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
