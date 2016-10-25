@@ -6,8 +6,72 @@
     <description>Recent content on Riddle&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Oct 2016 23:51:32 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 25 Oct 2016 12:58:40 +0800</lastBuildDate>
     <atom:link href="https://riddledle.github.io/hugoblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>关于博客</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 25 Oct 2016 12:58:40 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</guid>
+      <description>
+
+&lt;h2 id=&#34;出口&#34;&gt;出口&lt;/h2&gt;
+
+&lt;p&gt;过去的时候想“哎眼前这些事情，未来会有答案的”，那么到了现在，无论多么抗拒，多么费解，始终还是要用自己的手去寻找答案。&lt;/p&gt;
+
+&lt;p&gt;根据能量守恒定律，我也确实需要一个出口来释放汲取到的能量。&lt;/p&gt;
+
+&lt;h2 id=&#34;形式&#34;&gt;形式&lt;/h2&gt;
+
+&lt;p&gt;一个挂在gh-pages上的hugo引擎制作的静态博客其实是和SEO无关的。&lt;/p&gt;
+
+&lt;p&gt;也没有知名网站写手所能够获取到的流量和关注。&lt;/p&gt;
+
+&lt;p&gt;也没有微信订阅号的曝光率和打赏功能。&lt;/p&gt;
+
+&lt;p&gt;不过，在初次分享给别人时，能够使人愉悦和略微欣赏，也很好了，就像我第一次见到滇狐的viki博客时，感到的透过屏幕和时间传递过来的东西。&lt;/p&gt;
+
+&lt;p&gt;这个月初做的心理测试里，社交回避性这一项我的评分还是挺正常的。&lt;/p&gt;
+
+&lt;h2 id=&#34;内容&#34;&gt;内容&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在看了&lt;a href=&#34;http://ibruce.info/2013/11/22/hexo-your-blog/&#34;&gt;hexo你的博客&lt;/a&gt;之后，我建立了自己的hexo博客，最初的内容是&lt;strong&gt;技术性内容＋歌词翻译&lt;/strong&gt;，当时的目标还是前端工程师&lt;/li&gt;
+&lt;li&gt;渐渐的我开始写一些和生活或兴趣相关的内容，旧的模版的categories不是很便利，于是改了一套模版，拥有清晰的categories和标签云，于是内容变成&lt;strong&gt;技术性内容＋歌词翻译＋随笔记录&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;即使分类比较清晰了，但是打开首页的时候看到技术性的内容和日常记录混合在一起，还是比较混乱的，这时候正好看到了&lt;a href=&#34;http://edyfox.codecarver.org/html/index.html&#34;&gt;滇狐&lt;/a&gt;的主页，于是制作了一份类似的主页用来存放&lt;strong&gt;所有的技术性内容&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;原先的hexo博客则被我用来存放&lt;strong&gt;所有的歌词翻译和个人兴趣&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;个人兴趣主要是围绕一些音乐，艺术家，文学作品，还有美食博客等，觉得既然是个人兴趣那么收回也不要紧吧，于是hexo博客上只剩下了我所整理的&lt;strong&gt;浜崎あゆみ的歌词&lt;/strong&gt;，并且在2016年的夏天找了一套类似wiki的模版wixo，将歌词存放起来&lt;/li&gt;
+&lt;li&gt;viki模版在使用时有一些不便利的地方，而用Go语言编写的hugo引擎的模版拥有简洁的界面，于是我开始使用它来记录&lt;strong&gt;作为一名产品经理的经验&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;到现在，一个融合了一些前端经验和产品经验的比较正式的个人博客就确立了，它的界面简洁，样式清新，条目清晰，没有分类，归档，标签云等内容管理功能，垂直性强，这样的情况下，我试着让&lt;strong&gt;内容更加丰富&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;风格&#34;&gt;风格&lt;/h2&gt;
+
+&lt;p&gt;文采不斐然&lt;/p&gt;
+
+&lt;p&gt;情绪会泛滥&lt;/p&gt;
+
+&lt;p&gt;尽量求干货&lt;/p&gt;
+
+&lt;p&gt;学会删删删&lt;/p&gt;
+
+&lt;h2 id=&#34;goal&#34;&gt;GOAL&lt;/h2&gt;
+
+&lt;p&gt;这里始终不会是一个秘密的地方。&lt;/p&gt;
+
+&lt;p&gt;有意无意，都会令别人更了解我。&lt;/p&gt;
+
+&lt;p&gt;暂时也不会去追求曝光度，&lt;/p&gt;
+
+&lt;p&gt;久处不厌有点儿难，&lt;/p&gt;
+
+&lt;p&gt;就乍见之欢吧。&lt;/p&gt;
+
+&lt;p&gt;高处不胜寒。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>书单</title>
@@ -15,12 +79,32 @@
       <pubDate>Mon, 24 Oct 2016 23:51:32 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E4%B9%A6%E5%8D%95/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《书目》&lt;/strong&gt;&lt;/li&gt;
+      <description>
+
+&lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
+
+&lt;p&gt;高中之前看书口味单一，喜欢的书的地位被摆的很高，高中时突然发现大家都在看小说了，这时候却遇到一个喜爱看佛经的语文老师，几年之后发现自己一直记着他无意之间提及的那些佛经的名字，不过对于当时那个焦躁戾气的叛逆少女（？）来说要是在那样的日子里去看书求解或许是一种羞耻吧（？）&lt;/p&gt;
+
+&lt;p&gt;大一大二的时候，就像电影里最终安于生活的女主总是积攒了一段不堪的往事一样，我去完成积攒的部分去了，大三开始，看起了该看的书，该做的项目也着手在做了，该学的东西渐渐学，于是有了眼前这一篇，所谓书单也不过是把所有刷过的书记录下来，附上简短的书评。&lt;/p&gt;
+
+&lt;p&gt;或许是纸质书，也可能是电子书，或者只是文章，比如前一阵看的《MacTalk跨越边界》by池建强就是作者在公众号发布的文章的集合。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;确实有会被书名雷到的时候。&lt;/p&gt;
+
+&lt;p&gt;剥去表饰和背后隐藏的一些目的，挑出干货记录下来。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/IMG_0434.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《MacTalk跨越边界》&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;感受&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;by池建强&lt;/code&gt;看完后关注了他的公众号MacTalk。学会了“腰间挂着两个滚烫的肾”这么个说法。&amp;rdquo;Talk is cheap,show me the code&amp;rdquo;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
@@ -325,12 +409,12 @@
     </item>
     
     <item>
-      <title>我的朋友给我的礼物</title>
+      <title>一份礼物</title>
       <link>https://riddledle.github.io/hugoblog/post/%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E7%BB%99%E6%88%91%E7%9A%84%E7%A4%BC%E7%89%A9/</link>
       <pubDate>Mon, 10 Oct 2016 01:44:27 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E7%BB%99%E6%88%91%E7%9A%84%E7%A4%BC%E7%89%A9/</guid>
-      <description>&lt;p&gt;谢谢，我很喜欢！&lt;/p&gt;
+      <description>&lt;p&gt;谢谢！&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-09%20%E4%B8%8B%E5%8D%889.09.55.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -781,86 +865,6 @@ qq音乐移动端版本为专辑添加了豆瓣评论的展示，歌曲试听界
 &lt;p&gt;I&amp;rsquo;m using deviceone to practice writing some native javascripts codes. All the basic functions of an APP can be supported by deviceone so i think it&amp;rsquo;s a good start for me to get more familiar with native javascripts and all the ajax stuff.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/do.png&#34; alt=&#34;capture&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://riddledle.github.io/hugoblog/post/Hugo/</link>
-      <pubDate>Sat, 10 Sep 2016 17:28:05 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/Hugo/</guid>
-      <description>
-
-&lt;p&gt;There&amp;rsquo;re many alternatives for a blog&amp;rsquo;s generator,such as wordpress,hexo,hugo&amp;hellip;They generate static site for the user to deploy.I have typically used three types of those generators: hexo,viki,hugo.&lt;/p&gt;
-
-&lt;h1 id=&#34;hugo-https-gohugo-io&#34;&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Hugo is a static site generator written in Go.
-Here is its repo on github:&lt;a href=&#34;https://github.com/spf13/hugo/&#34;&gt;hugo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This blog you are visiting is deployed on github pages thus if you want to deploy a blog like this, an assumption is that you are equipped with &lt;code&gt;Git&lt;/code&gt;, &lt;code&gt;nodejs&lt;/code&gt;,a github account,along with some knowledge of basic operations on linux.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;tutorials&lt;/a&gt; on hugo&amp;rsquo;s official site is very detailed and easy to read.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;
-.
-|-- archetypes
-|-- config.toml
-|-- content
-|-- data
-|-- layouts
-`-- static
-
-5 directories, 1 file
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The basic file tree of a hugo directory&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I built up my site through this tutorial very fluently,&lt;em&gt;the only problem i encountered was on my way to deploy it on github pages&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Initially i created a new repo under the same account which dominates my lyrics collection site,and they conflicted!It turned out that the &lt;code&gt;pre&lt;/code&gt; and &lt;code&gt;next&lt;/code&gt; link on my blog would led to a wrong way to my default repo on github.&lt;/p&gt;
-
-&lt;p&gt;I solved this little tricky question using some kind of &amp;ldquo;brute force&amp;rdquo; strategy,i simply:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Register a new github account&lt;/li&gt;
-&lt;li&gt;Create a new repo for the blog&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Modified the &lt;code&gt;pagination.html&lt;/code&gt; file under &lt;code&gt;themes/layouts/partials&lt;/code&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Reference to the official site:&lt;a href=&#34;https://gohugo.io/extras/pagination#build-the-navigation&#34;&gt;Build the navigation&lt;/a&gt;
-&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/95BE7874-0B18-438E-B093-42B24C69FE16.png&#34; alt=&#34;&#34; /&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Here i noticed:
-&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/9173F112-E758-4B22-BAA8-F781C6282ED5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;So the problem is caught!The pre and next links will locate the pages under the home directory,which caused the conflict.
-I tried:
-&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/D3AFC6BE-9F64-43B1-A56E-0840B3098E20.png&#34; alt=&#34;&#34; /&gt;
-which can successfully solve the problem but seems a little ugly&amp;hellip;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;pros-and-cons&#34;&gt;Pros and cons&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;The theme i&amp;rsquo;m using parently is &lt;a href=&#34;http://themes.gohugo.io/cactus/&#34;&gt;cactus&lt;/a&gt;.The reason i abort hexo for hugo is that i used to think &lt;em&gt;hugo&amp;rsquo;s theme is prettier&lt;/em&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;hugo has no default theme thus you can use your first theme directly without changing the config file.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;hugo has a &lt;code&gt;live view&lt;/code&gt; function so you can watch your changes without refresh the site.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;hugo doesn&amp;rsquo;t have an integrated &lt;code&gt;deploy&lt;/code&gt; function while hexo has the &lt;code&gt;hexo d -g&lt;/code&gt; command to deploy
-the site conveniently.In hugo,you have to use the common git operations to deploy your site.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
