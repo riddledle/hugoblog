@@ -19,32 +19,32 @@
 
 &lt;h2 id=&#34;出口&#34;&gt;出口&lt;/h2&gt;
 
-&lt;p&gt;过去的时候想“哎眼前这些事情，未来会有答案的”，那么到了现在，无论多么抗拒，多么费解，始终还是要用自己的手去寻找答案。&lt;/p&gt;
+&lt;p&gt;过去会想“眼前这些事情，未来会有答案的”&lt;/p&gt;
+
+&lt;p&gt;现在，或许到了过去的那个“未来”。&lt;/p&gt;
 
 &lt;p&gt;根据能量守恒定律，我也确实需要一个出口来释放汲取到的能量。&lt;/p&gt;
 
 &lt;h2 id=&#34;形式&#34;&gt;形式&lt;/h2&gt;
 
-&lt;p&gt;一个挂在gh-pages上的hugo引擎制作的静态博客其实是和SEO无关的。&lt;/p&gt;
+&lt;p&gt;一个挂在gh-pages上的静态博客其实是和SEO无关的。&lt;/p&gt;
 
 &lt;p&gt;也没有知名网站写手所能够获取到的流量和关注。&lt;/p&gt;
 
 &lt;p&gt;也没有微信订阅号的曝光率和打赏功能。&lt;/p&gt;
 
-&lt;p&gt;不过，在初次分享给别人时，能够使人愉悦和略微欣赏，也很好了，就像我第一次见到滇狐的viki博客时，感到的透过屏幕和时间传递过来的东西。&lt;/p&gt;
-
-&lt;p&gt;这个月初做的心理测试里，社交回避性这一项我的评分还是挺正常的。&lt;/p&gt;
+&lt;p&gt;但是还是想着传达些什么。&lt;/p&gt;
 
 &lt;h2 id=&#34;内容&#34;&gt;内容&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;在看了&lt;a href=&#34;http://ibruce.info/2013/11/22/hexo-your-blog/&#34;&gt;hexo你的博客&lt;/a&gt;之后，我建立了自己的hexo博客，最初的内容是&lt;strong&gt;技术性内容＋歌词翻译&lt;/strong&gt;，当时的目标还是前端工程师&lt;/li&gt;
-&lt;li&gt;渐渐的我开始写一些和生活或兴趣相关的内容，旧的模版的categories不是很便利，于是改了一套模版，拥有清晰的categories和标签云，于是内容变成&lt;strong&gt;技术性内容＋歌词翻译＋随笔记录&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;即使分类比较清晰了，但是打开首页的时候看到技术性的内容和日常记录混合在一起，还是比较混乱的，这时候正好看到了&lt;a href=&#34;http://edyfox.codecarver.org/html/index.html&#34;&gt;滇狐&lt;/a&gt;的主页，于是制作了一份类似的主页用来存放&lt;strong&gt;所有的技术性内容&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;原先的hexo博客则被我用来存放&lt;strong&gt;所有的歌词翻译和个人兴趣&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;个人兴趣主要是围绕一些音乐，艺术家，文学作品，还有美食博客等，觉得既然是个人兴趣那么收回也不要紧吧，于是hexo博客上只剩下了我所整理的&lt;strong&gt;浜崎あゆみ的歌词&lt;/strong&gt;，并且在2016年的夏天找了一套类似wiki的模版wixo，将歌词存放起来&lt;/li&gt;
-&lt;li&gt;viki模版在使用时有一些不便利的地方，而用Go语言编写的hugo引擎的模版拥有简洁的界面，于是我开始使用它来记录&lt;strong&gt;作为一名产品经理的经验&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;到现在，一个融合了一些前端经验和产品经验的比较正式的个人博客就确立了，它的界面简洁，样式清新，条目清晰，没有分类，归档，标签云等内容管理功能，垂直性强，这样的情况下，我试着让&lt;strong&gt;内容更加丰富&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术性内容＋歌词翻译&lt;/strong&gt;：看了&lt;a href=&#34;http://ibruce.info/2013/11/22/hexo-your-blog/&#34;&gt;hexo你的博客&lt;/a&gt;之后，我建立了自己的&lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;hexo&lt;/a&gt;博客，当时的目标是做前端工程师；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术性内容＋歌词翻译＋随笔记录&lt;/strong&gt;：渐渐的，我开始写一些和生活或兴趣相关的内容。由于旧模版的分类功能不是很便利，于是改了一套模版，拥有清晰的分类和标签云功能；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;所有的技术性内容&lt;/strong&gt;：偶然看到了&lt;a href=&#34;http://edyfox.codecarver.org/html/index.html&#34;&gt;滇狐&lt;/a&gt;的主页，于是制作了一份类似的主页；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;所有的歌词翻译和个人兴趣&lt;/strong&gt;：放在原先的hexo博客里；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;浜崎あゆみ的歌词&lt;/strong&gt;：2016年的夏天，找了一套类似wiki的模版&lt;a href=&#34;https://github.com/wzpan/hexo-theme-wixo&#34;&gt;wixo&lt;/a&gt;，将歌词存放起来；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;作为一名产品经理的经验&lt;/strong&gt;：用&lt;a href=&#34;http://blog.golang.org/&#34;&gt;Go&lt;/a&gt;语言编写的&lt;a href=&#34;www.gohugo.io&#34;&gt;hugo&lt;/a&gt;引擎的模版拥有简洁的界面，垂直性强；&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内容更加丰富&lt;/strong&gt;：到现在，一个融合了一些前端经验和产品经验的比较正式的个人博客就确立了，它的界面简洁，样式清新，条目清晰；没有分类，归档，标签云等内容管理功能，垂直性强。&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;风格&#34;&gt;风格&lt;/h2&gt;
@@ -83,17 +83,13 @@
 
 &lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
 
-&lt;p&gt;高中之前看书口味单一，高中时突然发现大家都在看小说了，这时候遇到一个喜爱看佛经的语文老师，几年后发现，自己一直记着他无意间提及的佛经的名字，不过，对于当时那个焦躁戾气的叛逆少女（？）来说，要是在那样的日子里去看书求解或许是一种羞耻吧（？）&lt;/p&gt;
+&lt;p&gt;大一大二的时候，就像电影里最终安于生活的女主总是积攒了一段不堪的往事一样，我去完成积攒的部分去了。&lt;/p&gt;
 
-&lt;p&gt;大一大二的时候，就像电影里最终安于生活的女主总是积攒了一段不堪的往事一样，我去完成积攒的部分去了，大三开始，看起了该看的书，该做的项目也着手在做了，该学的东西渐渐学，于是有了眼前这一篇，所谓书单也不过是把所有刷过的书记录下来，附上简短的书评。&lt;/p&gt;
+&lt;p&gt;大三开始，看起了该看的书，该做的项目也着手在做了，该学的东西渐渐学，于是有了眼前这一篇。所谓书单也不过是把所有刷过的书记录下来，附上简短的书评。&lt;/p&gt;
 
 &lt;p&gt;或许是纸质书，也可能是电子书，或者只是文章，比如前一阵看的《MacTalk跨越边界》by池建强就是作者在公众号发布的文章的集合。&lt;/p&gt;
 
 &lt;hr /&gt;
-
-&lt;p&gt;确实会有被书名雷到的时候。&lt;/p&gt;
-
-&lt;p&gt;剥去表饰和背后隐藏的一些目的，挑出干货记录下来。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/IMG_0434.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
