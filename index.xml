@@ -167,7 +167,16 @@
       <pubDate>Thu, 27 Oct 2016 19:45:02 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E9%9C%80%E8%A6%81%E6%96%87%E6%A1%A3/</guid>
-      <description></description>
+      <description>&lt;p&gt;一项任务有多人参与的时候，由最初负责的人撰写一篇文档以指导其他人进行相关开发工作是有必要的，特别是在小型团队中个人往往会根据实际情况参与不同的任务，这时为了团队协作可以说人人都有撰写文档的义务，涉及远程协助时更是如此。&lt;/p&gt;
+
+&lt;p&gt;文档可以有效的减少沟通成本，明确开发细节，提高任务的连贯性。&lt;/p&gt;
+
+&lt;p&gt;下载的软件内附带的&amp;rdquo;请先阅读.txt&amp;rdquo;，官方提供的说明文档（documentation），github上要求的每个repository都提供的readme.md，开发团队内部的技术性说明文档（接口说明，部署环境要求等），都是文档。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;在解决浏览器兼容性问题时，一台机器需要临时部署相关的开发环境，但是因为没有事先预备好的文档，所以导致我为了协调两端的开发耗费了不少时间精力，而且与有参考文档的情况相比，进程更混乱缓慢了，由此可见文档的重要性。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
     <item>
