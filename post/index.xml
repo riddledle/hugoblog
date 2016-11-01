@@ -144,6 +144,51 @@
     </item>
     
     <item>
+      <title>国内搜索引擎调研</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%B0%83%E7%A0%94/</link>
+      <pubDate>Tue, 01 Nov 2016 15:35:26 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%B0%83%E7%A0%94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>手机应用的混合开发模式技术方案书</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E7%9A%84%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%E4%B9%A6/</link>
+      <pubDate>Tue, 01 Nov 2016 15:12:18 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E7%9A%84%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%E4%B9%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>订单支付系统大致流程</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</link>
+      <pubDate>Tue, 01 Nov 2016 15:06:28 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</guid>
+      <description>&lt;p&gt;O2O电商产品往往都具有订单中心和支付系统，流畅严谨的逻辑和符合用户习惯的交互将会给用户带去舒适的体验，在开发的过程中依据产品需求实现相应板块的衔接也是值得注意的环节。&lt;/p&gt;
+
+&lt;p&gt;程序员们阅读完产品经理给出的产品需求说明书之后，凭借程序员一贯的思维方式往往难以形成清晰且可执行的逻辑，订单中心的基本逻辑用语言表述是曲折的，这时一套流程图可以帮助大家的理解。&lt;/p&gt;
+
+&lt;p&gt;特别的，开发订单支付系统时，在&lt;strong&gt;限制用户操作&lt;/strong&gt;和&lt;strong&gt;调控订单处理进度&lt;/strong&gt;两个层面，特别需要对订单逻辑有清晰的规划，如若不然，将导致一些重复劳动和目标不明确等问题，导致开发效率下降。&lt;/p&gt;
+
+&lt;p&gt;以下是针对某O2O外送平台的订单中心给出的基本流程图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B%E5%9B%BE.png&#34; alt=&#34;仅供参考&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>用户中心（Auth）梳理</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%EF%BC%88Auth%EF%BC%89%E6%A2%B3%E7%90%86/</link>
+      <pubDate>Tue, 01 Nov 2016 15:06:07 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%EF%BC%88Auth%EF%BC%89%E6%A2%B3%E7%90%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>团队协作需要文档</title>
       <link>https://riddledle.github.io/hugoblog/post/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E9%9C%80%E8%A6%81%E6%96%87%E6%A1%A3/</link>
       <pubDate>Thu, 27 Oct 2016 19:45:02 +0800</pubDate>
@@ -570,268 +615,6 @@
       
       <guid>https://riddledle.github.io/hugoblog/post/%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E7%BB%99%E6%88%91%E7%9A%84%E7%A4%BC%E7%89%A9/</guid>
       <description>&lt;p&gt;谢谢！&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-09%20%E4%B8%8B%E5%8D%889.09.55.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>责任感和信用度</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E8%B4%A3%E4%BB%BB%E6%84%9F%E5%92%8C%E4%BF%A1%E7%94%A8%E5%BA%A6/</link>
-      <pubDate>Sat, 08 Oct 2016 23:38:41 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/%E8%B4%A3%E4%BB%BB%E6%84%9F%E5%92%8C%E4%BF%A1%E7%94%A8%E5%BA%A6/</guid>
-      <description>&lt;p&gt;在参与APP项目开发的过程中，我以产品经理的身份，担任着与前后端交流沟通，考查功能完整性和用户体验是否良好，监管整个产品从设计到部署，共三项主要职责。&lt;/p&gt;
-
-&lt;p&gt;一款APP的正常开发流程大致如下：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E4%BA%A7%E5%93%81%E9%9C%80%E6%B1%82%E6%96%87%E6%A1%A3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;（以上仅供参考）&lt;/p&gt;
-
-&lt;p&gt;一个负责任的产品经理，应当在每一个阶段都能找到确实需要自己去做的事情。&lt;/p&gt;
-
-&lt;p&gt;在PRD制作阶段，思考产品功能性／逻辑性／易用性／用户体验上的欠缺；在设计阶段，给予正确的指导意见以确保产品风格；在开发的过程中，负责协调解决特定功能在实现过程中遇到的问题，最后在产品验收前，细心检查功能的完整性，用户体验是否良好，以及细节设计是否完善等。&lt;/p&gt;
-
-&lt;p&gt;因为要承担如此细琐繁杂的任务，我在协调组织的过程中，面临着：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;责任问题&lt;/li&gt;
-&lt;li&gt;信任问题&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这两个“长得很相似”的问题，不仅影响着我的工作的完成效果，个人能力得到提升的程度，也很大程度上牵动着项目的管理成本，以及是否能够获得和保持他人对我的信任。&lt;/p&gt;
-
-&lt;p&gt;当有许多任务同时出现时，即使是在很短的时间内，自己心里明确一下各项任务的优先级别。对团队内部的其它很多人员来说，任务无大小；但是作为一个对产品负责任的PM，你对任务的重视程度，处理方式和速度，决策方向，都会牵动项目的开发进程。&lt;/p&gt;
-
-&lt;p&gt;如果答应了任何人一项任务的完成时间（Due Date），那么，除非给出合理详细的解释说明，不然绝对不要轻易违背承诺或者擅改时间，这是我到目前为止深感重要的一点。大家协作时，看重的是什么呢？抛开其它因素不说，大家都希望获得的一个东西就是：完成度。互联网行业与其它行业不同之处之一，就是它非常看重“产出”，大到生产出改变经济结构或者人们思维方式的互联网产品，小到一个项目的某个环节中的一个bug的修复，都是奔着“产出”而去的，一家互联网公司没有产出就没有生命力，也没有市场。产出就需要严格把控好每一个环节的“完成度”。那么如果一个人员连完成度都失去了，无论是处在团队何种位置，都失去了很基本的价值吧。产品经理是和产品联系最紧密的职位，一个产品经理要对产品的整个生命周期负责，这就很像产品经理和它的产品有着同一颗心脏，这样的强联系注定了产品经理在项目的各个角落都需要搜集“完成度”。回归到“Due Date”，如果做出了承诺（自信和责任心的表现），并且按时完成（信用良好的表现），不仅保证了完成度，而且也向别人传达了这样的信息：“我是一个对完成度要求比较高的人，因为我想要做好的产品”，其他人会受到良性的影响，更重要的是，会&lt;strong&gt;更加信任&lt;/strong&gt;你。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>沟通对项目管理成本的影响</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E6%B2%9F%E9%80%9A%E5%AF%B9%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E6%88%90%E6%9C%AC%E7%9A%84%E5%BD%B1%E5%93%8D/</link>
-      <pubDate>Sat, 08 Oct 2016 23:35:08 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/%E6%B2%9F%E9%80%9A%E5%AF%B9%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%E6%88%90%E6%9C%AC%E7%9A%84%E5%BD%B1%E5%93%8D/</guid>
-      <description>
-
-&lt;p&gt;“沟通”两个字浅显易懂，但是在现实生活中，沟通的方式很多，不同的方式带来的效果不同，参与沟通的人员之间的关系又很多样，因此沟通显得非常“不好捕捉”。在工作中的沟通，比起其它沟通来说，更不看重形式（可以是口头，邮件，微信，留言，团队协作工具等），更不看重信息背后隐藏的意思（最好是没有什么隐藏，完全充分地将需要传达的信息表达出来），但是它非常看重的是：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;准确性&lt;/li&gt;
-&lt;li&gt;及时性&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;准确性&#34;&gt;准确性&lt;/h3&gt;
-
-&lt;p&gt;对项目内部相关的名词的引用是否正确？&lt;/p&gt;
-
-&lt;p&gt;专业术语或者特有名词的使用是否正确？&lt;/p&gt;
-
-&lt;p&gt;对某一个功能或者任务的指代是否清晰明确？&lt;/p&gt;
-
-&lt;p&gt;程度用词的使用是否比较符合涉及任务的重要/紧急程度？&lt;/p&gt;
-
-&lt;p&gt;是否已经涵盖了所有要点？&lt;/p&gt;
-
-&lt;p&gt;是否会造成严重的歧义？&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;及时性&#34;&gt;及时性&lt;/h3&gt;
-
-&lt;p&gt;还记得微博上面的一条热评是这样的：&lt;em&gt;工作的经历注定了每个人第一个学会的技能是及时地回复上司或者其他人的信息。&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;及时地回复与工作相关的信息，告诉发送者“我看到了”，并且“我已经在做相关的处理了”，这对提高工作效率，促进沟通的协调，改进自己的工作方式，都很有帮助。另外，不及时地反馈信息，可能会导致项目中的“隐患”被保留和积压，在出现更严重的问题时，花费的项目管理成本和维护成本会是非常高的。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;工作中遇到的种种问题令我深刻感受到沟通的重要性，从而在对沟通内容的斟酌，沟通方式的选取，沟通效率的提高上，我都会进一步地去努力。&lt;/p&gt;
-
-&lt;p&gt;阅读相关书籍或者文章，提高沟通技巧，善用团队协作工具和及时聊天工具，做好工作任务的记录和安排，或许是我可以去做的事情。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>任务管理工具Trello</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7Trello/</link>
-      <pubDate>Thu, 06 Oct 2016 16:23:22 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7Trello/</guid>
-      <description>
-
-&lt;p&gt;我在以往的项目协作/管理经验中，使用过git，svn等版本控制系统；Teambition，coding，Tower等团队协作工具，今天开始使用Trello来帮助我管理日常工作和进行中的项目。&lt;/p&gt;
-
-&lt;h1 id=&#34;trello-https-trello-com&#34;&gt;&lt;a href=&#34;(https://trello.com/)&#34;&gt;Trello&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Trello提供清单式的管理方式，界面主深沉稳重的蓝色调，支持google账号登录，层级非常丰富，基本上是：Boards &amp;gt; Lists &amp;gt; Cards &amp;gt; Comments &amp;gt; Labels 的结构，&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“无限灵活。使用超级方便。移动应用程序超棒。完全免费。&lt;em&gt;Trello&lt;/em&gt; 能够跟踪一切,大至图片,小至记录细节。”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;是它官网的宣传语。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Trello除了用来进行团队协作，也可以帮助个人进行日程／任务／愿望清单的管理，比如这套Template：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-07%20%E4%B8%8B%E5%8D%881.23.41.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;即可用于LifeStyle的管理，相关描述：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-07%20%E4%B8%8B%E5%8D%881.24.01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;我现在使用它进行如下的一些任务管理：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-07%20%E4%B8%8B%E5%8D%881.41.04.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;国内现在比较火热的团队协作工具&lt;a href=&#34;https://www.teambition.com/&#34;&gt;Teambition&lt;/a&gt;是非常类似trello的，在宣传语上，tb：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Teambition&lt;/em&gt;  是一个简单,高效的项目协作工具,你可以在这里管理项目,跟踪任务进度,存储项目文件,让你的团队协作更高效。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;对比trello：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;无限灵活。使用超级方便。移动应用程序超棒。完全免费。&lt;em&gt;Trello&lt;/em&gt; 能够跟踪一切,大至图片,小至记录细节。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;所以tb是专注于提高项目管理效率的产品，trello是侧重追踪一切以使管理更加方便的产品。&lt;/p&gt;
-
-&lt;p&gt;现在试着浅析teambition（以下简称tb）和trello，最终从&lt;code&gt;功能性&lt;/code&gt;，&lt;code&gt;易用性&lt;/code&gt;，&lt;code&gt;逻辑性&lt;/code&gt;，&lt;code&gt;用户体验&lt;/code&gt;的维度进行总结：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;入口：作为纯粹的团队协作工具，tb提供了项目／企业两个入口，企业拥有其特有的功能；trello仅有Boards（对应tb下的“项目”）一个入口，boards分为三种类别：Private/Team/Public，一个board可以作为“专属个人的项目”，比如生活方式的安排，一周计划等。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;尽管tb的项目也可以归类为“个人项目”，但是用户并不会使用它来安排个人的任务计划。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;项目管理：trello拥有左侧的Boards面板，tb没有。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;这是因为trello有更广泛的应用范围，用户会拥有较多的boards；tb则省去了这一功能，以凸显其对高效的项目管理的追求，因为用户往往在一定时期内只会专注于完成一只两个项目。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;任务列表：tb的任务在创建时没有附加图片的功能，在任务列表上显示当前列表中的任务数，加强信息的压缩和提高效率；trello则拥有附带图片的功能，不显示当前列表中的任务数，这使得用户更愿意使用它来管理非工作项目之外的任务。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-07%20%E4%B8%8B%E5%8D%885.40.41.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;任务详情：tb中“执行者”，“截止时间”，“优先级”，“重复”（以提交工作日报等）的设置按钮以水平标签的形式呈现在任务详情的上方，便于快速设置任务的要求；trello的任务详情页面更多的表现为一个“讨论区”，“Checklist”，“Due date”等设置按钮垂直标签的形式排列在右侧，用户的焦点更多的放在当前任务的“内容”上，更加详细的任务描述促使用户添加更多类型的内容；tb的评论编辑框放置在目前评论内容列表的下方，因为项目参与人员阅读任务的需求大于发表讨论的需求；trello的“Add Comment”功能框放置在评论内容列表的上方，便于个人充分的发表讨论。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;更多功能：在对“更多”功能（复制任务；收藏任务；归档任务）的安排上，tb将更多功能折叠在任务详情面板的右上方，用户在参与项目的过程中，对这些功能的需求较小；trello则将这些功能和其它功能设置按钮一齐排列在任务详情面板的右侧，因为用户可能短期内进行多个项目（或安排）的管理。&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;通知功能：tb的具有通知功能的模块就包括“我的”，“通知”，“项目动态”，“日程”，“日历”，“群聊”，“私信”共七个，trello则仅有“Notifications”一项。&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;总体而言，tb的功能相当丰富，可以满足管理一个项目的大小需求，特别是通知功能非常强大，对效率的提高贡献很大，逻辑层次丰富，用户可能会在不了解该产品大部分或者所有功能的情况下较快的上手和适应产品，较快的参与到团队协作中；trello的功能相对较少，但是易于记录详细的内容，逻辑较简单，用户很方便地便能了解到该产品的所有功能并且立即上手，用户体验是很好的。以上和两者的宣传语是一致的。&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;​&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>了解一些设计规范</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E4%BA%86%E8%A7%A3%E4%B8%80%E4%BA%9B%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/</link>
-      <pubDate>Tue, 04 Oct 2016 21:47:04 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/%E4%BA%86%E8%A7%A3%E4%B8%80%E4%BA%9B%E8%AE%BE%E8%AE%A1%E8%A7%84%E8%8C%83/</guid>
-      <description>
-
-&lt;p&gt;我选择使用&lt;a href=&#34;http://element.eleme.io/&#34;&gt;element&lt;/a&gt;这套组件库来制作Lily，它基于vue2.0，利用它提供的配套设计资源，我将完成Lily桌面版的产品原型设计。在设计原型的过程中，我应该会遇到各种各样未知的问题，在此先用element网站给出的设计规范开个小头，为产品设计之路铺下第一块石头，在将来塑造产品的过程中，再不断回顾和审视这条曲折之路。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;设计原则&#34;&gt;设计原则&lt;/h2&gt;
-
-&lt;h3 id=&#34;一致性-consistency&#34;&gt;一致性 Consistency&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;与现实生活一致：&lt;/strong&gt;与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Lily可以参考网易云音乐的界面操作规范，以符合用户使用音乐软件时的习惯&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;在界面中一致：&lt;/strong&gt;所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;在开始设计产品前，确定Lily桌面版整体布局的风格，并延续下去，保持各个页面布局风格的统一&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;反馈-feedback&#34;&gt;反馈 Feedback&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;控制反馈：&lt;/strong&gt;通过界面样式和交互动效让用户可以清晰的感知自己的操作；&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;添加必要的交互动效&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;页面反馈：&lt;/strong&gt;操作后，通过页面元素的变化清晰地展现当前状态。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;在页面元素细节上增添变化，加强细节对用户的触动&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;效率-efficiency&#34;&gt;效率 Efficiency&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;简化流程：&lt;/strong&gt;设计简洁直观的操作流程；&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Lily起始版本应当简洁直观&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;清晰明确：&lt;/strong&gt;语言表达清晰且表意明确，让用户快速理解进而作出决策；&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;少点套路&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;帮助用户识别：&lt;/strong&gt;界面简单直白，让用户快速识别而非回忆，减少用户记忆负担。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;多借鉴已经成熟的音乐平台和软件的界面，帮助用户减轻记忆负担&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;可控-controllability&#34;&gt;可控 Controllability&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;用户决策：&lt;/strong&gt;根据场景可给予用户操作建议或安全提示，但不能代替用户进行决策；&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;可以由Lily向用户给出提示等，加强Lily的存在感&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;结果可控：&lt;/strong&gt;用户可以自由的进行操作，包括撤销、回退和终止当前操作等。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;始终保留对结果的处理操作&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     

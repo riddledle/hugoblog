@@ -7,7 +7,7 @@
 		<meta name="author" content="Riddle">
 		<meta name="description" content="riddle&#39;s notes">
 		<meta name="generator" content="Hugo 0.16" />
-		<title>github中文文档乱码 &middot; Riddle&#39;s</title>
+		<title>订单支付系统大致流程 &middot; Riddle&#39;s</title>
 		<link rel="shortcut icon" href="https://riddledle.github.io/hugoblog/images/favicon.ico">
 		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/style.css">
 		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/highlight.css">
@@ -41,37 +41,23 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>github中文文档乱码</h1>
+                    <h1>订单支付系统大致流程</h1>
                     <h2 class="headline">
-                    September 8, 2016 
+                    November 1, 2016 
                     <br>
                     
                     </h2>
                 </header>
                 <section id="post-body">
-                    
+                    <p>O2O电商产品往往都具有订单中心和支付系统，流畅严谨的逻辑和符合用户习惯的交互将会给用户带去舒适的体验，在开发的过程中依据产品需求实现相应板块的衔接也是值得注意的环节。</p>
 
-<h1 id="markdown文件转html之后在firefox里显示乱码">markdown文件转html之后在firefox里显示乱码</h1>
+<p>程序员们阅读完产品经理给出的产品需求说明书之后，凭借程序员一贯的思维方式往往难以形成清晰且可执行的逻辑，订单中心的基本逻辑用语言表述是曲折的，这时一套流程图可以帮助大家的理解。</p>
 
-<p>firefox判断编码：</p>
+<p>特别的，开发订单支付系统时，在<strong>限制用户操作</strong>和<strong>调控订单处理进度</strong>两个层面，特别需要对订单逻辑有清晰的规划，如若不然，将导致一些重复劳动和目标不明确等问题，导致开发效率下降。</p>
 
-<ul>
-<li>根据HTML文件的BOM</li>
-<li>根据HTML中命令指定的编码</li>
-<li>用户在编辑时手动在菜单中指定</li>
-</ul>
+<p>以下是针对某O2O外送平台的订单中心给出的基本流程图：</p>
 
-<h1 id="解决">解决：</h1>
-
-<ul>
-<li>编辑时指定encoding - utf-8</li>
-<li>在头部加入</li>
-</ul>
-
-<pre><code> 
- &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html;charset=utf-8&quot;&gt;
- 
-</code></pre>
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B%E5%9B%BE.png" alt="仅供参考" /></p>
 
                 </section>
             </article>
@@ -84,7 +70,7 @@
                         </div>
                     
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2friddledle.github.io%2fhugoblog%2fpost%2fBOM_github%25E4%25B8%25AD%25E6%2596%2587%25E6%2596%2587%25E6%25A1%25A3%25E4%25B9%25B1%25E7%25A0%2581%2f - github%e4%b8%ad%e6%96%87%e6%96%87%e6%a1%a3%e4%b9%b1%e7%a0%81 "><span class="icon-twitter"> Tweet</span></a>
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2friddledle.github.io%2fhugoblog%2fpost%2f%25E8%25AE%25A2%25E5%258D%2595%25E6%2594%25AF%25E4%25BB%2598%25E7%25B3%25BB%25E7%25BB%259F%25E5%25A4%25A7%25E8%2587%25B4%25E6%25B5%2581%25E7%25A8%258B%2f - %e8%ae%a2%e5%8d%95%e6%94%af%e4%bb%98%e7%b3%bb%e7%bb%9f%e5%a4%a7%e8%87%b4%e6%b5%81%e7%a8%8b "><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
