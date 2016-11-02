@@ -96,50 +96,60 @@
     </item>
     
     <item>
-      <title>关于博客</title>
+      <title>漫长细碎</title>
       <link>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sat, 31 Dec 2016 12:58:40 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</guid>
       <description>
 
-&lt;h2 id=&#34;守恒&#34;&gt;守恒&lt;/h2&gt;
+&lt;p&gt;无关SEO，无关流量，无关曝光，有关时间，有关力量，有关。&lt;/p&gt;
 
-&lt;p&gt;现在是过去的“未来”。&lt;/p&gt;
-
-&lt;p&gt;根据能量守恒定律，汲取到的能量需要一个出口来释放。&lt;/p&gt;
-
-&lt;h2 id=&#34;形式&#34;&gt;形式&lt;/h2&gt;
-
-&lt;p&gt;一个挂在gh-pages上的静态博客其实是和SEO无关的；&lt;/p&gt;
-
-&lt;p&gt;也没有知名网站写手所能够获取到的流量和关注；&lt;/p&gt;
-
-&lt;p&gt;也没有微信订阅号的曝光率和打赏功能；&lt;/p&gt;
-
-&lt;p&gt;仅此而已。&lt;/p&gt;
-
-&lt;h2 id=&#34;内容&#34;&gt;内容&lt;/h2&gt;
+&lt;h2 id=&#34;历程&#34;&gt;历程&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;技术性内容＋歌词翻译&lt;/strong&gt;：看了&lt;a href=&#34;http://ibruce.info/2013/11/22/hexo-your-blog/&#34;&gt;hexo你的博客&lt;/a&gt;之后，我建立了自己的&lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;hexo&lt;/a&gt;博客，当时的目标是做前端工程师；&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;技术性内容＋歌词翻译＋随笔记录&lt;/strong&gt;：渐渐的，我开始写一些和生活或兴趣相关的内容，由于旧模版的分类功能不是很便利，于是改了一套模版，拥有清晰的分类和标签云功能；&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;所有的技术性内容&lt;/strong&gt;：偶然看到了&lt;a href=&#34;http://edyfox.codecarver.org/html/index.html&#34;&gt;滇狐&lt;/a&gt;的主页，于是制作了一份类似的主页；&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;所有的歌词翻译和个人兴趣&lt;/strong&gt;：放在原先的hexo博客里；&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;浜崎あゆみ的歌词&lt;/strong&gt;：2016年的夏天，找了一套类似wiki的模版&lt;a href=&#34;https://github.com/wzpan/hexo-theme-wixo&#34;&gt;wixo&lt;/a&gt;，将歌词存放起来；&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;作为一名产品经理的经验&lt;/strong&gt;：用&lt;a href=&#34;http://blog.golang.org/&#34;&gt;Go&lt;/a&gt;语言编写的&lt;a href=&#34;www.gohugo.io&#34;&gt;hugo&lt;/a&gt;引擎的模版拥有简洁的界面，垂直性强；&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;内容更加丰富&lt;/strong&gt;：到现在，一个融合了一些前端经验和产品经验的比较正式的个人博客就确立了，它的界面简洁，样式清新，条目清晰；没有分类，归档，标签云等内容管理功能，垂直性强。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;tech+lyrics&lt;/strong&gt;：&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;风格&#34;&gt;风格&lt;/h2&gt;
+&lt;p&gt;看了&lt;a href=&#34;http://ibruce.info/2013/11/22/hexo-your-blog/&#34;&gt;hexo你的博客&lt;/a&gt;之后，我建立了自己的&lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;hexo&lt;/a&gt;博客，当时的目标是做前端工程师；&lt;/p&gt;
 
-&lt;p&gt;文采不斐然&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;tech＋lyrics＋notes&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;情绪会泛滥&lt;/p&gt;
+&lt;p&gt;渐渐的，我开始写一些和生活或兴趣相关的内容，由于旧模版的分类功能不是很便利，于是改了一套模版，拥有清晰的分类和标签云功能；&lt;/p&gt;
 
-&lt;p&gt;尽量求干货&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;tech&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;学会删删删&lt;/p&gt;
+&lt;p&gt;制作了一份类似&lt;a href=&#34;http://edyfox.codecarver.org/html/index.html&#34;&gt;滇狐&lt;/a&gt;的主页；&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;lyrics+notes&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;放在原先的hexo博客里；&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;lyrics&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2016年的夏天，找了一套类似wiki的模版&lt;a href=&#34;https://github.com/wzpan/hexo-theme-wixo&#34;&gt;wixo&lt;/a&gt;，将歌词存放起来；&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PM&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;用&lt;a href=&#34;http://blog.golang.org/&#34;&gt;Go&lt;/a&gt;语言编写的&lt;a href=&#34;www.gohugo.io&#34;&gt;hugo&lt;/a&gt;引擎的模版拥有简洁的界面，垂直性强；&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PM+&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;到现在，一个融合了一些前端经验和产品经验的比较正式的个人博客就确立了，它的界面简洁，样式清新，条目清晰；没有分类，归档，标签云等内容管理功能，垂直性强。&lt;/p&gt;
+
+&lt;h2 id=&#34;友情链接&#34;&gt;友情链接&lt;/h2&gt;
 </description>
     </item>
     
@@ -153,12 +163,76 @@
     </item>
     
     <item>
-      <title>手机应用的混合开发模式技术方案书</title>
+      <title>手机应用的混合开发模式技术调研</title>
       <link>https://riddledle.github.io/hugoblog/post/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E7%9A%84%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%E4%B9%A6/</link>
       <pubDate>Tue, 01 Nov 2016 15:12:18 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E7%9A%84%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%E4%B9%A6/</guid>
-      <description></description>
+      <description>
+
+&lt;h2 id=&#34;序言&#34;&gt;序言&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hybrid App（混合模式移动应用）是指介于Web App、Native App这两者之间的app，兼具“Native App良好用户交互体验的优势”和“Web App跨平台开发的优势”。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;此篇报告书将结合Hybrid App的特点和具体项目需求进行阐述。&lt;/p&gt;
+
+&lt;p&gt;大体的技术方案是，DeviceOne项目提供底层的Native Api，基本上所有的用户逻辑放在Vue上做。&lt;/p&gt;
+
+&lt;h2 id=&#34;技术现状&#34;&gt;技术现状&lt;/h2&gt;
+
+&lt;h3 id=&#34;优势&#34;&gt;优势&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;兼容多平台，因此开发效率较高，开发成本较低，较适合需要快速试错或快速占领市场的产品；&lt;/li&gt;
+&lt;li&gt;能够顺利访问手机的多种功能，保证产品功能的可拓展性；&lt;/li&gt;
+&lt;li&gt;App Store中可下载，利于产品的推广；&lt;/li&gt;
+&lt;li&gt;可线下使用，保证用户的残留度；&lt;/li&gt;
+&lt;li&gt;Hybrid App中，Native和Web各自所占的比例自由，因此降低了开发时的难度；&lt;/li&gt;
+&lt;li&gt;界面布局和风格设计自由，保证了产品的特色；&lt;/li&gt;
+&lt;li&gt;从业务开发上讲，没有版本问题，有Bug能够及时修复；&lt;/li&gt;
+&lt;li&gt;性能快，不会带来较差的用户体验。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;弊端&#34;&gt;弊端&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;就用户体验来说，Hybrid App是比不上原生应用的；&lt;/li&gt;
+&lt;li&gt;因为需要连接网络，所以性能会稍慢；&lt;/li&gt;
+&lt;li&gt;目前混合开发的技术还不是很成熟，因此学习成本较高，在开发时供学习调研的资料也比较少。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;功能分析&#34;&gt;功能分析&lt;/h2&gt;
+
+&lt;h3 id=&#34;缩进式评论&#34;&gt;缩进式评论&lt;/h3&gt;
+
+&lt;p&gt;缩进式评论风格如果使用Native来做是困难的，但是放到web端来做将是非常简单的，如利用web前端工具Vue，它是非常灵活的。&lt;/p&gt;
+
+&lt;h3 id=&#34;多语言版本&#34;&gt;多语言版本&lt;/h3&gt;
+
+&lt;p&gt;多语言版本的控制在Native端也是难以实现的，但是在web端有成熟的解决方案，如&lt;a href=&#34;https://github.com/jinzhe/vue-i18n&#34;&gt;i18n&lt;/a&gt;，Vue已有很成熟的做法。&lt;/p&gt;
+
+&lt;h2 id=&#34;需求分析&#34;&gt;需求分析&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;对于一款UGC类的社交新闻产品来说，用户产生的内容是主体，且用户拥有对社区的掌控权，这一特性决定了该产品的许多功能逻辑都可以放在web端来实现；&lt;/li&gt;
+&lt;li&gt;web前端技术的介入可以帮助产品的布局和设计更加贴近社区类网站的效果，突出UGC内容；&lt;/li&gt;
+&lt;li&gt;混合开发模式带来的高效率和低成本的优势，保证了产品能够快速上线和试错，同时在多平台运行，接触广泛的用户群；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;成本预算&#34;&gt;成本预算&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;对于小型创业团队来说，采用混合开发是节省开发成本的一大利器，仅编写一次核心代码即可快速发布；&lt;/li&gt;
+&lt;li&gt;人力资源方面，需要web前端开发人员的介入，不需要分别的iOS／Android开发人员；&lt;/li&gt;
+&lt;li&gt;开发周期短，测试快，时间成本低。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+
+&lt;p&gt;应用混合开发模式，可以实现高效率，低成本的开发，实现快速试错和抢占市场的目标，充分利用web端的灵活性可以解决开发中具体问题，同时带去最接近Native的体验。&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -185,7 +259,106 @@
       <pubDate>Tue, 01 Nov 2016 15:06:07 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%EF%BC%88Auth%EF%BC%89%E6%A2%B3%E7%90%86/</guid>
-      <description></description>
+      <description>
+
+&lt;p&gt;用户中心（Authority）相较其它板块来说，逻辑较为简单，但是优先级和使用频率是很高的。&lt;/p&gt;
+
+&lt;p&gt;以下参考&lt;a href=&#34;https://www.wilddog.com/&#34;&gt;野狗&lt;/a&gt;（wilddog）官方文档中的身份认证部分，对用户中心的逻辑简单梳理。&lt;/p&gt;
+
+&lt;h2 id=&#34;组成元素&#34;&gt;组成元素&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ID：用来标识用户的身份；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;用户属性：包括用户的ID，主邮箱地址，名称，照片地址；&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;用户属性属于用户信息的一部分，连同用户的登陆信息共同组成&lt;strong&gt;用户信息&lt;/strong&gt;部分&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Provider（提供者）：Provider 是身份认证提供方，即电子邮箱地址与密码，或是手机号码，或是第三方平台（微信，微博，QQ）账号等；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;当前用户：进行注册或登陆操作后的用户，成为当前用户；&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;用户生命周期：指用户从注册或登陆到退出登陆这之间的变化过程，包含三种状态：&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;用户注册或登陆成功&lt;/li&gt;
+&lt;li&gt;Token刷新&lt;/li&gt;
+&lt;li&gt;退出登陆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;身份认证令牌（Token）：用于获取访问用户的权限，包含三种类型：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ID Token：用户获取用户的访问权限&lt;/p&gt;
+
+&lt;p&gt;access Token：用户获取第三方身份认证提供商用户的访问权限&lt;/p&gt;
+
+&lt;p&gt;custom Token：用于获取已有账户体系中用户的访问权限&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;用户管理&#34;&gt;用户管理&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;创建用户&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;获取用户信息，包括获取：&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;当前用户&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;用户属性&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Provider的用户属性&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;更新用户信息，包括更新：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;用户属性&lt;/li&gt;
+&lt;li&gt;邮箱地址&lt;/li&gt;
+&lt;li&gt;登陆密码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;删除用户&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;重新进行身份认证&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;认证方式&#34;&gt;认证方式&lt;/h2&gt;
+
+&lt;p&gt;认证方式有很多种，根据产品特性和实际情况进行取舍。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;邮箱认证&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;手机认证&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;第三方应用帐号认证&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;自定义身份认证&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;匿名认证&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;​&lt;/p&gt;
+</description>
     </item>
     
     <item>
