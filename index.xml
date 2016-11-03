@@ -92,6 +92,30 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;by中华人民共和国教育部&lt;/code&gt;《知音》&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《游戏艺术设计原理》&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;by方兴／郑达&lt;/code&gt;建模，而不是编码&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《团队磋商的最佳艺术》&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;by约翰科沃斯都&lt;/code&gt;1995年英文版的译本，包装太新了吧&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《互联网＋技术融合风暴－构建平台协同战略与商业敏捷性》&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;by Rodney Heisterberg&lt;/code&gt;适合商人&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
@@ -111,7 +135,7 @@
 &lt;li&gt;&lt;strong&gt;tech+lyrics&lt;/strong&gt;：&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;看了&lt;a href=&#34;http://ibruce.info/2013/11/22/hexo-your-blog/&#34;&gt;hexo你的博客&lt;/a&gt;之后，我建立了自己的&lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;hexo&lt;/a&gt;博客，当时的目标是做前端工程师；&lt;/p&gt;
+&lt;p&gt;起初我建立了自己的&lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;hexo&lt;/a&gt;博客，当时的目标是做前端工程师；&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;tech＋lyrics＋notes&lt;/strong&gt;：&lt;/li&gt;
@@ -149,17 +173,109 @@
 
 &lt;p&gt;到现在，一个融合了一些前端经验和产品经验的比较正式的个人博客就确立了，它的界面简洁，样式清新，条目清晰；没有分类，归档，标签云等内容管理功能，垂直性强。&lt;/p&gt;
 
-&lt;h2 id=&#34;友情链接&#34;&gt;友情链接&lt;/h2&gt;
+&lt;h2 id=&#34;其他链接&#34;&gt;其他链接&lt;/h2&gt;
+
+&lt;h4 id=&#34;社交账户&#34;&gt;社交账户&lt;/h4&gt;
+
+&lt;p&gt;github&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/github%20%281%29.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;google+&lt;/p&gt;
+
+&lt;p&gt;twitter&lt;/p&gt;
+
+&lt;p&gt;facebook&lt;/p&gt;
+
+&lt;p&gt;linkedin&lt;/p&gt;
+
+&lt;p&gt;知乎&lt;/p&gt;
+
+&lt;p&gt;coding&lt;/p&gt;
+
+&lt;p&gt;v2ex&lt;/p&gt;
+
+&lt;p&gt;reddit&lt;/p&gt;
+
+&lt;p&gt;dribble&lt;/p&gt;
+
+&lt;h4 id=&#34;我的作品&#34;&gt;我的作品&lt;/h4&gt;
+
+&lt;p&gt;歌词收藏&lt;/p&gt;
+
+&lt;p&gt;音乐FM&lt;/p&gt;
+
+&lt;h4 id=&#34;友情链接&#34;&gt;友情链接&lt;/h4&gt;
+
+&lt;p&gt;shi-shi&lt;/p&gt;
+
+&lt;p&gt;LIFE&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>国内搜索引擎调研</title>
+      <title>Hugo文档再读</title>
+      <link>https://riddledle.github.io/hugoblog/post/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/</link>
+      <pubDate>Thu, 03 Nov 2016 16:06:12 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/</guid>
+      <description>&lt;p&gt;我曾对搭建Hugo博客的过程进行了简述，前一阵团队讨论时，提起了Go语言，&lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;作为一个用Go语言写成的引擎，或许有许多光彩值得呈现，于是重读文档，主要是首页的Brief Description和文档的Introduction部分。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taiga－敏捷软件开发管理工具</title>
+      <link>https://riddledle.github.io/hugoblog/post/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Thu, 03 Nov 2016 15:08:41 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>国内搜索引擎概况</title>
       <link>https://riddledle.github.io/hugoblog/post/%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%B0%83%E7%A0%94/</link>
       <pubDate>Tue, 01 Nov 2016 15:35:26 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%B0%83%E7%A0%94/</guid>
-      <description></description>
+      <description>&lt;p&gt;我个人使用百度进行搜索的体验越来越差，&lt;strong&gt;整合性低，广告多，搜索范围窄&lt;/strong&gt;，因此我考虑更换常用的搜索引擎。&lt;/p&gt;
+
+&lt;p&gt;国内搜索引擎市场有三巨头：百度，360，搜狗，利用它们搜索“riddle”：&lt;/p&gt;
+
+&lt;p&gt;百度贡献的结果，往往有种华而不实的感觉，即使有和“riddle”相关的音乐，但有占据如此大块版面的必要么？&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.31.53.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;360搜索贡献的结果，看起来有点毛糙，指向性不强；&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.36.31.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;打开搜狗搜索首页，看到如下内容，弃之。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.35.06.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;最终我使用的是一款相当冷门但我认为同样相当优秀的搜索引擎：&lt;a href=&#34;www.ssdao.com&#34;&gt;搜索岛&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;搜索岛“把互联网最好的一面以最简单的方式呈现给网民”的理念，我认为他们确实做到了。&lt;/p&gt;
+
+&lt;p&gt;首次使用时就会被贴心的功能细节和强烈的功能导向性吸引，继续使用，发现它确实是一款冷门优秀同时绿色的搜索引擎。&lt;/p&gt;
+
+&lt;p&gt;最终的搜索结果，搜索岛贡献的内容整合性高，并且根据关键词的语种切换搜索的范围，在从前它还有个“快速访问”的功能，那时是可以不打开整个网页，只在搜索结果页打开一个小窗口预览正文内容，现在它也有“站内更多”的功能，可以快速实现站内搜索，综上来说，搜索岛确实能做到“想你所想”，这不失为美好的用户体验。&lt;/p&gt;
+
+&lt;p&gt;用搜索岛搜索“riddle”的结果：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.32.00.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;搜索“七牛”：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.37.46.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;但是整合性并不是评判和选择的唯一指标，根据实际需要和使用习惯选择搜索引擎，如果习惯搜索对深度要求不高的信息，或习惯阅读中文搜索结果，那么使用搜索岛或许反而会带来效率的降低，但搜索岛优秀的用户体验确实值得夸赞。&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -741,53 +857,6 @@
 &lt;li&gt;专辑名&lt;/li&gt;
 &lt;li&gt;歌曲文件&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MyProjectOneAssignment</title>
-      <link>https://riddledle.github.io/hugoblog/post/MyProjectOneAssignment/</link>
-      <pubDate>Tue, 11 Oct 2016 23:51:16 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/MyProjectOneAssignment/</guid>
-      <description>
-
-&lt;h1 id=&#34;description&#34;&gt;Description&lt;/h1&gt;
-
-&lt;p&gt;I find myself interested in internet software engineering, front-end technology and internet product management when i was in grade 2.&lt;/p&gt;
-
-&lt;p&gt;My passion for those skills drove me to learn many basic skills related to front-end technology at first, such as html, css, javascript, ajax, jQuery…it’s easy to get familiar with these skills, but it’s hard to be a master of them.&lt;/p&gt;
-
-&lt;p&gt;When i was at a higher level, i started to use some front-end tools such as bootstrap or element to build up a website quickly, or use echarts to implement data visualization, or use fullpage to insert one-page sections in my website.&lt;/p&gt;
-
-&lt;p&gt;My next step is to get a web server of my own and bind my domain    to it. I made it by looking for free host in “wanwang” and luckily received a free one for two year’s ownership. I bought my domain in “wanwang” as well, which cost no more than 50 RMB each year.&lt;/p&gt;
-
-&lt;p&gt;At present, i’m using a ftp tool — FileZilla to manage my home site. All i need to do is to set up my site with the correct IP address and password, connect my computer to it, then i can upload or delete files in my host.&lt;/p&gt;
-
-&lt;p&gt;After the formation of my home site has been done, i used  a fast and flexible static site generator — hugo to generate my blog, which is used to save up all my experience and progress during my study and work as a front-end engineer and a product manager.&lt;/p&gt;
-
-&lt;p&gt;Another site generator — hexo has been used to build up my lyrics collection site for a japanese singer, i simply just chose the right template, modified its config and did some beautifications by css and js.&lt;/p&gt;
-
-&lt;p&gt;I’m working on a project called “Lily” as a product manager with a friend who acts as the engineer, this website will provide people with functions such as listening to their favorite singer’s FM radio, make comments and share their stories.&lt;/p&gt;
-
-&lt;p&gt;All those works mentioned above are deployed on github and i’m using git to control these remotes.&lt;/p&gt;
-
-&lt;h1 id=&#34;snapshots&#34;&gt;Snapshots&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/FE66A652-FA07-40AA-A9CD-67F949071E20.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/FE8AC9C6-7207-4432-A5AF-FF46FE9D71DA.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/40DA7AAC-3AEF-48B5-8743-8B6A8BCC56FD.png&#34; alt=&#34;&#34; /&gt;
-&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/090658EC-9FDD-4A6D-AE9F-C23C5DDF664E.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>一份礼物</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E7%BB%99%E6%88%91%E7%9A%84%E7%A4%BC%E7%89%A9/</link>
-      <pubDate>Mon, 10 Oct 2016 01:44:27 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E7%BB%99%E6%88%91%E7%9A%84%E7%A4%BC%E7%89%A9/</guid>
-      <description>&lt;p&gt;谢谢！&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-09%20%E4%B8%8B%E5%8D%889.09.55.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
