@@ -15,13 +15,7 @@
       <pubDate>Sat, 31 Dec 2016 23:51:32 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E4%B9%A6%E5%8D%95/</guid>
-      <description>
-
-&lt;h2 id=&#34;写在前面&#34;&gt;写在前面&lt;/h2&gt;
-
-&lt;p&gt;大三开始，有了眼前这一篇，所谓书单也不过是把所有刷过的书记录下来，附上简短的书评。&lt;/p&gt;
-
-&lt;p&gt;或许是纸质书，或许是电子书，或者只是文章的集合。&lt;/p&gt;
+      <description>&lt;p&gt;把所有刷过的书记录下来，附上简短的书评。&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -127,7 +121,7 @@
       <guid>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</guid>
       <description>
 
-&lt;p&gt;无关SEO，无关流量，无关曝光，有关时间，有关力量，有关。&lt;/p&gt;
+&lt;p&gt;宇宙走向热寂。&lt;/p&gt;
 
 &lt;h2 id=&#34;历程&#34;&gt;历程&lt;/h2&gt;
 
@@ -135,13 +129,13 @@
 &lt;li&gt;&lt;strong&gt;tech+lyrics&lt;/strong&gt;：&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;起初我建立了自己的&lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;hexo&lt;/a&gt;博客，当时的目标是做前端工程师；&lt;/p&gt;
+&lt;p&gt;起初建立了自己的&lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;hexo&lt;/a&gt;博客；&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;tech＋lyrics＋notes&lt;/strong&gt;：&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;渐渐的，我开始写一些和生活或兴趣相关的内容，由于旧模版的分类功能不是很便利，于是改了一套模版，拥有清晰的分类和标签云功能；&lt;/p&gt;
+&lt;p&gt;加入一些随笔，添加分类和标签云；&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;tech&lt;/strong&gt;：&lt;/li&gt;
@@ -159,19 +153,19 @@
 &lt;li&gt;&lt;strong&gt;lyrics&lt;/strong&gt;：&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;2016年的夏天，找了一套类似wiki的模版&lt;a href=&#34;https://github.com/wzpan/hexo-theme-wixo&#34;&gt;wixo&lt;/a&gt;，将歌词存放起来；&lt;/p&gt;
+&lt;p&gt;用一套类似wiki的模版&lt;a href=&#34;https://github.com/wzpan/hexo-theme-wixo&#34;&gt;wixo&lt;/a&gt;，将歌词存放起来；&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;PM&lt;/strong&gt;：&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;用&lt;a href=&#34;http://blog.golang.org/&#34;&gt;Go&lt;/a&gt;语言编写的&lt;a href=&#34;www.gohugo.io&#34;&gt;hugo&lt;/a&gt;引擎的模版拥有简洁的界面，垂直性强；&lt;/p&gt;
+&lt;p&gt;风格简约，内容垂直；&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;PM+&lt;/strong&gt;：&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;到现在，一个融合了一些前端经验和产品经验的比较正式的个人博客就确立了，它的界面简洁，样式清新，条目清晰；没有分类，归档，标签云等内容管理功能，垂直性强。&lt;/p&gt;
+&lt;p&gt;会有许多东西。&lt;/p&gt;
 
 &lt;h2 id=&#34;其他链接&#34;&gt;其他链接&lt;/h2&gt;
 
@@ -321,7 +315,7 @@
       <guid>https://riddledle.github.io/hugoblog/post/%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%B0%83%E7%A0%94/</guid>
       <description>&lt;p&gt;我个人使用百度进行搜索的体验越来越差，&lt;strong&gt;整合性低，广告多，搜索范围窄&lt;/strong&gt;，因此我考虑更换常用的搜索引擎。&lt;/p&gt;
 
-&lt;p&gt;国内搜索引擎市场有三巨头：百度，360，搜狗，利用它们搜索“riddle”：&lt;/p&gt;
+&lt;p&gt;利用百度，360，搜狗，必应搜索“riddle”：&lt;/p&gt;
 
 &lt;p&gt;百度贡献的结果，往往有种华而不实的感觉，即使有和“riddle”相关的音乐，但有占据如此大块版面的必要么？&lt;/p&gt;
 
@@ -329,7 +323,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;360搜索贡献的结果，看起来有点毛糙，指向性不强；&lt;/p&gt;
+&lt;p&gt;360搜索贡献的结果，看起来有点毛糙，指向性不强。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.36.31.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -341,23 +335,11 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;最终我使用的是一款相当冷门但我认为同样相当优秀的搜索引擎：&lt;a href=&#34;www.ssdao.com&#34;&gt;搜索岛&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;必应的搜索速度很快，结果中的第一条就是Wikipedia，而且必应词典也很实用，可以说是速度，整合性，实用性兼备。&lt;/p&gt;
 
-&lt;p&gt;搜索岛“把互联网最好的一面以最简单的方式呈现给网民”的理念，我认为他们确实做到了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-05%20%E4%B8%8B%E5%8D%881.23.16.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;首次使用时就会被贴心的功能细节和强烈的功能导向性吸引，继续使用，发现它确实是一款冷门优秀同时绿色的搜索引擎。&lt;/p&gt;
-
-&lt;p&gt;最终的搜索结果，搜索岛贡献的内容整合性高，并且根据关键词的语种切换搜索的范围，在从前它还有个“快速访问”的功能，那时是可以不打开整个网页，只在搜索结果页打开一个小窗口预览正文内容，现在它也有“站内更多”的功能，可以快速实现站内搜索，综上来说，搜索岛确实能做到“想你所想”，这不失为美好的用户体验。&lt;/p&gt;
-
-&lt;p&gt;用搜索岛搜索“riddle”的结果：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.32.00.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;搜索“七牛”：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.37.46.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;但是整合性并不是评判和选择的唯一指标，根据实际需要和使用习惯选择搜索引擎，如果习惯搜索对深度要求不高的信息，或习惯阅读中文搜索结果，那么使用搜索岛或许反而会带来效率的降低，但搜索岛优秀的用户体验确实值得夸赞。&lt;/p&gt;
+&lt;p&gt;最终选择了使用必应。&lt;/p&gt;
 </description>
     </item>
     
