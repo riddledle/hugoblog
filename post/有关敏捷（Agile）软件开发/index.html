@@ -7,7 +7,7 @@
 		<meta name="author" content="Riddle">
 		<meta name="description" content="riddle&#39;s notes">
 		<meta name="generator" content="Hugo 0.16" />
-		<title>漫长细碎 &middot; Riddle&#39;s</title>
+		<title>有关敏捷（Agile）软件开发 &middot; Riddle&#39;s</title>
 		<link rel="shortcut icon" href="https://riddledle.github.io/hugoblog/images/favicon.ico">
 		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/style.css">
 		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/highlight.css">
@@ -41,9 +41,9 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>漫长细碎</h1>
+                    <h1>有关敏捷（Agile）软件开发</h1>
                     <h2 class="headline">
-                    December 31, 2016 
+                    November 7, 2016 
                     <br>
                     
                     </h2>
@@ -51,87 +51,51 @@
                 <section id="post-body">
                     
 
-<p>宇宙走向热寂。</p>
+<p>使用Taiga的过程让我熟悉了Agile开发的许多内容，同时Taiga上有许多Public的项目，Team一般不大，因为Taiga免费版是可以创建1个Private项目，无限个Public项目的，同时限制Team在4人以内，想要拥有更多Private项目就要付费，不过，尽管是相对小规模的项目，但是还是可以看到世界各地许多国家的人（主要是欧美和拉美）的项目管理进程。</p>
 
-<h2 id="历程">历程</h2>
+<h2 id="相关twitter">相关Twitter：</h2>
 
-<ul>
-<li><strong>tech+lyrics</strong>：</li>
-</ul>
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%887.49.38.png" alt="" /></p>
 
-<p>起初建立了自己的<a href="https://github.com/hexojs/hexo">hexo</a>博客；</p>
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%889.01.57.png" alt="" /></p>
 
-<ul>
-<li><strong>tech＋lyrics＋notes</strong>：</li>
-</ul>
+<h2 id="更多名词">更多名词</h2>
 
-<p>加入一些随笔，添加分类和标签云；</p>
+<p>很多名词<a href="https://tree.taiga.io/support/">官方Support</a>提供了很细致到位的说明，这里只翻译下：</p>
 
-<ul>
-<li><strong>tech</strong>：</li>
-</ul>
+<p><strong>Product Owner：</strong>在Agile开发团队里有个职位叫做Product Owner（产品负责人，或产品拥有者），它的很多职能和Product Manager（产品经理）是相通的，如产品研发、产品愿景定义、设计思考等，不同的是，所处的环境是Agile开发，那么产品负责人更多的担当起了掌舵手的角色，需要管理用户故事和敏捷需求、管理需求优先级，发布敏捷计划、跟踪产品开发进展、管理敏捷项目合同等；</p>
 
-<p>制作了一份类似<a href="http://edyfox.codecarver.org/html/index.html">滇狐</a>的主页；</p>
+<p><strong>User Story：</strong>用户故事是从用户的角度来描述用户渴望得到的功能，即是将用户需求描述为敏捷需求的桥梁，关于如何写好用户故事，可以搜索到很多规范和要点，需要注意的是描述时不要使用技术性语言，而是通俗的描述性语言；</p>
 
-<ul>
-<li><strong>lyrics+notes</strong>：</li>
-</ul>
+<p><strong>Backlog：</strong>一个仓库（Backlog）优先收集了一些未来需要使用的用户故事和任务。产品库（Product Backlog）与整个产品需要完成的任务息息相关，包括那些与目前产品蓝图相符的，以及那些目前不符但是未来会需要的。</p>
 
-<p>放在原先的hexo博客里；</p>
+<p>也就是说，仓库会被提前规划和评估，那么团队就可以从仓库中最顶部的用户故事着手开发。</p>
 
-<ul>
-<li><strong>lyrics</strong>：</li>
-</ul>
+<p>堆里最顶部的用户故事，会被放进下一次的迭代里并被开发。</p>
 
-<p>用一套类似wiki的模版<a href="https://github.com/wzpan/hexo-theme-wixo">wixo</a>，将歌词存放起来；</p>
+<p><strong>Sprint：</strong>一次冲刺（Sprint）是“迭代”的增量式说法。一次迭代是团队打造产品的下一次提升的过程。</p>
 
-<ul>
-<li><strong>PM</strong>：</li>
-</ul>
+<p>为了保证团队在集中处理一些用户故事时它们不会变动，我们创建了一个独立的区域叫做冲刺（Sprint），团队需要在规定时间内开发和发布这部分的用户故事。当冲刺区的用户故事都被完成后，这次冲刺就算结束，可以开始下一次迭代。</p>
 
-<p>风格简约，内容垂直；</p>
+<p>一个普通的工作流程是，创建一个新的冲刺，然后把用户故事里最顶部的部分拖进来，直到保证这部分用户故事在团队发挥最大工作效力的情况下，能够按时完成。当团队内部达成对这次冲刺安排的一致认同时，就可以开始冲刺了。</p>
+
+<p><strong>Epics：</strong>如果你用敏捷开发的模式工作，那你一定听说过Epics，其实Epics没有正式的定义，不过Taiga团队还是调查出了一个比较靠谱的概念。</p>
+
+<p>提问：Epic和User Story之间的区别是什么？</p>
+
+<p>回答：准确的说，Epic是比用户故事更大的对象并且能包含许多用户故事。规划你的仓库时，你会在下面的情况注意到Epic：</p>
 
 <ul>
-<li><strong>PM+</strong>：</li>
+<li>用户故事太复杂，描述模糊；</li>
+<li>用户故事太庞大，无法在理想时间内实现；</li>
+<li>对于策略性规划来说Epic很有用；</li>
+<li>一个Epic通常定义比较模糊，而且可以包含许多组成部份；</li>
+<li>一个Epic是很好的为团队服务的信息容器，胜过对单独对象确立的用户故事。</li>
 </ul>
 
-<p>会有许多东西。</p>
-
-<h2 id="其他链接">其他链接</h2>
-
-<h4 id="社交账户">社交账户</h4>
-
-<p><img src="http://o7o0hlenq.bkt.clouddn.com/github%20%282%29.png" alt="" /> GitHub</p>
-
-<p><img src="http://o7o0hlenq.bkt.clouddn.com/google.png" alt="" /> Google+</p>
-
-<p><img src="http://o7o0hlenq.bkt.clouddn.com/twitter.png" alt="" /> Twitter</p>
-
-<p><img src="http://o7o0hlenq.bkt.clouddn.com/facebook.png" alt="" /> Facebook</p>
-
-<p><img src="http://o7o0hlenq.bkt.clouddn.com/linkedin.png" alt="" /> Linkedin</p>
-
-<p><img src="http://o7o0hlenq.bkt.clouddn.com/zhihu.png" alt="" /> 知乎</p>
-
-<p><img src="http://o7o0hlenq.bkt.clouddn.com/icon.png" alt="" /> Coding</p>
-
-<p><img src="http://o7o0hlenq.bkt.clouddn.com/iconfontv2ex.png" alt="" /> V2ex</p>
-
-<p><img src="http://o7o0hlenq.bkt.clouddn.com/reddit.png" alt="" /> Reddit</p>
-
-<p><img src="http://o7o0hlenq.bkt.clouddn.com/dribblepure.png" alt="" /> Dribble</p>
-
-<h4 id="我的作品">我的作品</h4>
-
-<p>歌词收藏</p>
-
-<p>音乐FM</p>
-
-<h4 id="友情链接">友情链接</h4>
-
-<p>shi-shi</p>
-
-<p>LIFE</p>
+<blockquote>
+<p>我的个人理解：Epic就是把大家不理解的，但一两句话又说不清的蓝图性决策记录下来。</p>
+</blockquote>
 
                 </section>
             </article>
@@ -144,7 +108,7 @@
                         </div>
                     
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2friddledle.github.io%2fhugoblog%2fpost%2f%25E5%2585%25B3%25E4%25BA%258E%25E5%258D%259A%25E5%25AE%25A2%2f - %e6%bc%ab%e9%95%bf%e7%bb%86%e7%a2%8e "><span class="icon-twitter"> Tweet</span></a>
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2friddledle.github.io%2fhugoblog%2fpost%2f%25E6%259C%2589%25E5%2585%25B3%25E6%2595%258F%25E6%258D%25B7%25EF%25BC%2588Agile%25EF%25BC%2589%25E8%25BD%25AF%25E4%25BB%25B6%25E5%25BC%2580%25E5%258F%2591%2f - %e6%9c%89%e5%85%b3%e6%95%8f%e6%8d%b7%ef%bc%88Agile%ef%bc%89%e8%bd%af%e4%bb%b6%e5%bc%80%e5%8f%91 "><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(

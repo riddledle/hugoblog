@@ -222,6 +222,90 @@
     </item>
     
     <item>
+      <title>有关敏捷（Agile）软件开发</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</link>
+      <pubDate>Mon, 07 Nov 2016 00:22:09 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</guid>
+      <description>
+
+&lt;p&gt;使用Taiga的过程让我熟悉了Agile开发的许多内容，同时Taiga上有许多Public的项目，Team一般不大，因为Taiga免费版是可以创建1个Private项目，无限个Public项目的，同时限制Team在4人以内，想要拥有更多Private项目就要付费，不过，尽管是相对小规模的项目，但是还是可以看到世界各地许多国家的人（主要是欧美和拉美）的项目管理进程。&lt;/p&gt;
+
+&lt;h2 id=&#34;相关twitter&#34;&gt;相关Twitter：&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%887.49.38.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%889.01.57.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;更多名词&#34;&gt;更多名词&lt;/h2&gt;
+
+&lt;p&gt;很多名词&lt;a href=&#34;https://tree.taiga.io/support/&#34;&gt;官方Support&lt;/a&gt;提供了很细致到位的说明，这里只翻译下：&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Product Owner：&lt;/strong&gt;在Agile开发团队里有个职位叫做Product Owner（产品负责人，或产品拥有者），它的很多职能和Product Manager（产品经理）是相通的，如产品研发、产品愿景定义、设计思考等，不同的是，所处的环境是Agile开发，那么产品负责人更多的担当起了掌舵手的角色，需要管理用户故事和敏捷需求、管理需求优先级，发布敏捷计划、跟踪产品开发进展、管理敏捷项目合同等；&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;User Story：&lt;/strong&gt;用户故事是从用户的角度来描述用户渴望得到的功能，即是将用户需求描述为敏捷需求的桥梁，关于如何写好用户故事，可以搜索到很多规范和要点，需要注意的是描述时不要使用技术性语言，而是通俗的描述性语言；&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Backlog：&lt;/strong&gt;一个仓库（Backlog）优先收集了一些未来需要使用的用户故事和任务。产品库（Product Backlog）与整个产品需要完成的任务息息相关，包括那些与目前产品蓝图相符的，以及那些目前不符但是未来会需要的。&lt;/p&gt;
+
+&lt;p&gt;也就是说，仓库会被提前规划和评估，那么团队就可以从仓库中最顶部的用户故事着手开发。&lt;/p&gt;
+
+&lt;p&gt;堆里最顶部的用户故事，会被放进下一次的迭代里并被开发。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sprint：&lt;/strong&gt;一次冲刺（Sprint）是“迭代”的增量式说法。一次迭代是团队打造产品的下一次提升的过程。&lt;/p&gt;
+
+&lt;p&gt;为了保证团队在集中处理一些用户故事时它们不会变动，我们创建了一个独立的区域叫做冲刺（Sprint），团队需要在规定时间内开发和发布这部分的用户故事。当冲刺区的用户故事都被完成后，这次冲刺就算结束，可以开始下一次迭代。&lt;/p&gt;
+
+&lt;p&gt;一个普通的工作流程是，创建一个新的冲刺，然后把用户故事里最顶部的部分拖进来，直到保证这部分用户故事在团队发挥最大工作效力的情况下，能够按时完成。当团队内部达成对这次冲刺安排的一致认同时，就可以开始冲刺了。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Epics：&lt;/strong&gt;如果你用敏捷开发的模式工作，那你一定听说过Epics，其实Epics没有正式的定义，不过Taiga团队还是调查出了一个比较靠谱的概念。&lt;/p&gt;
+
+&lt;p&gt;提问：Epic和User Story之间的区别是什么？&lt;/p&gt;
+
+&lt;p&gt;回答：准确的说，Epic是比用户故事更大的对象并且能包含许多用户故事。规划你的仓库时，你会在下面的情况注意到Epic：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;用户故事太复杂，描述模糊；&lt;/li&gt;
+&lt;li&gt;用户故事太庞大，无法在理想时间内实现；&lt;/li&gt;
+&lt;li&gt;对于策略性规划来说Epic很有用；&lt;/li&gt;
+&lt;li&gt;一个Epic通常定义比较模糊，而且可以包含许多组成部份；&lt;/li&gt;
+&lt;li&gt;一个Epic是很好的为团队服务的信息容器，胜过对单独对象确立的用户故事。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;我的个人理解：Epic就是把大家不理解的，但一两句话又说不清的蓝图性决策记录下来。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sketch工具</title>
+      <link>https://riddledle.github.io/hugoblog/post/sketch%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Mon, 07 Nov 2016 00:21:43 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/sketch%E5%B7%A5%E5%85%B7/</guid>
+      <description>&lt;p&gt;我接触&lt;a href=&#34;https://www.sketchapp.com/&#34;&gt;Sketch&lt;/a&gt;制作的设计稿时，确实感到非常优美。&lt;/p&gt;
+
+&lt;p&gt;我自己制作原型时，首先使用Axure，有关Axure的使用感受择篇再论，Axure拖出来的原型比较朴素，做交互很快，考虑到设计因素，我换了Sketch来制作一个网页原型，没有交互。&lt;/p&gt;
+
+&lt;p&gt;有关Sketch和Axure的讨论可以看&lt;a href=&#34;https://www.zhihu.com/question/26712715&#34;&gt;知乎&lt;/a&gt;上的热门问题，浏览下来的感受是大部分PM还是愿意选择Sketch来制作自己的原型的，这个愿意是基于Sketch强大的能力和优美的设计，只是利用Sketch的阶段或场景不尽相同，有人的建议是，先用Axure等专业原型制作工具拖出简易的原型，再放入Sketch中加工；或者，先用Sketch制作顺眼优美的静态图，再贴到Axure上去。&lt;/p&gt;
+
+&lt;p&gt;从制作原型时的愉悦感受和顺手程度上来说，我个人感受确实是Sketch的更好，甚至我有点爱上了那些优美的界面。具体来说一些优点：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;无限画布，灵活优雅；&lt;/li&gt;
+&lt;li&gt;参考线和测量精准，能设计到位；&lt;/li&gt;
+&lt;li&gt;快速锁定或解除宽高比，添加或取消阴影，自动复制配色等UX细节；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;我个人认为对一款工具的喜好与否并不涉及到职业规范等严肃问题，但是在知乎的热门问题里，显然大家对产品是否有必要如此在意设计有分歧，仅从自身的经历来说，我不觉得关心设计的产品经理会显得“不专业”（就如同有许多本身就兼任设计的产品经理存在），关心产品的设计感和外观，从细节设计里感受产品的气质和传递的价值观，这不失为考量产品的一个部分，如果能够充分用心感受到这些，那在认知用户心理、捕捉市场气息方面应该也不会做的不好。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%886.08.24.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hugo文档再读</title>
       <link>https://riddledle.github.io/hugoblog/post/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/</link>
       <pubDate>Thu, 03 Nov 2016 16:06:12 +0800</pubDate>
@@ -301,7 +385,7 @@
 
 &lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%883.09.25.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%883.08.51.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%888.58.19.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -495,11 +579,11 @@
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;ID Token：用户获取用户的访问权限&lt;/p&gt;
-
-&lt;p&gt;access Token：用户获取第三方身份认证提供商用户的访问权限&lt;/p&gt;
-
-&lt;p&gt;custom Token：用于获取已有账户体系中用户的访问权限&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ID Token：用户获取用户的访问权限&lt;/li&gt;
+&lt;li&gt;access Token：用户获取第三方身份认证提供商用户的访问权限&lt;/li&gt;
+&lt;li&gt;custom Token：用于获取已有账户体系中用户的访问权限&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 
 &lt;h2 id=&#34;用户管理&#34;&gt;用户管理&lt;/h2&gt;
@@ -742,44 +826,6 @@
     </item>
     
     <item>
-      <title>Lily桌面版v0.1</title>
-      <link>https://riddledle.github.io/hugoblog/post/Lily%E6%A1%8C%E9%9D%A2%E7%89%88v0.1/</link>
-      <pubDate>Thu, 20 Oct 2016 01:00:05 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/Lily%E6%A1%8C%E9%9D%A2%E7%89%88v0.1/</guid>
-      <description>
-
-&lt;h3 id=&#34;工具&#34;&gt;工具：&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Azure 7.0&lt;/li&gt;
-&lt;li&gt;Element components&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;原则&#34;&gt;原则：&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;风格清新&lt;/li&gt;
-&lt;li&gt;界面简洁&lt;/li&gt;
-&lt;li&gt;快速shuffle&lt;/li&gt;
-&lt;li&gt;突出评论&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;参考&#34;&gt;参考：&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Element官网配色&lt;/li&gt;
-&lt;li&gt;豆瓣FM&lt;/li&gt;
-&lt;li&gt;网易云音乐桌面版播放器&lt;/li&gt;
-&lt;li&gt;网易云音乐私人FM&lt;/li&gt;
-&lt;li&gt;Genuis.com &amp;gt; Comments&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-19%20%E4%B8%8B%E5%8D%8810.54.09.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>四点小建议</title>
       <link>https://riddledle.github.io/hugoblog/post/%E5%9B%9B%E7%82%B9%E5%B0%8F%E5%BB%BA%E8%AE%AE/</link>
       <pubDate>Sun, 16 Oct 2016 01:16:26 +0800</pubDate>
@@ -816,128 +862,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;“宅男还是喜欢林志玲的”&lt;/p&gt;
 &lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Lily功能梳理初稿</title>
-      <link>https://riddledle.github.io/hugoblog/post/Lily%E5%8A%9F%E8%83%BD%E6%A2%B3%E7%90%86%E5%88%9D%E7%A8%BF/</link>
-      <pubDate>Tue, 11 Oct 2016 23:51:37 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/Lily%E5%8A%9F%E8%83%BD%E6%A2%B3%E7%90%86%E5%88%9D%E7%A8%BF/</guid>
-      <description>
-
-&lt;h1 id=&#34;基本功能板块&#34;&gt;基本功能板块&lt;/h1&gt;
-
-&lt;h2 id=&#34;logo&#34;&gt;LOGO&lt;/h2&gt;
-
-&lt;p&gt;内容为“LILY”的logo，设计简洁，点击后展开导航菜单。&lt;/p&gt;
-
-&lt;h2 id=&#34;导航菜单&#34;&gt;导航菜单&lt;/h2&gt;
-
-&lt;p&gt;默认隐藏，歌曲播放时半透明显示，点击logo后滑出，包含四个模块：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;FM&lt;/li&gt;
-&lt;li&gt;推荐&lt;/li&gt;
-&lt;li&gt;所有歌曲&lt;/li&gt;
-&lt;li&gt;上传歌曲&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;动态变化的背景&#34;&gt;动态变化的背景&lt;/h2&gt;
-
-&lt;p&gt;参照桌面版网易云音乐／QQ音乐的歌曲播放主界面的背景处理方式，即对专辑图片的放大，虚化和渲染，并且参考&lt;a href=&#34;http://nipponcolors.com/#sakuranezumi&#34;&gt;NIPPON COLORS&lt;/a&gt;的变化效果，实现lily在歌曲切换或者在歌曲播放时，背景色调／图片的变换。&lt;/p&gt;
-
-&lt;h2 id=&#34;登录-注册-游客&#34;&gt;登录/注册/游客&lt;/h2&gt;
-
-&lt;p&gt;为登录的用户身份为游客，游客可以：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;发表弹幕&lt;/li&gt;
-&lt;li&gt;发表评论&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;已注册未完成邮箱验证的用户，可以上传图片；&lt;/p&gt;
-
-&lt;p&gt;完成邮箱验证的用户，可以上传歌曲。&lt;/p&gt;
-
-&lt;h2 id=&#34;播放列表&#34;&gt;播放列表&lt;/h2&gt;
-
-&lt;p&gt;游客和已登录用户都可以在点击播放一首歌曲后，立即创建当前播放列表并添加当前歌曲；&lt;/p&gt;
-
-&lt;p&gt;游客的列表在关闭页面后清空，已登录用户的列表将被保存。&lt;/p&gt;
-
-&lt;h2 id=&#34;评论区&#34;&gt;评论区&lt;/h2&gt;
-
-&lt;p&gt;评论板块包含：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;发表评论&lt;/li&gt;
-&lt;li&gt;图片评论&lt;/li&gt;
-&lt;li&gt;显示评论总数&lt;/li&gt;
-&lt;li&gt;精彩评论&lt;/li&gt;
-&lt;li&gt;最新评论&lt;/li&gt;
-&lt;li&gt;对评论点赞&lt;/li&gt;
-&lt;li&gt;回复某条评论&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;主体区域&#34;&gt;主体区域&lt;/h1&gt;
-
-&lt;p&gt;无论是在何种播放模式下，页面的主体部分都被等分成三个区域，分别是：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;播放器区 &lt;!--FM播放模式和正常播放模式，不必设计两套播放器，采用一致的播放器即可--&gt;
-
-&lt;ul&gt;
-&lt;li&gt;显示歌曲名，歌手名，专辑名，时长；&lt;/li&gt;
-&lt;li&gt;切换下一首&lt;/li&gt;
-&lt;li&gt;收藏按钮－－添加至播放列表&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;歌词区
-
-&lt;ul&gt;
-&lt;li&gt;点击可切换歌词是否滚动&lt;/li&gt;
-&lt;li&gt;不滚动－－对应评注区&lt;/li&gt;
-&lt;li&gt;滚动－－对应弹幕区&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;评注/弹幕区
-
-&lt;ul&gt;
-&lt;li&gt;参考genuis.com的评注方式&lt;/li&gt;
-&lt;li&gt;参考QQ音乐的弹幕形式&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;不同功能模块下的补充说明&#34;&gt;不同功能模块下的补充说明&lt;/h1&gt;
-
-&lt;h2 id=&#34;fm&#34;&gt;FM&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;播放器组件
-
-&lt;ul&gt;
-&lt;li&gt;垃圾箱功能，被放入垃圾箱的歌曲将从用户当前收听的频道的歌曲列表中移除&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;推荐&#34;&gt;推荐&lt;/h2&gt;
-
-&lt;p&gt;推荐的分类和歌曲内容由后台控制&lt;/p&gt;
-
-&lt;h2 id=&#34;所有歌曲&#34;&gt;所有歌曲&lt;/h2&gt;
-
-&lt;p&gt;采用LQIP – Low Quality Image Placeholders技术 （虽然是2013年的了）&lt;/p&gt;
-
-&lt;h2 id=&#34;上传歌曲&#34;&gt;上传歌曲&lt;/h2&gt;
-
-&lt;p&gt;仿照之前实现的湿湿娘的视频搬运功能，已登录的用户可以上传歌曲，上传时必需的相关信息是：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;歌曲名&lt;/li&gt;
-&lt;li&gt;歌手名&lt;/li&gt;
-&lt;li&gt;专辑名&lt;/li&gt;
-&lt;li&gt;歌曲文件&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
