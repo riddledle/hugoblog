@@ -7,7 +7,7 @@
 		<meta name="author" content="Riddle">
 		<meta name="description" content="riddle&#39;s notes">
 		<meta name="generator" content="Hugo 0.16" />
-		<title>手机应用的混合开发模式技术调研 &middot; Riddle&#39;s</title>
+		<title>混合开发技术相关 &middot; Riddle&#39;s</title>
 		<link rel="shortcut icon" href="https://riddledle.github.io/hugoblog/images/favicon.ico">
 		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/style.css">
 		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/highlight.css">
@@ -41,7 +41,7 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>手机应用的混合开发模式技术调研</h1>
+                    <h1>混合开发技术相关</h1>
                     <h2 class="headline">
                     November 1, 2016 
                     <br>
@@ -51,17 +51,9 @@
                 <section id="post-body">
                     
 
-<h2 id="序言">序言</h2>
-
 <blockquote>
 <p>Hybrid App（混合模式移动应用）是指介于Web App、Native App这两者之间的app，兼具“Native App良好用户交互体验的优势”和“Web App跨平台开发的优势”。</p>
 </blockquote>
-
-<p>此篇报告书将结合Hybrid App的特点和具体项目需求进行阐述。</p>
-
-<p>大体的技术方案是，DeviceOne项目提供底层的Native Api，基本上所有的用户逻辑放在Vue上做。</p>
-
-<h2 id="技术现状">技术现状</h2>
 
 <h3 id="优势">优势</h3>
 
@@ -84,32 +76,6 @@
 <li>目前混合开发的技术还不是很成熟，因此学习成本较高，在开发时供学习调研的资料也比较少。</li>
 </ul>
 
-<h2 id="功能分析">功能分析</h2>
-
-<h3 id="缩进式评论">缩进式评论</h3>
-
-<p>缩进式评论风格如果使用Native来做是困难的，但是放到web端来做将是非常简单的，如利用web前端工具Vue，它是非常灵活的。</p>
-
-<h3 id="多语言版本">多语言版本</h3>
-
-<p>多语言版本的控制在Native端也是难以实现的，但是在web端有成熟的解决方案，如<a href="https://github.com/jinzhe/vue-i18n">i18n</a>，Vue已有很成熟的做法。</p>
-
-<h2 id="需求分析">需求分析</h2>
-
-<ul>
-<li>对于一款UGC类的社交新闻产品来说，用户产生的内容是主体，且用户拥有对社区的掌控权，这一特性决定了该产品的许多功能逻辑都可以放在web端来实现；</li>
-<li>web前端技术的介入可以帮助产品的布局和设计更加贴近社区类网站的效果，突出UGC内容；</li>
-<li>混合开发模式带来的高效率和低成本的优势，保证了产品能够快速上线和试错，同时在多平台运行，接触广泛的用户群；</li>
-</ul>
-
-<h2 id="成本预算">成本预算</h2>
-
-<ul>
-<li>对于小型创业团队来说，采用混合开发是节省开发成本的一大利器，仅编写一次核心代码即可快速发布；</li>
-<li>人力资源方面，需要web前端开发人员的介入，不需要分别的iOS／Android开发人员；</li>
-<li>开发周期短，测试快，时间成本低。</li>
-</ul>
-
 <h2 id="总结">总结</h2>
 
 <p>应用混合开发模式，可以实现高效率，低成本的开发，实现快速试错和抢占市场的目标，充分利用web端的灵活性可以解决开发中具体问题，同时带去最接近Native的体验。</p>
@@ -125,7 +91,7 @@
                         </div>
                     
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2friddledle.github.io%2fhugoblog%2fpost%2f%25E6%2589%258B%25E6%259C%25BA%25E5%25BA%2594%25E7%2594%25A8%25E7%259A%2584%25E6%25B7%25B7%25E5%2590%2588%25E5%25BC%2580%25E5%258F%2591%25E6%25A8%25A1%25E5%25BC%258F%25E6%258A%2580%25E6%259C%25AF%25E6%2596%25B9%25E6%25A1%2588%25E4%25B9%25A6%2f - %e6%89%8b%e6%9c%ba%e5%ba%94%e7%94%a8%e7%9a%84%e6%b7%b7%e5%90%88%e5%bc%80%e5%8f%91%e6%a8%a1%e5%bc%8f%e6%8a%80%e6%9c%af%e8%b0%83%e7%a0%94 "><span class="icon-twitter"> Tweet</span></a>
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2friddledle.github.io%2fhugoblog%2fpost%2f%25E6%2589%258B%25E6%259C%25BA%25E5%25BA%2594%25E7%2594%25A8%25E7%259A%2584%25E6%25B7%25B7%25E5%2590%2588%25E5%25BC%2580%25E5%258F%2591%25E6%25A8%25A1%25E5%25BC%258F%25E6%258A%2580%25E6%259C%25AF%25E6%2596%25B9%25E6%25A1%2588%25E4%25B9%25A6%2f - %e6%b7%b7%e5%90%88%e5%bc%80%e5%8f%91%e6%8a%80%e6%9c%af%e7%9b%b8%e5%85%b3 "><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
@@ -195,14 +161,14 @@
     
         
         <li>
-            <a href="https://riddledle.github.io/hugoblog/post/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E7%9A%84%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%E4%B9%A6/">手机应用的混合开发模式技术调研<aside class="dates">Nov 1</aside></a>
+            <a href="https://riddledle.github.io/hugoblog/post/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E7%9A%84%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%E4%B9%A6/">混合开发技术相关<aside class="dates">Nov 1</aside></a>
         </li>
         
    
     
         
         <li>
-            <a href="https://riddledle.github.io/hugoblog/post/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/">订单支付系统大致流程<aside class="dates">Nov 1</aside></a>
+            <a href="https://riddledle.github.io/hugoblog/post/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/">订单支付系统<aside class="dates">Nov 1</aside></a>
         </li>
         
    

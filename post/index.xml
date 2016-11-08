@@ -300,8 +300,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;我个人认为对一款工具的喜好与否并不涉及到职业规范等严肃问题，但是在知乎的热门问题里，显然大家对产品是否有必要如此在意设计有分歧，仅从自身的经历来说，我不觉得关心设计的产品经理会显得“不专业”（就如同有许多本身就兼任设计的产品经理存在），关心产品的设计感和外观，从细节设计里感受产品的气质和传递的价值观，这不失为考量产品的一个部分，如果能够充分用心感受到这些，那在认知用户心理、捕捉市场气息方面应该也不会做的不好。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%886.08.24.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -444,24 +442,16 @@
     </item>
     
     <item>
-      <title>手机应用的混合开发模式技术调研</title>
+      <title>混合开发技术相关</title>
       <link>https://riddledle.github.io/hugoblog/post/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E7%9A%84%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%E4%B9%A6/</link>
       <pubDate>Tue, 01 Nov 2016 15:12:18 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E7%9A%84%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%E4%B9%A6/</guid>
       <description>
 
-&lt;h2 id=&#34;序言&#34;&gt;序言&lt;/h2&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;Hybrid App（混合模式移动应用）是指介于Web App、Native App这两者之间的app，兼具“Native App良好用户交互体验的优势”和“Web App跨平台开发的优势”。&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;此篇报告书将结合Hybrid App的特点和具体项目需求进行阐述。&lt;/p&gt;
-
-&lt;p&gt;大体的技术方案是，DeviceOne项目提供底层的Native Api，基本上所有的用户逻辑放在Vue上做。&lt;/p&gt;
-
-&lt;h2 id=&#34;技术现状&#34;&gt;技术现状&lt;/h2&gt;
 
 &lt;h3 id=&#34;优势&#34;&gt;优势&lt;/h3&gt;
 
@@ -484,32 +474,6 @@
 &lt;li&gt;目前混合开发的技术还不是很成熟，因此学习成本较高，在开发时供学习调研的资料也比较少。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;功能分析&#34;&gt;功能分析&lt;/h2&gt;
-
-&lt;h3 id=&#34;缩进式评论&#34;&gt;缩进式评论&lt;/h3&gt;
-
-&lt;p&gt;缩进式评论风格如果使用Native来做是困难的，但是放到web端来做将是非常简单的，如利用web前端工具Vue，它是非常灵活的。&lt;/p&gt;
-
-&lt;h3 id=&#34;多语言版本&#34;&gt;多语言版本&lt;/h3&gt;
-
-&lt;p&gt;多语言版本的控制在Native端也是难以实现的，但是在web端有成熟的解决方案，如&lt;a href=&#34;https://github.com/jinzhe/vue-i18n&#34;&gt;i18n&lt;/a&gt;，Vue已有很成熟的做法。&lt;/p&gt;
-
-&lt;h2 id=&#34;需求分析&#34;&gt;需求分析&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;对于一款UGC类的社交新闻产品来说，用户产生的内容是主体，且用户拥有对社区的掌控权，这一特性决定了该产品的许多功能逻辑都可以放在web端来实现；&lt;/li&gt;
-&lt;li&gt;web前端技术的介入可以帮助产品的布局和设计更加贴近社区类网站的效果，突出UGC内容；&lt;/li&gt;
-&lt;li&gt;混合开发模式带来的高效率和低成本的优势，保证了产品能够快速上线和试错，同时在多平台运行，接触广泛的用户群；&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;成本预算&#34;&gt;成本预算&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;对于小型创业团队来说，采用混合开发是节省开发成本的一大利器，仅编写一次核心代码即可快速发布；&lt;/li&gt;
-&lt;li&gt;人力资源方面，需要web前端开发人员的介入，不需要分别的iOS／Android开发人员；&lt;/li&gt;
-&lt;li&gt;开发周期短，测试快，时间成本低。&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
 
 &lt;p&gt;应用混合开发模式，可以实现高效率，低成本的开发，实现快速试错和抢占市场的目标，充分利用web端的灵活性可以解决开发中具体问题，同时带去最接近Native的体验。&lt;/p&gt;
@@ -517,7 +481,7 @@
     </item>
     
     <item>
-      <title>订单支付系统大致流程</title>
+      <title>订单支付系统</title>
       <link>https://riddledle.github.io/hugoblog/post/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Tue, 01 Nov 2016 15:06:28 +0800</pubDate>
       
@@ -527,10 +491,6 @@
 &lt;p&gt;程序员们阅读完产品经理给出的产品需求说明书之后，凭借程序员一贯的思维方式往往难以形成清晰且可执行的逻辑，订单中心的基本逻辑用语言表述是曲折的，这时一套流程图可以帮助大家的理解。&lt;/p&gt;
 
 &lt;p&gt;特别的，开发订单支付系统时，在&lt;strong&gt;限制用户操作&lt;/strong&gt;和&lt;strong&gt;调控订单处理进度&lt;/strong&gt;两个层面，特别需要对订单逻辑有清晰的规划，如若不然，将导致一些重复劳动和目标不明确等问题，导致开发效率下降。&lt;/p&gt;
-
-&lt;p&gt;以下是针对某O2O外送平台的订单中心给出的基本流程图：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%9F%BA%E6%9C%AC%E6%B5%81%E7%A8%8B%E5%9B%BE.png&#34; alt=&#34;仅供参考&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -720,14 +680,14 @@
     </item>
     
     <item>
-      <title>躲不开的兼容性问题</title>
+      <title>兼容性问题</title>
       <link>https://riddledle.github.io/hugoblog/post/%E8%BA%B2%E4%B8%8D%E5%BC%80%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7%E9%97%AE%E9%A2%98/</link>
       <pubDate>Wed, 26 Oct 2016 18:21:13 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E8%BA%B2%E4%B8%8D%E5%BC%80%E7%9A%84%E5%85%BC%E5%AE%B9%E6%80%A7%E9%97%AE%E9%A2%98/</guid>
       <description>
 
-&lt;p&gt;最近接触了一些兼容性相关的问题。不能够兼容各种环境和设备的产品或许不能够被称为好的产品吧，所以说是躲不开的兼容性问题。&lt;/p&gt;
+&lt;p&gt;最近接触了一些兼容性相关的问题。不能够兼容各种环境和设备的产品或许不能够被称为好的产品吧，这是躲不开的。&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://baike.baidu.com/view/80015.htm&#34;&gt;兼容性&lt;/a&gt;（compatibility）是指硬件之间、软件之间或是软硬件组合系统之间的相互协调工作的程度。&lt;/p&gt;
@@ -764,14 +724,12 @@
     </item>
     
     <item>
-      <title>整个开发流程的大致梳理</title>
+      <title>开发流程相关总结</title>
       <link>https://riddledle.github.io/hugoblog/post/%E4%BA%A7%E5%93%81%E4%B8%8A%E7%BA%BF%E4%B9%8B%E5%89%8D/</link>
       <pubDate>Thu, 20 Oct 2016 01:21:38 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E4%BA%A7%E5%93%81%E4%B8%8A%E7%BA%BF%E4%B9%8B%E5%89%8D/</guid>
-      <description>&lt;p&gt;最近一段时间外卖手机APP的项目进入了开发的收尾阶段，进行了问题的集中，调试，测试。&lt;/p&gt;
-
-&lt;p&gt;团队协作的项目非常追求效率，但并不是要牺牲质量。&lt;/p&gt;
+      <description>&lt;p&gt;团队协作的项目非常追求效率，但并不是要牺牲质量。&lt;/p&gt;
 
 &lt;p&gt;仅是在一个小型外包工作室中，我学到的即是：一个商业项目的客户对项目完成的速度和质量要求是很严格的，作为执行者的我们并不是要牺牲哪一方去成就另一方，而是在开发的整个流程的每个阶段，都谨慎地为这两者效力，从代码角度来看，在开发流程的：&lt;/p&gt;
 
@@ -826,12 +784,14 @@
     </item>
     
     <item>
-      <title>四点小建议</title>
+      <title>创业创新创投峰会拾遗</title>
       <link>https://riddledle.github.io/hugoblog/post/%E5%9B%9B%E7%82%B9%E5%B0%8F%E5%BB%BA%E8%AE%AE/</link>
       <pubDate>Sun, 16 Oct 2016 01:16:26 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/%E5%9B%9B%E7%82%B9%E5%B0%8F%E5%BB%BA%E8%AE%AE/</guid>
-      <description>&lt;ul&gt;
+      <description>&lt;p&gt;如赵海舟对产品经理的四点小建议：&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;功能互相关联，不要造孤岛&lt;/li&gt;
 &lt;/ul&gt;
 
