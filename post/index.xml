@@ -137,8 +137,6 @@
       <guid>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</guid>
       <description>
 
-&lt;p&gt;宇宙走向热寂。&lt;/p&gt;
-
 &lt;h2 id=&#34;历程&#34;&gt;历程&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -185,39 +183,37 @@
 
 &lt;h2 id=&#34;其他链接&#34;&gt;其他链接&lt;/h2&gt;
 
-&lt;h4 id=&#34;社交账户&#34;&gt;社交账户&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/github%20%282%29.png&#34; alt=&#34;&#34; /&gt; GitHub&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/google.png&#34; alt=&#34;&#34; /&gt; Google+&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/twitter.png&#34; alt=&#34;&#34; /&gt; Twitter&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/facebook.png&#34; alt=&#34;&#34; /&gt; Facebook&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/linkedin.png&#34; alt=&#34;&#34; /&gt; Linkedin&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/zhihu.png&#34; alt=&#34;&#34; /&gt; 知乎&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/icon.png&#34; alt=&#34;&#34; /&gt; Coding&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/iconfontv2ex.png&#34; alt=&#34;&#34; /&gt; V2ex&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/reddit.png&#34; alt=&#34;&#34; /&gt; Reddit&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/dribblepure.png&#34; alt=&#34;&#34; /&gt; Dribble&lt;/p&gt;
-
 &lt;h4 id=&#34;我的作品&#34;&gt;我的作品&lt;/h4&gt;
 
-&lt;p&gt;歌词收藏&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://riddledle.github.io/&#34;&gt;歌词收藏&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;音乐FM&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mikuscallion.github.io/LilyProject&#34;&gt;音乐FM&lt;/a&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;友情链接&#34;&gt;友情链接&lt;/h4&gt;
 
-&lt;p&gt;shi-shi&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://shi-shi.net/&#34;&gt;shi-shi&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;LIFE&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mikuscallion.github.io/life/#!/app/list&#34;&gt;Life&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何撰写文档才好</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E6%89%8D%E5%A5%BD/</link>
+      <pubDate>Sat, 12 Nov 2016 22:08:47 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E6%89%8D%E5%A5%BD/</guid>
+      <description>&lt;p&gt;撰写文档的时候，心里是希望别人懂的，但是除非刻意钻研奇巧淫技，不然必然存在和别人之间的理解方式和思维习惯上的鸿沟，此时又不会次次都改，陷入了“故意不让别人懂”的嫌疑里。&lt;/p&gt;
+
+&lt;p&gt;撰写PRD文档的时候，心想着，既然要解牛，自然想要越顺自己手越好，但是又警醒着这是一份呈给别人的作品，于是就怎么看怎么解都不像是正确的了。&lt;/p&gt;
+
+&lt;p&gt;为了尽量洗脱“故意不让别人懂”的嫌疑，但是又避免自己陷入“一直在做错事”的泥沼里，只有不停“试错”，如果原来的方式不对，那么换一种“正确”的方式，如果这正确的方式也不能带来正果，那指不定该换另一种“错误”的方式呢。&lt;/p&gt;
+
+&lt;p&gt;只是，如何制作封面，目录，表格；如何选择字体，项目符号，插入分页符；如何编写页面说明，交互说明，流程图等，确实有章可循。&lt;/p&gt;
+
+&lt;p&gt;例如，说明功能点时可以按照：1.这个功能点是干嘛的；2.这个功能点的交互流程是怎么样的；3.每个交互节点的界面需要哪些信息字段，这些字段有哪些规范，这样的形式来。&lt;/p&gt;
+
+&lt;p&gt;规范化的不一定好，不确定形态的也不一定好，顺手的危险系数更大，还是顺手又能完整包含信息的最好，just saying it。&lt;/p&gt;
 </description>
     </item>
     
@@ -779,48 +775,6 @@
 
 &lt;blockquote&gt;
 &lt;p&gt;比如在对整个APP的体验过程中，发现了动画显示不流畅，获取验证码按钮过小，等待页面显示时缺少加载动画等问题，这些问题只有在体验产品时才会被重视和提出，但往往这些问题对一款产品是否合格规范甚至完美是至关重要的。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>创业创新创投峰会拾遗</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E5%9B%9B%E7%82%B9%E5%B0%8F%E5%BB%BA%E8%AE%AE/</link>
-      <pubDate>Sun, 16 Oct 2016 01:16:26 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/%E5%9B%9B%E7%82%B9%E5%B0%8F%E5%BB%BA%E8%AE%AE/</guid>
-      <description>&lt;p&gt;如赵海舟对产品经理的四点小建议：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;功能互相关联，不要造孤岛&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;酷狗的“听唱看玩”的集成&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;产品去引领用户，而不是单纯依赖调研&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;研究用户心理，被动变主动&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;注重用户体验，回归产品&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;没啥说&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;关注底层大众（屌丝宅男），但产品保持高大上&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;“宅男还是喜欢林志玲的”&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
