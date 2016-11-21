@@ -1,0 +1,273 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Riddle">
+		<meta name="description" content="riddle&#39;s notes">
+		<meta name="generator" content="Hugo 0.16" />
+		<title>用户中心（Auth）梳理 &middot; Riddle&#39;s</title>
+		<link rel="shortcut icon" href="https://riddledle.github.io/hugoblog/images/favicon.ico">
+		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/style.css">
+		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/monosocialiconsfont.css">
+		
+
+		
+		<link href="https://riddledle.github.io/hugoblog/index.xml" rel="alternate" type="application/rss+xml" title="Riddle&#39;s" />
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://riddledle.github.io/hugoblog/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+		<a href='https://riddledle.github.io/hugoblog/about'>About</a>
+	
+
+	
+	<a class="cta" href="https://riddledle.github.io/hugoblog/index.xml">Subscribe</a>
+	
+</nav>
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>用户中心（Auth）梳理</h1>
+                    <h2 class="headline">
+                    November 1, 2016 
+                    <br>
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    
+
+<p>用户中心（Authority）相较其它板块来说，逻辑较为简单，但是优先级和使用频率是很高的。</p>
+
+<p>以下参考<a href="https://www.wilddog.com/">野狗</a>（wilddog）官方文档中的身份认证部分，对用户中心的逻辑简单梳理。</p>
+
+<h2 id="组成元素">组成元素</h2>
+
+<ul>
+<li><p>ID：用来标识用户的身份；</p></li>
+
+<li><p>用户属性：包括用户的ID，主邮箱地址，名称，照片地址；</p></li>
+</ul>
+
+<blockquote>
+<p>用户属性属于用户信息的一部分，连同用户的登陆信息共同组成<strong>用户信息</strong>部分</p>
+</blockquote>
+
+<ul>
+<li><p>Provider（提供者）：Provider 是身份认证提供方，即电子邮箱地址与密码，或是手机号码，或是第三方平台（微信，微博，QQ）账号等；</p></li>
+
+<li><p>当前用户：进行注册或登陆操作后的用户，成为当前用户；</p></li>
+
+<li><p>用户生命周期：指用户从注册或登陆到退出登陆这之间的变化过程，包含三种状态：</p></li>
+</ul>
+
+<blockquote>
+<ul>
+<li>用户注册或登陆成功</li>
+<li>Token刷新</li>
+<li>退出登陆</li>
+</ul>
+</blockquote>
+
+<ul>
+<li>身份认证令牌（Token）：用于获取访问用户的权限，包含三种类型：</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>ID Token：用户获取用户的访问权限</li>
+<li>access Token：用户获取第三方身份认证提供商用户的访问权限</li>
+<li>custom Token：用于获取已有账户体系中用户的访问权限</li>
+</ul>
+</blockquote>
+
+<h2 id="用户管理">用户管理</h2>
+
+<ul>
+<li><p>创建用户</p></li>
+
+<li><p>获取用户信息，包括获取：</p></li>
+</ul>
+
+<blockquote>
+<ul>
+<li><p>当前用户</p></li>
+
+<li><p>用户属性</p></li>
+
+<li><p>Provider的用户属性</p></li>
+</ul>
+</blockquote>
+
+<ul>
+<li>更新用户信息，包括更新：</li>
+</ul>
+
+<blockquote>
+<ul>
+<li>用户属性</li>
+<li>邮箱地址</li>
+<li>登陆密码</li>
+</ul>
+</blockquote>
+
+<ul>
+<li><p>删除用户</p></li>
+
+<li><p>重新进行身份认证</p></li>
+</ul>
+
+<h2 id="认证方式">认证方式</h2>
+
+<p>认证方式有很多种，根据产品特性和实际情况进行取舍。</p>
+
+<ul>
+<li><p>邮箱认证</p></li>
+
+<li><p>手机认证</p></li>
+
+<li><p>第三方应用帐号认证</p></li>
+
+<li><p>自定义身份认证</p></li>
+
+<li><p>匿名认证</p></li>
+</ul>
+
+<p>​</p>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                
+                        <img class="avatar" src="https://riddledle.github.io/hugoblog/images/avatar.png">
+                        <div>
+                            <span class="dark">Riddle</span>
+                            <span></span>
+                        </div>
+                    
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2friddledle.github.io%2fhugoblog%2fpost%2fpm%2f%25E7%2594%25A8%25E6%2588%25B7%25E4%25B8%25AD%25E5%25BF%2583%25EF%25BC%2588Auth%25EF%25BC%2589%25E6%25A2%25B3%25E7%2590%2586%2f - %e7%94%a8%e6%88%b7%e4%b8%ad%e5%bf%83%ef%bc%88Auth%ef%bc%89%e6%a2%b3%e7%90%86 "><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/Riddle%27s/">Riddle&#39;s<aside class="dates">Dec 31</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/translation/Material-Design/">Material Design<aside class="dates">Nov 21</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/%E9%82%AE%E7%AE%B1Tip/">邮箱Tip<aside class="dates">Nov 18</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/translation/10-Differences-between-Customer-Reporting-and-Data-Products/">10 Differences between Customer Reporting and Data Products<aside class="dates">Nov 15</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E5%92%8C%E4%BC%A0%E9%80%92%E6%84%9F%E5%8F%97/">撰写文档和传递感受<aside class="dates">Nov 12</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/translation/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/">有关敏捷（Agile）软件开发<aside class="dates">Nov 7</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/sketch%E5%B7%A5%E5%85%B7/">Sketch工具<aside class="dates">Nov 7</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/">Hugo文档再读<aside class="dates">Nov 3</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/">Taiga－敏捷软件开发管理工具<aside class="dates">Nov 3</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/%E6%9B%B4%E6%8D%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/">更换搜索引擎<aside class="dates">Nov 1</aside></a>
+        </li>
+        
+   
+</ul>
+            <footer id="footer">
+    
+    <p class="small">
+    
+        © Copyright 2016 Riddle
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://riddledle.github.io/hugoblog/js/main.js"></script>
+<script src="https://riddledle.github.io/hugoblog/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

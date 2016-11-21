@@ -1,0 +1,225 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Riddle">
+		<meta name="description" content="riddle&#39;s notes">
+		<meta name="generator" content="Hugo 0.16" />
+		<title>开发流程相关总结 &middot; Riddle&#39;s</title>
+		<link rel="shortcut icon" href="https://riddledle.github.io/hugoblog/images/favicon.ico">
+		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/style.css">
+		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/monosocialiconsfont.css">
+		
+
+		
+		<link href="https://riddledle.github.io/hugoblog/index.xml" rel="alternate" type="application/rss+xml" title="Riddle&#39;s" />
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://riddledle.github.io/hugoblog/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+		<a href='https://riddledle.github.io/hugoblog/about'>About</a>
+	
+
+	
+	<a class="cta" href="https://riddledle.github.io/hugoblog/index.xml">Subscribe</a>
+	
+</nav>
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>开发流程相关总结</h1>
+                    <h2 class="headline">
+                    October 20, 2016 
+                    <br>
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    <p>团队协作的项目非常追求效率，但并不是要牺牲质量。</p>
+
+<p>仅是在一个小型外包工作室中，我学到的即是：一个商业项目的客户对项目完成的速度和质量要求是很严格的，作为执行者的我们并不是要牺牲哪一方去成就另一方，而是在开发的整个流程的每个阶段，都谨慎地为这两者效力，从代码角度来看，在开发流程的：</p>
+
+<p><strong>开发前期：</strong></p>
+
+<ul>
+<li><p>科学的系统架构能够为项目在以后的开发过程中省下大笔沟通和维护成本；</p></li>
+
+<li><p>目录的构建应该要遵循规范（层级结构，类别），不应该偷懒或者图省事简化目录结构，因为这样可能会使以后的维护成本大大提高；</p></li>
+
+<li><p>开发时的代码／调试测试的代码／正式发布的代码，应该划分明确，这样什么时候需要什么版本的代码就比较清晰了。</p></li>
+</ul>
+
+<p><strong>正式开发：</strong></p>
+
+<ul>
+<li><p>本地测试的代码不要提交版本库，提交的代码应该是正式的，测试完毕的；</p></li>
+
+<li><p>提交代码时的commit尽量详细准确，便于追踪代码更新的历史和进行版本管理；</p></li>
+
+<li><p>良好的代码习惯（完整的注释，接口的封装，正确的命名方式）；</p></li>
+
+<li><p><strong>开发产品的某一特定功能时，遇到涉及性能或者架构的问题时应该（让产品经理）和其他开发人员沟通，找到最好最快的方式；</strong></p></li>
+</ul>
+
+<blockquote>
+<p>比如在这个项目中，在完成“收藏商家”这一功能时，需求是“点击收藏商家按钮，按钮变为实心状，用户在进入已收藏商家主页时，收藏按钮应作相应变化”，前端在开发这个任务时，需要检查当前用户的收藏列表里是否有当前商家，而后端返回的接口里是没有这一数据的，那么前端就需要去检查一遍用户的收藏商家列表，这样网络访问就需要两遍，前端是需要尽量减少网络请求次数的，后端则是要尽量减少数据接口的，那么当时这个问题就被抛出了，最终的解决方案落实为该功能的重构，也就是后端的调整。</p>
+</blockquote>
+
+<p><strong>调试测试：</strong></p>
+
+<p>前期的工作做得比较到位，开发时严谨高效的话，调试测试阶段耗费的精力将相对较少，但是我认为这一阶段是所有开发流程中最为重要的。在调试测试的过程中，不仅需要对以往工作的回顾总结，也需要对产品在功能性，体验性等方面的提升空间的摸索。调试测试时，重点对以下几个方面进行检查：</p>
+
+<ul>
+<li><p>BUG检查：或许要消灭所有bug是不可能的，甚至用来进行开发的工具自身都带有bug也不一定，但是需要知道的是这些bug是什么，在哪里，严重程度，可修复性；</p></li>
+
+<li><p>性能优化：性能的优化是在功能全部实现的前提下进行的，仅仅实现是不够的，在网络连接速度，数据获取速度等方面需要尽量优化，比如上面提到的“收藏商家”的例子；</p></li>
+</ul>
+
+<blockquote>
+<p>优化性能时，除了考虑当前，还要考虑到以后的改动或者迭代，比如说，在优化一个“轮播点联动显示”的功能时，本身所有的轮播点是固定定位在轮播头底部某一位置的，但是轮播点的数量应该是对应轮播图片数量的，那么如果轮播图增加了，轮播点是否也应该相信增加并且做到完美的布局，所以这个任务完成之后，轮播点实现了自动靠右排列。</p>
+</blockquote>
+
+<ul>
+<li><strong>用户体验：在测试的过程中，以用户的身份去使用和体验产品，逻辑是否通顺，交互是否良好，细节是否完善，感受是怎样的，这些问题可以被自然地发现，从而得到修改优化。</strong></li>
+</ul>
+
+<blockquote>
+<p>比如在对整个APP的体验过程中，发现了动画显示不流畅，获取验证码按钮过小，等待页面显示时缺少加载动画等问题，这些问题只有在体验产品时才会被重视和提出，但往往这些问题对一款产品是否合格规范甚至完美是至关重要的。</p>
+</blockquote>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                
+                        <img class="avatar" src="https://riddledle.github.io/hugoblog/images/avatar.png">
+                        <div>
+                            <span class="dark">Riddle</span>
+                            <span></span>
+                        </div>
+                    
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2friddledle.github.io%2fhugoblog%2fpost%2fpm%2f%25E5%25BC%2580%25E5%258F%2591%25E6%25B5%2581%25E7%25A8%258B%25E7%259B%25B8%25E5%2585%25B3%25E6%2580%25BB%25E7%25BB%2593%2f - %e5%bc%80%e5%8f%91%e6%b5%81%e7%a8%8b%e7%9b%b8%e5%85%b3%e6%80%bb%e7%bb%93 "><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/Riddle%27s/">Riddle&#39;s<aside class="dates">Dec 31</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/translation/Material-Design/">Material Design<aside class="dates">Nov 21</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/%E9%82%AE%E7%AE%B1Tip/">邮箱Tip<aside class="dates">Nov 18</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/translation/10-Differences-between-Customer-Reporting-and-Data-Products/">10 Differences between Customer Reporting and Data Products<aside class="dates">Nov 15</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E5%92%8C%E4%BC%A0%E9%80%92%E6%84%9F%E5%8F%97/">撰写文档和传递感受<aside class="dates">Nov 12</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/translation/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/">有关敏捷（Agile）软件开发<aside class="dates">Nov 7</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/sketch%E5%B7%A5%E5%85%B7/">Sketch工具<aside class="dates">Nov 7</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/">Hugo文档再读<aside class="dates">Nov 3</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/">Taiga－敏捷软件开发管理工具<aside class="dates">Nov 3</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/%E6%9B%B4%E6%8D%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/">更换搜索引擎<aside class="dates">Nov 1</aside></a>
+        </li>
+        
+   
+</ul>
+            <footer id="footer">
+    
+    <p class="small">
+    
+        © Copyright 2016 Riddle
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://riddledle.github.io/hugoblog/js/main.js"></script>
+<script src="https://riddledle.github.io/hugoblog/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>

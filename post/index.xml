@@ -11,10 +11,10 @@
     
     <item>
       <title>Riddle&#39;s</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://riddledle.github.io/hugoblog/post/Riddle%27s/</link>
       <pubDate>Sat, 31 Dec 2016 12:58:40 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/Riddle%27s/</guid>
       <description>
 
 &lt;h2 id=&#34;历程&#34;&gt;历程&lt;/h2&gt;
@@ -193,10 +193,10 @@
     
     <item>
       <title>Material Design</title>
-      <link>https://riddledle.github.io/hugoblog/post/Material-Design/</link>
+      <link>https://riddledle.github.io/hugoblog/post/translation/Material-Design/</link>
       <pubDate>Mon, 21 Nov 2016 17:00:47 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/Material-Design/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/translation/Material-Design/</guid>
       <description>
 
 &lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
@@ -232,15 +232,21 @@
 &lt;p&gt;所有的动作在一个整体的环境中发生。不同的对象在被呈现给用户的时候，即使是变形或者重组，也不会打破感受的连续性。&lt;/p&gt;
 
 &lt;p&gt;动作效果是有意义并且有效的，它们为集中注意力和维持连续性服务。反馈应当细致又简练。过渡应当高效又连贯。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://material.google.com/#&#34;&gt;原文&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;翻译整理。&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>邮箱Tip</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E9%82%AE%E7%AE%B1Tip/</link>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E9%82%AE%E7%AE%B1Tip/</link>
       <pubDate>Fri, 18 Nov 2016 17:12:21 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E9%82%AE%E7%AE%B1Tip/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E9%82%AE%E7%AE%B1Tip/</guid>
       <description>&lt;p&gt;关于“用企鹅邮箱／带数字的邮箱，会不会显得漏，让简历直接被刷掉”这样问题的讨论，不同职业岗位的人各执经验意见，如果考虑得多，可以从知识层次，学历背景，思维方式，生活品质等各种层面来举证用企鹅邮箱或者带数字邮箱的人是否真的普遍漏，考虑得少，也可以单纯认为用企鹅邮箱的人就是怀旧而已，甚至是不屑为自己增添额外的记忆量。&lt;/p&gt;
 
 &lt;p&gt;大部分时候使用企鹅邮箱时，也不会因带有火星文的昵称而羞耻，这是一段可以凝结并被呈现的历史，有一代人的青春（或者童年）的记忆在里面，如果是耻于它的过时性，许多东西在发生的一刻就过时了，而且比起眼下许多形态更加夸张，观念更加脱俗的热点和网络文化来说，那点点火星文不算什么。&lt;/p&gt;
@@ -267,10 +273,10 @@
     
     <item>
       <title>10 Differences between Customer Reporting and Data Products</title>
-      <link>https://riddledle.github.io/hugoblog/post/10-Differences-between-Customer-Reporting-and-Data-Products/</link>
+      <link>https://riddledle.github.io/hugoblog/post/translation/10-Differences-between-Customer-Reporting-and-Data-Products/</link>
       <pubDate>Tue, 15 Nov 2016 12:50:10 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/10-Differences-between-Customer-Reporting-and-Data-Products/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/translation/10-Differences-between-Customer-Reporting-and-Data-Products/</guid>
       <description>&lt;p&gt;关于创新公司是如何增强面向顾客的数据产品的解决方案，我们谈论了很多。例如，GoToMeeting发布了一项名为“Insights”的新功能，将发送会议的统计数据给你。下面是Juice最近一次Lunch&amp;amp;Learn的信息（图略）。&lt;/p&gt;
 
 &lt;p&gt;DJ Patil(U.S 数据科学主席)将数据产品定义为“通过对数据的使用促进最终成果诞生的产品”。我将数据产品描述为“彻底了解分析结果从而为顾客带去价值”。但是有个常提的问题：数据产品和我们已有的顾客报告之间有何差别？&lt;/p&gt;
@@ -297,31 +303,21 @@
     </item>
     
     <item>
-      <title>如何撰写文档才好</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E6%89%8D%E5%A5%BD/</link>
+      <title>撰写文档和传递感受</title>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E5%92%8C%E4%BC%A0%E9%80%92%E6%84%9F%E5%8F%97/</link>
       <pubDate>Sat, 12 Nov 2016 22:08:47 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E5%A6%82%E4%BD%95%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E6%89%8D%E5%A5%BD/</guid>
-      <description>&lt;p&gt;撰写文档的时候，心里是希望别人懂的，但是除非刻意钻研奇巧淫技，不然必然存在和别人之间的理解方式和思维习惯上的鸿沟，此时又不会次次都改，陷入了“故意不让别人懂”的嫌疑里。&lt;/p&gt;
-
-&lt;p&gt;撰写PRD文档的时候，心想着，既然要解牛，自然想要越顺自己手越好，但是又警醒着这是一份呈给别人的作品，于是就怎么看怎么解都不像是正确的了。&lt;/p&gt;
-
-&lt;p&gt;为了尽量洗脱“故意不让别人懂”的嫌疑，但是又避免自己陷入“一直在做错事”的泥沼里，只有不停“试错”，如果原来的方式不对，那么换一种“正确”的方式，如果这正确的方式也不能带来正果，那指不定该换另一种“错误”的方式呢。&lt;/p&gt;
-
-&lt;p&gt;只是，如何制作封面，目录，表格；如何选择字体，项目符号，插入分页符；如何编写页面说明，交互说明，流程图等，确实有章可循。&lt;/p&gt;
-
-&lt;p&gt;例如，说明功能点时可以按照：1.这个功能点是干嘛的；2.这个功能点的交互流程是怎么样的；3.每个交互节点的界面需要哪些信息字段，这些字段有哪些规范，这样的形式来。&lt;/p&gt;
-
-&lt;p&gt;规范化的不一定好，不确定形态的也不一定好，顺手的危险系数更大，还是顺手又能完整包含信息的最好，just saying it。&lt;/p&gt;
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E5%92%8C%E4%BC%A0%E9%80%92%E6%84%9F%E5%8F%97/</guid>
+      <description>&lt;p&gt;除非钻研奇巧淫技，不然必然存在和别人之间的理解方式和思维习惯上的鸿沟，如果不克制不矫正，就陷入了“故意不让别人懂”的嫌疑里。此时为了尽量洗脱“故意不让别人懂”的嫌疑，同时又避免自己陷入“一直在做错事”的泥沼里，只有不停“试错”，如果原来的方式不对，那么换一种“正确”的方式，如果这正确的方式也不能带来正果，那指不定该换另一种“错误”的方式呢。&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>有关敏捷（Agile）软件开发</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</link>
+      <link>https://riddledle.github.io/hugoblog/post/translation/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</link>
       <pubDate>Mon, 07 Nov 2016 00:22:09 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/translation/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</guid>
       <description>
 
 &lt;p&gt;使用Taiga的过程让我熟悉了Agile开发的许多内容，同时Taiga上有许多Public的项目，Team一般不大，因为Taiga免费版是可以创建1个Private项目，无限个Public项目的，同时限制Team在4人以内，想要拥有更多Private项目就要付费，不过，尽管是相对小规模的项目，但是还是可以看到世界各地许多国家的人（主要是欧美和拉美）的项目管理进程。&lt;/p&gt;
@@ -374,10 +370,10 @@
     
     <item>
       <title>Sketch工具</title>
-      <link>https://riddledle.github.io/hugoblog/post/sketch%E5%B7%A5%E5%85%B7/</link>
+      <link>https://riddledle.github.io/hugoblog/post/pm/sketch%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Mon, 07 Nov 2016 00:21:43 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/sketch%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/sketch%E5%B7%A5%E5%85%B7/</guid>
       <description>&lt;p&gt;我接触&lt;a href=&#34;https://www.sketchapp.com/&#34;&gt;Sketch&lt;/a&gt;制作的设计稿时，确实感到非常优美。&lt;/p&gt;
 
 &lt;p&gt;我自己制作原型时，首先使用Axure，有关Axure的使用感受择篇再论，Axure拖出来的原型比较朴素，做交互很快，考虑到设计因素，我换了Sketch来制作一个网页原型，没有交互。&lt;/p&gt;
@@ -400,10 +396,10 @@
     
     <item>
       <title>Hugo文档再读</title>
-      <link>https://riddledle.github.io/hugoblog/post/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/</link>
+      <link>https://riddledle.github.io/hugoblog/post/pm/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/</link>
       <pubDate>Thu, 03 Nov 2016 16:06:12 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/</guid>
       <description>
 
 &lt;p&gt;我曾对搭建Hugo博客的过程进行了简述，前一阵团队讨论时，提起了Go语言，&lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;作为一个用Go语言写成的引擎，确实有许多光彩值得呈现，尤其是它极快的构建速度，于是重读文档，主要是首页的Brief Description和文档的Introduction部分，也练习翻译。&lt;/p&gt;
@@ -464,10 +460,10 @@
     
     <item>
       <title>Taiga－敏捷软件开发管理工具</title>
-      <link>https://riddledle.github.io/hugoblog/post/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
+      <link>https://riddledle.github.io/hugoblog/post/pm/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Thu, 03 Nov 2016 15:08:41 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://taiga.io/&#34;&gt;Taiga&lt;/a&gt;是一款敏捷软件开发和设计的项目管理工具。&lt;/p&gt;
@@ -501,11 +497,11 @@
     </item>
     
     <item>
-      <title>国内搜索引擎概况</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%B0%83%E7%A0%94/</link>
+      <title>更换搜索引擎</title>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E6%9B%B4%E6%8D%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</link>
       <pubDate>Tue, 01 Nov 2016 15:35:26 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E5%9B%BD%E5%86%85%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E8%B0%83%E7%A0%94/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E6%9B%B4%E6%8D%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</guid>
       <description>&lt;p&gt;我个人使用百度进行搜索的体验越来越差，&lt;strong&gt;整合性低，广告多，搜索范围窄&lt;/strong&gt;，因此我考虑更换常用的搜索引擎。&lt;/p&gt;
 
 &lt;p&gt;利用百度，360，搜狗，必应搜索“riddle”：&lt;/p&gt;
@@ -538,10 +534,10 @@
     
     <item>
       <title>混合开发技术相关</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E7%9A%84%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%E4%B9%A6/</link>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/</link>
       <pubDate>Tue, 01 Nov 2016 15:12:18 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E6%89%8B%E6%9C%BA%E5%BA%94%E7%94%A8%E7%9A%84%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%A8%A1%E5%BC%8F%E6%8A%80%E6%9C%AF%E6%96%B9%E6%A1%88%E4%B9%A6/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -577,10 +573,10 @@
     
     <item>
       <title>订单支付系统</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</link>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Tue, 01 Nov 2016 15:06:28 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</guid>
       <description>&lt;p&gt;O2O电商产品往往都具有订单中心和支付系统，流畅严谨的逻辑和符合用户习惯的交互将会给用户带去舒适的体验，在开发的过程中依据产品需求实现相应板块的衔接也是值得注意的环节。&lt;/p&gt;
 
 &lt;p&gt;程序员们阅读完产品经理给出的产品需求说明书之后，凭借程序员一贯的思维方式往往难以形成清晰且可执行的逻辑，订单中心的基本逻辑用语言表述是曲折的，这时一套流程图可以帮助大家的理解。&lt;/p&gt;
@@ -591,10 +587,10 @@
     
     <item>
       <title>用户中心（Auth）梳理</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%EF%BC%88Auth%EF%BC%89%E6%A2%B3%E7%90%86/</link>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%EF%BC%88Auth%EF%BC%89%E6%A2%B3%E7%90%86/</link>
       <pubDate>Tue, 01 Nov 2016 15:06:07 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%EF%BC%88Auth%EF%BC%89%E6%A2%B3%E7%90%86/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%EF%BC%88Auth%EF%BC%89%E6%A2%B3%E7%90%86/</guid>
       <description>
 
 &lt;p&gt;用户中心（Authority）相较其它板块来说，逻辑较为简单，但是优先级和使用频率是很高的。&lt;/p&gt;
@@ -699,10 +695,10 @@
     
     <item>
       <title>团队协作需要文档</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E9%9C%80%E8%A6%81%E6%96%87%E6%A1%A3/</link>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E9%9C%80%E8%A6%81%E6%96%87%E6%A1%A3/</link>
       <pubDate>Thu, 27 Oct 2016 19:45:02 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E9%9C%80%E8%A6%81%E6%96%87%E6%A1%A3/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E9%9C%80%E8%A6%81%E6%96%87%E6%A1%A3/</guid>
       <description>&lt;p&gt;一项任务有多人参与的时候，由最初负责的人撰写一篇文档以指导其他人进行相关开发工作是有必要的，特别是在小型团队中个人往往会根据实际情况参与不同的任务，这时为了团队协作可以说人人都有撰写文档的义务，涉及远程协助时更是如此。&lt;/p&gt;
 
 &lt;p&gt;文档可以有效的减少沟通成本，明确开发细节，提高任务的连贯性。&lt;/p&gt;
@@ -717,10 +713,10 @@
     
     <item>
       <title>Reddit调研</title>
-      <link>https://riddledle.github.io/hugoblog/post/reddit%E8%B0%83%E7%A0%94/</link>
+      <link>https://riddledle.github.io/hugoblog/post/pm/reddit%E8%B0%83%E7%A0%94/</link>
       <pubDate>Wed, 26 Oct 2016 18:22:03 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/reddit%E8%B0%83%E7%A0%94/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/reddit%E8%B0%83%E7%A0%94/</guid>
       <description>
 
 &lt;h2 id=&#34;reddit-https-www-reddit-com&#34;&gt;&lt;a href=&#34;https://www.reddit.com/&#34;&gt;reddit&lt;/a&gt;&lt;/h2&gt;

@@ -1,0 +1,221 @@
+    <!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Riddle">
+		<meta name="description" content="riddle&#39;s notes">
+		<meta name="generator" content="Hugo 0.16" />
+		<title>有关敏捷（Agile）软件开发 &middot; Riddle&#39;s</title>
+		<link rel="shortcut icon" href="https://riddledle.github.io/hugoblog/images/favicon.ico">
+		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/style.css">
+		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/highlight.css">
+		
+
+		
+		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/monosocialiconsfont.css">
+		
+
+		
+		<link href="https://riddledle.github.io/hugoblog/index.xml" rel="alternate" type="application/rss+xml" title="Riddle&#39;s" />
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='https://riddledle.github.io/hugoblog/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+		<a href='https://riddledle.github.io/hugoblog/about'>About</a>
+	
+
+	
+	<a class="cta" href="https://riddledle.github.io/hugoblog/index.xml">Subscribe</a>
+	
+</nav>
+
+        <section id="wrapper">
+            <article class="post">
+                <header>
+                    <h1>有关敏捷（Agile）软件开发</h1>
+                    <h2 class="headline">
+                    November 7, 2016 
+                    <br>
+                    
+                    </h2>
+                </header>
+                <section id="post-body">
+                    
+
+<p>使用Taiga的过程让我熟悉了Agile开发的许多内容，同时Taiga上有许多Public的项目，Team一般不大，因为Taiga免费版是可以创建1个Private项目，无限个Public项目的，同时限制Team在4人以内，想要拥有更多Private项目就要付费，不过，尽管是相对小规模的项目，但是还是可以看到世界各地许多国家的人（主要是欧美和拉美）的项目管理进程。</p>
+
+<h2 id="相关twitter">相关Twitter：</h2>
+
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%887.49.38.png" alt="" /></p>
+
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%889.01.57.png" alt="" /></p>
+
+<h2 id="更多名词">更多名词</h2>
+
+<p>很多名词<a href="https://tree.taiga.io/support/">官方Support</a>提供了很细致到位的说明，这里只翻译下：</p>
+
+<p><strong>Product Owner：</strong>在Agile开发团队里有个职位叫做Product Owner（产品负责人，或产品拥有者），它的很多职能和Product Manager（产品经理）是相通的，如产品研发、产品愿景定义、设计思考等，不同的是，所处的环境是Agile开发，那么产品负责人更多的担当起了掌舵手的角色，需要管理用户故事和敏捷需求、管理需求优先级，发布敏捷计划、跟踪产品开发进展、管理敏捷项目合同等；</p>
+
+<p><strong>User Story：</strong>用户故事是从用户的角度来描述用户渴望得到的功能，即是将用户需求描述为敏捷需求的桥梁，关于如何写好用户故事，可以搜索到很多规范和要点，需要注意的是描述时不要使用技术性语言，而是通俗的描述性语言；</p>
+
+<p><strong>Backlog：</strong>一个仓库（Backlog）优先收集了一些未来需要使用的用户故事和任务。产品库（Product Backlog）与整个产品需要完成的任务息息相关，包括那些与目前产品蓝图相符的，以及那些目前不符但是未来会需要的。</p>
+
+<p>也就是说，仓库会被提前规划和评估，那么团队就可以从仓库中最顶部的用户故事着手开发。</p>
+
+<p>堆里最顶部的用户故事，会被放进下一次的迭代里并被开发。</p>
+
+<p><strong>Sprint：</strong>一次冲刺（Sprint）是“迭代”的增量式说法。一次迭代是团队打造产品的下一次提升的过程。</p>
+
+<p>为了保证团队在集中处理一些用户故事时它们不会变动，我们创建了一个独立的区域叫做冲刺（Sprint），团队需要在规定时间内开发和发布这部分的用户故事。当冲刺区的用户故事都被完成后，这次冲刺就算结束，可以开始下一次迭代。</p>
+
+<p>一个普通的工作流程是，创建一个新的冲刺，然后把用户故事里最顶部的部分拖进来，直到保证这部分用户故事在团队发挥最大工作效力的情况下，能够按时完成。当团队内部达成对这次冲刺安排的一致认同时，就可以开始冲刺了。</p>
+
+<p><strong>Epics：</strong>如果你用敏捷开发的模式工作，那你一定听说过Epics，其实Epics没有正式的定义，不过Taiga团队还是调查出了一个比较靠谱的概念。</p>
+
+<p>提问：Epic和User Story之间的区别是什么？</p>
+
+<p>回答：准确的说，Epic是比用户故事更大的对象并且能包含许多用户故事。规划你的仓库时，你会在下面的情况注意到Epic：</p>
+
+<ul>
+<li>用户故事太复杂，描述模糊；</li>
+<li>用户故事太庞大，无法在理想时间内实现；</li>
+<li>对于策略性规划来说Epic很有用；</li>
+<li>一个Epic通常定义比较模糊，而且可以包含许多组成部份；</li>
+<li>一个Epic是很好的为团队服务的信息容器，胜过对单独对象确立的用户故事。</li>
+</ul>
+
+<blockquote>
+<p>我的个人理解：Epic就是把大家不理解的，但一两句话又说不清的蓝图性决策记录下来。</p>
+</blockquote>
+
+                </section>
+            </article>
+            <footer id="post-meta" class="clearfix">
+                
+                        <img class="avatar" src="https://riddledle.github.io/hugoblog/images/avatar.png">
+                        <div>
+                            <span class="dark">Riddle</span>
+                            <span></span>
+                        </div>
+                    
+                <section id="sharing">
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2friddledle.github.io%2fhugoblog%2fpost%2ftranslation%2f%25E6%259C%2589%25E5%2585%25B3%25E6%2595%258F%25E6%258D%25B7%25EF%25BC%2588Agile%25EF%25BC%2589%25E8%25BD%25AF%25E4%25BB%25B6%25E5%25BC%2580%25E5%258F%2591%2f - %e6%9c%89%e5%85%b3%e6%95%8f%e6%8d%b7%ef%bc%88Agile%ef%bc%89%e8%bd%af%e4%bb%b6%e5%bc%80%e5%8f%91 "><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+                </section>
+            </footer>
+
+            
+
+            <ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+    
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/Riddle%27s/">Riddle&#39;s<aside class="dates">Dec 31</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/translation/Material-Design/">Material Design<aside class="dates">Nov 21</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/%E9%82%AE%E7%AE%B1Tip/">邮箱Tip<aside class="dates">Nov 18</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/translation/10-Differences-between-Customer-Reporting-and-Data-Products/">10 Differences between Customer Reporting and Data Products<aside class="dates">Nov 15</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E5%92%8C%E4%BC%A0%E9%80%92%E6%84%9F%E5%8F%97/">撰写文档和传递感受<aside class="dates">Nov 12</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/translation/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/">有关敏捷（Agile）软件开发<aside class="dates">Nov 7</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/sketch%E5%B7%A5%E5%85%B7/">Sketch工具<aside class="dates">Nov 7</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/">Hugo文档再读<aside class="dates">Nov 3</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/">Taiga－敏捷软件开发管理工具<aside class="dates">Nov 3</aside></a>
+        </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/%E6%9B%B4%E6%8D%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/">更换搜索引擎<aside class="dates">Nov 1</aside></a>
+        </li>
+        
+   
+</ul>
+            <footer id="footer">
+    
+    <p class="small">
+    
+        © Copyright 2016 Riddle
+    
+    </p>
+</footer>
+
+        </section>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://riddledle.github.io/hugoblog/js/main.js"></script>
+<script src="https://riddledle.github.io/hugoblog/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+    </body>
+</html>
