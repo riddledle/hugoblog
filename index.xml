@@ -6,18 +6,76 @@
     <description>Recent content on Riddle&#39;s</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Dec 2016 23:51:32 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 31 Dec 2016 12:58:40 +0800</lastBuildDate>
     <atom:link href="https://riddledle.github.io/hugoblog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>书单</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E4%B9%A6%E5%8D%95/</link>
-      <pubDate>Sat, 31 Dec 2016 23:51:32 +0800</pubDate>
+      <title>Riddle&#39;s</title>
+      <link>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 31 Dec 2016 12:58:40 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E4%B9%A6%E5%8D%95/</guid>
-      <description>&lt;p&gt;把所有刷过的书记录下来，附上简短的书评。&lt;/p&gt;
+      <guid>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</guid>
+      <description>
 
-&lt;hr /&gt;
+&lt;h2 id=&#34;历程&#34;&gt;历程&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;tech+lyrics&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;起初建立了自己的&lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;hexo&lt;/a&gt;博客；&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;tech＋lyrics＋notes&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;加入一些随笔，添加分类和标签云；&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;tech&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;制作了一份类似&lt;a href=&#34;http://edyfox.codecarver.org/html/index.html&#34;&gt;滇狐&lt;/a&gt;的主页；&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;lyrics+notes&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;放在原先的hexo博客里；&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;lyrics&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;用一套类似wiki的模版&lt;a href=&#34;https://github.com/wzpan/hexo-theme-wixo&#34;&gt;wixo&lt;/a&gt;，将歌词存放起来；&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PM&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;风格简约，内容垂直；&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PM+&lt;/strong&gt;：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;会有许多东西。&lt;/p&gt;
+
+&lt;h2 id=&#34;其他链接&#34;&gt;其他链接&lt;/h2&gt;
+
+&lt;h4 id=&#34;我的作品&#34;&gt;我的作品&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://riddledle.github.io/&#34;&gt;歌词收藏&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mikuscallion.github.io/LilyProject&#34;&gt;音乐FM&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;友情链接&#34;&gt;友情链接&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://shi-shi.net/&#34;&gt;shi-shi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://mikuscallion.github.io/life/#!/app/list&#34;&gt;Life&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;书单&#34;&gt;书单&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;《MacTalk跨越边界》&lt;/strong&gt;&lt;/li&gt;
@@ -134,70 +192,46 @@
     </item>
     
     <item>
-      <title>漫长细碎</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Sat, 31 Dec 2016 12:58:40 +0800</pubDate>
+      <title>Material Design</title>
+      <link>https://riddledle.github.io/hugoblog/post/Material-Design/</link>
+      <pubDate>Mon, 21 Nov 2016 17:00:47 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/Material-Design/</guid>
       <description>
 
-&lt;h2 id=&#34;历程&#34;&gt;历程&lt;/h2&gt;
+&lt;h2 id=&#34;介绍&#34;&gt;介绍&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;tech+lyrics&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;我们挑战自身，为我们的用户创造了一种将优秀设计的经典原则和科技的创新相结合的视觉语言。这就是质感设计（Material Design）。眼前这是一篇实时的文档，会随着我们不断发展质感设计的准则和细节而更新。&lt;/p&gt;
 
-&lt;p&gt;起初建立了自己的&lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;hexo&lt;/a&gt;博客；&lt;/p&gt;
+&lt;h2 id=&#34;目标&#34;&gt;目标&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;tech＋lyrics＋notes&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;创造一种将优秀设计的经典原则和科技的创新相结合的视觉语言。&lt;/p&gt;
 
-&lt;p&gt;加入一些随笔，添加分类和标签云；&lt;/p&gt;
+&lt;p&gt;发展一套在跨平台和跨设备时提供标准体验的底层系统。移动化准则是最基础的，但是点击，声音，鼠标和键盘等属于最高等级的输入方法。&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;tech&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;原则&#34;&gt;原则&lt;/h2&gt;
 
-&lt;p&gt;制作了一份类似&lt;a href=&#34;http://edyfox.codecarver.org/html/index.html&#34;&gt;滇狐&lt;/a&gt;的主页；&lt;/p&gt;
+&lt;h3 id=&#34;质感是一种隐喻&#34;&gt;质感是一种隐喻&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;lyrics+notes&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;质感的隐喻是对某种规范化的空间和一套运动系统的标准化理论。质感是基于人们现实中的触觉，是被纸和墨水的研究所激起的，同时融合高科技并充满想象力与魔力。&lt;/p&gt;
 
-&lt;p&gt;放在原先的hexo博客里；&lt;/p&gt;
+&lt;p&gt;物质的平面和边界基于现实而提供视觉暗示。对人们熟悉的触觉特性的运用能够帮助用户快速理解效果。同时，在不打破物理规律的前提下，物质的灵活性能够创造出超越物理世界的一些效果。&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;lyrics&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;光线，表面还有运动的基础是传达物体如何运动，交互以及在空间中存在和互相关联的关键。现实中的光线能够展示缝隙，割分空间以及表现运动的部分。&lt;/p&gt;
 
-&lt;p&gt;用一套类似wiki的模版&lt;a href=&#34;https://github.com/wzpan/hexo-theme-wixo&#34;&gt;wixo&lt;/a&gt;，将歌词存放起来；&lt;/p&gt;
+&lt;h3 id=&#34;直截的-图形化的-有意图的&#34;&gt;直截的，图形化的，有意图的&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;PM&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;印刷设计中的基础元素——排版，网格，留白，规格，颜色，以及图片——能够引导视觉感受。这些元素不仅仅是讨好眼球。它们缔造出层级，意义以及重点。有意图的用色，边与边紧靠的图片，大规模的排版，还有有意的留白，能够创造出一种大胆直接并且图像化的界面，使用户沉浸其中。&lt;/p&gt;
 
-&lt;p&gt;风格简约，内容垂直；&lt;/p&gt;
+&lt;p&gt;对用户行为的强调能够使核心功能立即凸显，并且为用户提供了参考点。&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;PM+&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h3 id=&#34;动作效果提供意义&#34;&gt;动作效果提供意义&lt;/h3&gt;
 
-&lt;p&gt;会有许多东西。&lt;/p&gt;
+&lt;p&gt;动作效果尊重并加强了动作的触发者——用户。原始的用户行为是触发初始运动的点，能够重新塑造整个设计效果。&lt;/p&gt;
 
-&lt;h2 id=&#34;其他链接&#34;&gt;其他链接&lt;/h2&gt;
+&lt;p&gt;所有的动作在一个整体的环境中发生。不同的对象在被呈现给用户的时候，即使是变形或者重组，也不会打破感受的连续性。&lt;/p&gt;
 
-&lt;h4 id=&#34;我的作品&#34;&gt;我的作品&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://riddledle.github.io/&#34;&gt;歌词收藏&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mikuscallion.github.io/LilyProject&#34;&gt;音乐FM&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;友情链接&#34;&gt;友情链接&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://shi-shi.net/&#34;&gt;shi-shi&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mikuscallion.github.io/life/#!/app/list&#34;&gt;Life&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;动作效果是有意义并且有效的，它们为集中注意力和维持连续性服务。反馈应当细致又简练。过渡应当高效又连贯。&lt;/p&gt;
 </description>
     </item>
     
@@ -259,22 +293,6 @@
 &lt;p&gt;&lt;a href=&#34;http://www.juiceanalytics.com/writing/10-differences-between-customer-reporting-and-data-products&#34;&gt;原文&lt;/a&gt;来自&lt;a href=&#34;http://www.juiceanalytics.com/writing/&#34;&gt;Juice Analytics&lt;/a&gt;，&lt;/p&gt;
 
 &lt;p&gt;翻译整理。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>网易云音乐的内容炼成</title>
-      <link>https://riddledle.github.io/hugoblog/post/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E7%9A%84%E5%86%85%E5%AE%B9%E7%82%BC%E6%88%90/</link>
-      <pubDate>Sat, 12 Nov 2016 23:09:49 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E7%9A%84%E5%86%85%E5%AE%B9%E7%82%BC%E6%88%90/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;私人FM&lt;/li&gt;
-&lt;li&gt;歌单&lt;/li&gt;
-&lt;li&gt;用户中心&lt;/li&gt;
-&lt;li&gt;歌词&lt;/li&gt;
-&lt;li&gt;评论&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -694,6 +712,65 @@
 &lt;blockquote&gt;
 &lt;p&gt;在解决浏览器兼容性问题时，一台机器需要临时部署相关的开发环境，但是因为没有事先预备好的文档，所以导致我为了协调两端的开发耗费了不少时间精力，而且与有参考文档的情况相比，进程更混乱缓慢了，由此可见文档的重要性。&lt;/p&gt;
 &lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reddit调研</title>
+      <link>https://riddledle.github.io/hugoblog/post/reddit%E8%B0%83%E7%A0%94/</link>
+      <pubDate>Wed, 26 Oct 2016 18:22:03 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/reddit%E8%B0%83%E7%A0%94/</guid>
+      <description>
+
+&lt;h2 id=&#34;reddit-https-www-reddit-com&#34;&gt;&lt;a href=&#34;https://www.reddit.com/&#34;&gt;reddit&lt;/a&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;the front page of the internet／“提前于新闻发生，来自互联网的声音”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-26%20%E4%B8%8B%E5%8D%888.58.30.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;reddit是UGC领域的翘楚，背后是优秀的算法支持，它拥有简易的UI,中英混杂的翻译，但最主要的是：用户拥有对社区的掌控权。&lt;/p&gt;
+
+&lt;p&gt;作为一个社交新闻社区，reddit是重社区轻社交的，而它将社区内容管理的“决定权”交给用户，造就了一批不离不弃黏度优良的用户，比如说&lt;strong&gt;一般用户&lt;/strong&gt;可以通过投票功能支持或反对某主题或回复，从而决定首页或者热评区的内容；&lt;strong&gt;版主&lt;/strong&gt;拥有相应板块权限和内容的管理权。&lt;/p&gt;
+
+&lt;p&gt;reddit上发布的内容注重图片和视频的分享，从而保证了趣味性；用户可以发表链接直接跳转到原地址，减少了分享成本，加速信息传播。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;编辑权和权益&#34;&gt;编辑权和权益&lt;/h2&gt;
+
+&lt;p&gt;在形式上和reddit相似的百度贴吧同样是一款UGC产品，但是在社区内容的编辑权上，百度贴吧的用户明显比reddit的用户“委屈”不少，除了呈现在首页的内容由不得用户决定，版主权利纷争，以及一些很影响阅读体验的广告之外，还存在类似“&lt;a href=&#34;http://finance.qq.com/a/20160112/061586.htm&#34;&gt;血友吧事件&lt;/a&gt;”这样的恶劣广告营销，导致百度贴吧的风评一度跌入谷底。&lt;/p&gt;
+
+&lt;p&gt;虽然高普及与低创收能力是reddit与百度贴吧的相似点，但还是应该用户权益先行，在内容的编辑权上做好用户和官方的均衡，不仅用户增强维权意识，而且监管官方的行为，或许这样才能在赢得好口碑和高人气的同时打造内容丰富有趣的社区。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;参考《&lt;a href=&#34;http://tech.163.com/16/0114/07/BD98E565000915BF.html&#34;&gt;易评：百度贴吧和Reddit究竟有什么不一样&lt;/a&gt;》&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;用户决定热度&#34;&gt;用户决定热度&lt;/h2&gt;
+
+&lt;p&gt;网易在内容打造上的能力确实有口皆碑，网易热是网易打造的一款类reddit的社会化内容分享平台，同样将内容排序和筛选的决定权交给了用户，通过积累“顶”“踩”数量来决定呈现在热门区和其他分类下的内容，弘扬跟帖文化。&lt;/p&gt;
+
+&lt;p&gt;用户决定热度的内容打造方式确实可以帮助用户更直接明确的彰显自己的态度，而且有态度的内容又可以引起关注者的跟帖和热议，同时最吸引用户注意的热门内容板块成为了普遍用户的共同态度的风向标。&lt;/p&gt;
+
+&lt;p&gt;网易云音乐的评论区拥有点赞和回复功能，获得点赞数较高的评论会显示在精彩评论区，这是支持用户对其他用户的回复给予正向的回应，当欣赏一首歌曲时，听者往往会浏览评论区，而精彩评论区的内容往往能够引导听者对歌曲的理解。&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;参考《&lt;a href=&#34;http://www.admin5.com/article/20150609/602942.shtml&#34;&gt;让用户决定头条是哪个，都想做中国版Reddit？&lt;/a&gt;》&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;延伸&#34;&gt;延伸&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lily的评论区和歌词注释区可以考虑采用这种“用户决定热度”的方式，但是根据内容的不同，考虑是否采用投票（即同时拥有支持和反对选项）的形式；&lt;/li&gt;
+&lt;li&gt;reddit的官方APP拥有全新配色和UI，阅读体验良好，当涉及UGC类APP的讨论时，可以将之作为参考。&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
