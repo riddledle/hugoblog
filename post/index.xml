@@ -188,6 +188,53 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;by Zach Gemignani,Chris Gemignani,Richard Galentino，Patrick Schuermann&lt;/code&gt;干货！译得也好。全书行文保证概念意义和重要性穿插&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《经理人教练指南》&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;by Brian Emerson,Anne Loehr&lt;/code&gt;对外最重要是学习，对内最重要是激发潜能&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>撰写竞品体验报告</title>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E7%AB%9E%E5%93%81%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/</link>
+      <pubDate>Mon, 28 Nov 2016 19:30:27 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E7%AB%9E%E5%93%81%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/</guid>
+      <description>&lt;p&gt;在竞品分析阶段，需要做的事情主要是确认竞品，搜集数据，整合信息，对比分析，制定策略等。得益于前人们不断摸索而积累下的经验，撰写相关文档时有对应的体系框架可循，适当学习和借鉴可以帮助自己的体验报告和分析文章涵盖尽量全面的点，并且有侧重的着墨。&lt;/p&gt;
+
+&lt;p&gt;例如，某款竞品的体验报告的结构可以大致分为：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E7%AB%9E%E5%93%81.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;其中：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;概况Part：体验竞品的时间，设备，当前版本号，是决定当前体验报告时效性和历史参考价值的因素；&lt;/li&gt;
+&lt;li&gt;市场状况Part：首先需要明确产品所属的市场，然后有针对性地利用网络搜集相关信息，从官方渠道，社会舆论，数据统计等途径获得市场的描述，在时间维度上跨越过去现在未来，对市场状况进行综述和简析；&lt;/li&gt;
+&lt;li&gt;需求分析Part：列出需求前确定目标用户，从目标用户的角度思考需求，提取出需求中最具代表性者；&lt;/li&gt;
+&lt;li&gt;战略层Part：描述竞品在市场上的主要竞争力，以及竞品公司制定的短期产品战略和未来景愿等；&lt;/li&gt;
+&lt;li&gt;范围层Part：列出竞品当前版本所覆盖的功能范围，主要涉猎了哪些区域，也可对竞品的历代更新中功能范围的改动进行罗列对比；&lt;/li&gt;
+&lt;li&gt;结构层Part：拆分竞品的主要结构，使产品的骨架结构展露无疑，轻重板块一目了然，虽然不需要如撰写PRD一般详尽，但是对大版块梳理完毕后，对其中重点版本的进一步展开梳理也是有必要的；&lt;/li&gt;
+&lt;li&gt;框架层Part：框架是包裹内容的容器，不同的框架下可以盛放相同的结构或者内容，框架的架构不同，产品的性能和气质等也不同，对框架的描述主要集中在产品最外部主要使用的交互模式等；&lt;/li&gt;
+&lt;li&gt;表现层Part：表现层是展现在用户眼前的东西，包含UI设计，UE设计，产品使用时的流畅程度等，即产品的颜值和外形；&lt;/li&gt;
+&lt;li&gt;数据概况Part：通过搜集官方数据，第三方数据以及自己统计计算，将数据进行集中展示，与产品联系起来加以利用以发挥数据的价值，客串数据分析师的角色；&lt;/li&gt;
+&lt;li&gt;建议策略Part：既然是提出建议，意味着要指出目前产品存在的缺陷，所以这里需要分清一下“批评”与“贬低”的区别，也就是说在提出改进意见的时候，应当是客观公正的而不是在降低产品本身价值的前提下为了改进而改进；从C端切入，可以提出一些产品细节和功能上的修改意见，从B端切入，则可以从企业方针和市场走向的角度给予战略性意见；&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;自己在撰写竞品体验报告时，对整个过程的每个阶段都很有印象，每个环节都是浓墨重彩的，概括描述起来：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;前期搜集：搜集信息的过程和平时普通的上网不同，如何整合搜集到的信息，筛选，分类，并且进行陈述，每个人有自己的方式，搜集信息的过程是熟悉竞品的过程，或许是漫长的，但是此后只需将脑海中的概念具像到文字即可；搜集信息的途径除了Internet还可以是调研用户口碑，追溯产品历史，自己亲自使用揣摩等；&lt;/li&gt;
+&lt;li&gt;中期雕琢：雕琢的意思有点类似搜集时候对信息的整理，但是到了中期，已经需要将自己获取的和思考诞生的策略方针和结论等落实到文字，表达陈述，所以雕琢的过程是围绕产品，不断把握所要分析的产品的气质并且努力挖掘自己脑海中最具价值信息的漫长风暴；&lt;/li&gt;
+&lt;li&gt;后期整合：整合的最大意义是节省阅读者的时间，也就是节省老板的时间，使其直接获取价值和制定策略，因此整合时需要把第一步和最后一步之间所有最具有价值的东西抽取出来，升华。整合对自身而言还有一个意义，回顾一下自己截至目前为止所做的所有工作，慢慢地容错和消化，最终完善和提升。&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -459,7 +506,7 @@
     </item>
     
     <item>
-      <title>Taiga－敏捷软件开发管理工具</title>
+      <title>Taiga——敏捷软件开发管理工具</title>
       <link>https://riddledle.github.io/hugoblog/post/pm/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Thu, 03 Nov 2016 15:08:41 +0800</pubDate>
       
@@ -572,14 +619,14 @@
     </item>
     
     <item>
-      <title>订单支付系统</title>
+      <title>善用流程图梳理较复杂的订单支付系统</title>
       <link>https://riddledle.github.io/hugoblog/post/pm/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</link>
       <pubDate>Tue, 01 Nov 2016 15:06:28 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/pm/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</guid>
       <description>&lt;p&gt;O2O电商产品往往都具有订单中心和支付系统，流畅严谨的逻辑和符合用户习惯的交互将会给用户带去舒适的体验，在开发的过程中依据产品需求实现相应板块的衔接也是值得注意的环节。&lt;/p&gt;
 
-&lt;p&gt;程序员们阅读完产品经理给出的产品需求说明书之后，凭借程序员一贯的思维方式往往难以形成清晰且可执行的逻辑，订单中心的基本逻辑用语言表述是曲折的，这时一套流程图可以帮助大家的理解。&lt;/p&gt;
+&lt;p&gt;程序员们阅读完产品经理给出的产品需求说明书之后，凭借程序员一贯的思维方式往往难以形成清晰且可执行的逻辑，订单中心的基本逻辑用语言表述是曲折的，这时一套&lt;strong&gt;流程图&lt;/strong&gt;可以帮助大家的理解。&lt;/p&gt;
 
 &lt;p&gt;特别的，开发订单支付系统时，在&lt;strong&gt;限制用户操作&lt;/strong&gt;和&lt;strong&gt;调控订单处理进度&lt;/strong&gt;两个层面，特别需要对订单逻辑有清晰的规划，如若不然，将导致一些重复劳动和目标不明确等问题，导致开发效率下降。&lt;/p&gt;
 </description>
@@ -708,65 +755,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;在解决浏览器兼容性问题时，一台机器需要临时部署相关的开发环境，但是因为没有事先预备好的文档，所以导致我为了协调两端的开发耗费了不少时间精力，而且与有参考文档的情况相比，进程更混乱缓慢了，由此可见文档的重要性。&lt;/p&gt;
 &lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Reddit调研</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/reddit%E8%B0%83%E7%A0%94/</link>
-      <pubDate>Wed, 26 Oct 2016 18:22:03 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/reddit%E8%B0%83%E7%A0%94/</guid>
-      <description>
-
-&lt;h2 id=&#34;reddit-https-www-reddit-com&#34;&gt;&lt;a href=&#34;https://www.reddit.com/&#34;&gt;reddit&lt;/a&gt;&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;the front page of the internet／“提前于新闻发生，来自互联网的声音”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-26%20%E4%B8%8B%E5%8D%888.58.30.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;reddit是UGC领域的翘楚，背后是优秀的算法支持，它拥有简易的UI,中英混杂的翻译，但最主要的是：用户拥有对社区的掌控权。&lt;/p&gt;
-
-&lt;p&gt;作为一个社交新闻社区，reddit是重社区轻社交的，而它将社区内容管理的“决定权”交给用户，造就了一批不离不弃黏度优良的用户，比如说&lt;strong&gt;一般用户&lt;/strong&gt;可以通过投票功能支持或反对某主题或回复，从而决定首页或者热评区的内容；&lt;strong&gt;版主&lt;/strong&gt;拥有相应板块权限和内容的管理权。&lt;/p&gt;
-
-&lt;p&gt;reddit上发布的内容注重图片和视频的分享，从而保证了趣味性；用户可以发表链接直接跳转到原地址，减少了分享成本，加速信息传播。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;编辑权和权益&#34;&gt;编辑权和权益&lt;/h2&gt;
-
-&lt;p&gt;在形式上和reddit相似的百度贴吧同样是一款UGC产品，但是在社区内容的编辑权上，百度贴吧的用户明显比reddit的用户“委屈”不少，除了呈现在首页的内容由不得用户决定，版主权利纷争，以及一些很影响阅读体验的广告之外，还存在类似“&lt;a href=&#34;http://finance.qq.com/a/20160112/061586.htm&#34;&gt;血友吧事件&lt;/a&gt;”这样的恶劣广告营销，导致百度贴吧的风评一度跌入谷底。&lt;/p&gt;
-
-&lt;p&gt;虽然高普及与低创收能力是reddit与百度贴吧的相似点，但还是应该用户权益先行，在内容的编辑权上做好用户和官方的均衡，不仅用户增强维权意识，而且监管官方的行为，或许这样才能在赢得好口碑和高人气的同时打造内容丰富有趣的社区。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;参考《&lt;a href=&#34;http://tech.163.com/16/0114/07/BD98E565000915BF.html&#34;&gt;易评：百度贴吧和Reddit究竟有什么不一样&lt;/a&gt;》&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;用户决定热度&#34;&gt;用户决定热度&lt;/h2&gt;
-
-&lt;p&gt;网易在内容打造上的能力确实有口皆碑，网易热是网易打造的一款类reddit的社会化内容分享平台，同样将内容排序和筛选的决定权交给了用户，通过积累“顶”“踩”数量来决定呈现在热门区和其他分类下的内容，弘扬跟帖文化。&lt;/p&gt;
-
-&lt;p&gt;用户决定热度的内容打造方式确实可以帮助用户更直接明确的彰显自己的态度，而且有态度的内容又可以引起关注者的跟帖和热议，同时最吸引用户注意的热门内容板块成为了普遍用户的共同态度的风向标。&lt;/p&gt;
-
-&lt;p&gt;网易云音乐的评论区拥有点赞和回复功能，获得点赞数较高的评论会显示在精彩评论区，这是支持用户对其他用户的回复给予正向的回应，当欣赏一首歌曲时，听者往往会浏览评论区，而精彩评论区的内容往往能够引导听者对歌曲的理解。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;参考《&lt;a href=&#34;http://www.admin5.com/article/20150609/602942.shtml&#34;&gt;让用户决定头条是哪个，都想做中国版Reddit？&lt;/a&gt;》&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;延伸&#34;&gt;延伸&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lily的评论区和歌词注释区可以考虑采用这种“用户决定热度”的方式，但是根据内容的不同，考虑是否采用投票（即同时拥有支持和反对选项）的形式；&lt;/li&gt;
-&lt;li&gt;reddit的官方APP拥有全新配色和UI，阅读体验良好，当涉及UGC类APP的讨论时，可以将之作为参考。&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
