@@ -200,6 +200,125 @@
     </item>
     
     <item>
+      <title>发现之旅onTaiga</title>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E5%8F%91%E7%8E%B0%E4%B9%8B%E6%97%85onTaiga/</link>
+      <pubDate>Thu, 01 Dec 2016 20:20:27 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E5%8F%91%E7%8E%B0%E4%B9%8B%E6%97%85onTaiga/</guid>
+      <description>&lt;p&gt;通过浏览Taiga上面有趣的敏捷开发项目，从外部也就是很表层的地方来稍微了解一下Agile开发的一些“行业规范”和其他人的习惯等。&lt;/p&gt;
+
+&lt;p&gt;比如首先看到的是这个：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/ustory.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一个叫做AppStructurio的项目，没有Description。这个US说的是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;描述：&lt;/p&gt;
+
+&lt;p&gt;在主页面，我希望能够通过Facebook或者Github登入。&lt;/p&gt;
+
+&lt;p&gt;成功认证后，我希望看到我的公认头像。&lt;/p&gt;
+
+&lt;p&gt;分配：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在auth0.com上建立项目&lt;/li&gt;
+&lt;li&gt;开发登入功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://cn.gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;是提供用户公认头像的网站，&lt;a href=&#34;https://auth0.com/&#34;&gt;auth0&lt;/a&gt;是一款身份认证系统。&lt;/p&gt;
+
+&lt;p&gt;这儿的US描述遵循了“谁＋需要什么功能＋期望获得什么效果”的规范，以帮助理解。&lt;/p&gt;
+
+&lt;p&gt;在这个项目的US里又看到了下面这个：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/ustory2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这个US是希望为Angular 2.0找到一套性感的UI组件，说的是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;分配：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;UI控件库之间的比较&lt;/li&gt;
+&lt;li&gt;对最佳选择的理由陈述&lt;/li&gt;
+&lt;li&gt;提交依赖到前端项目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;这是一个产品相关的US，包含对UI产品的分析和选择。&lt;/p&gt;
+
+&lt;p&gt;顺着这个项目找到其Product Owner：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/productowner.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;从Timeline来看是个专业的项目经理，创建了许多从前端到后端的开发任务。&lt;/p&gt;
+
+&lt;p&gt;以上这个项目Issues很少，接着从Most Active项目里面挑了一个叫做Smart Home的项目：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/issues.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;如此多的Issues，是个很庞大且系统化的智能家居项目，参与人员有39人。&lt;/p&gt;
+
+&lt;p&gt;打开其中一个Issue,是个US：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/smarthomeissue.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一个涉及可视化建设的US，简单的描述是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;描述：&lt;/p&gt;
+
+&lt;p&gt;作为一个顾客&lt;/p&gt;
+
+&lt;p&gt;我希望浏览构造器&lt;/p&gt;
+
+&lt;p&gt;这样我就可以创造一个控制面板&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;它包含4个Action：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;AC-1-添加一个组件&lt;/p&gt;
+
+&lt;p&gt;AC-2-移除一个组件&lt;/p&gt;
+
+&lt;p&gt;AC-3-保存一个组件&lt;/p&gt;
+
+&lt;p&gt;AC-4-取消添加一个组件&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;第一条评论是这样的：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/comment.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;说的是：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;询问Taras或者Lurii我们是否需要像在地图里一样上传背景图片（？）&lt;/li&gt;
+&lt;li&gt;添加控制面板整体布局和风格&lt;/li&gt;
+&lt;li&gt;加载已有组件列表并根据布局排列&lt;/li&gt;
+&lt;li&gt;从列表拖拽组件到控制面板的地图中&lt;/li&gt;
+&lt;li&gt;展示组件信息：组件名称；当前值（摄氏度, 湿度, 开／关等）；最后更新时间；“数据”图标&lt;/li&gt;
+&lt;li&gt;展示地图上组件的删除按钮（“X”）并通过点击删除&lt;/li&gt;
+&lt;li&gt;处理取消动作。使用确认信息并在确认后重导页面到主页&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;处理后的面板看起来是这样的：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/smarthome.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;无论是US的描述还是Comment都是尽量详尽和规范的，因为规范化所以阅读和理解起来快速、没有歧义。&lt;/p&gt;
+
+&lt;p&gt;另外，发现Taiga不是自适应的，或许应该考虑推出客户端或者升级到自适应网页。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>撰写竞品体验报告</title>
       <link>https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E7%AB%9E%E5%93%81%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/</link>
       <pubDate>Mon, 28 Nov 2016 19:30:27 +0800</pubDate>
@@ -737,24 +856,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;​&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>团队协作需要文档</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E9%9C%80%E8%A6%81%E6%96%87%E6%A1%A3/</link>
-      <pubDate>Thu, 27 Oct 2016 19:45:02 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9C%E9%9C%80%E8%A6%81%E6%96%87%E6%A1%A3/</guid>
-      <description>&lt;p&gt;一项任务有多人参与的时候，由最初负责的人撰写一篇文档以指导其他人进行相关开发工作是有必要的，特别是在小型团队中个人往往会根据实际情况参与不同的任务，这时为了团队协作可以说人人都有撰写文档的义务，涉及远程协助时更是如此。&lt;/p&gt;
-
-&lt;p&gt;文档可以有效的减少沟通成本，明确开发细节，提高任务的连贯性。&lt;/p&gt;
-
-&lt;p&gt;下载的软件内附带的&amp;rdquo;请先阅读.txt&amp;rdquo;，官方提供的说明文档（documentation），github上要求的每个repository都提供的readme.md，开发团队内部的技术性说明文档（接口说明，部署环境要求等），都是文档。&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;在解决浏览器兼容性问题时，一台机器需要临时部署相关的开发环境，但是因为没有事先预备好的文档，所以导致我为了协调两端的开发耗费了不少时间精力，而且与有参考文档的情况相比，进程更混乱缓慢了，由此可见文档的重要性。&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     
