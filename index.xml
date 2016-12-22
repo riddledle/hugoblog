@@ -196,6 +196,79 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;by Brian Emerson,Anne Loehr&lt;/code&gt;对外最重要是学习，对内最重要是激发潜能&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《i成瘾》&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;by LARRY ROSEN&lt;/code&gt;这里的i是internet和iphone的意思……&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《自戴的枷锁》&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;by 于欣&lt;/code&gt;讲述成瘾心态和行为的，例子太多理论不足&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;《爱是一种选择》&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;by 新心理学&lt;/code&gt;披着codependency外衣宣扬基督教的毒鸡汤&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>产品小白的六项素质</title>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E4%BA%A7%E5%93%81%E5%B0%8F%E7%99%BD%E7%9A%84%E5%85%AD%E9%A1%B9%E7%B4%A0%E8%B4%A8/</link>
+      <pubDate>Thu, 22 Dec 2016 20:57:10 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E4%BA%A7%E5%93%81%E5%B0%8F%E7%99%BD%E7%9A%84%E5%85%AD%E9%A1%B9%E7%B4%A0%E8%B4%A8/</guid>
+      <description>&lt;p&gt;可能是最近几天错会老板意图的次数太多，于是正好看到别人转发的关于产品经理成长的干货，其中一篇是围绕腾讯打造服务过程中对应届生产品小白的培养方式展开的，联想到自身的产品助理的体验，一面反省的同时一面激发自己更多的热情。&lt;/p&gt;
+
+&lt;p&gt;以下是别人提到的产品小白的六项素质：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;办公技能：日常软件基础使用&lt;/li&gt;
+&lt;li&gt;学习提炼能力：在指导下进行学习，有学习愿望&lt;/li&gt;
+&lt;li&gt;执行力／IQ：按要求行事，能够制定简单的工作计划&lt;/li&gt;
+&lt;li&gt;沟通能力：能够表达自己的要点&lt;/li&gt;
+&lt;li&gt;行业融入感：热爱互联网产业，热爱行业&lt;/li&gt;
+&lt;li&gt;心态胸怀：勤于思考，主动融入&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;先说一下为何是产品小白的呢，因为列举这六项的人还认为“产品小白基本上没有能力，只有素质”，也就是说把产品小白（应届毕业生产品助理）定位成只有情怀的白纸而已，如果这个假设成立，那么这里面就没有太多专业性的东西要讨论，纯粹是个人成长的经历问题了。&lt;/p&gt;
+
+&lt;p&gt;但是这样的假设很容易忽视个人潜力的存在。一个人的潜力是巨大的，甚至有时用“无限”来形容。在产品经理这样的市场中，最值得挖掘的恰恰是个人的潜力，而不是他本身固有的那些属性，因而我倒是认为以上那六点和个人的成长空间的相关性不大。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>做好版本管理</title>
+      <link>https://riddledle.github.io/hugoblog/post/pm/%E5%81%9A%E5%A5%BD%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
+      <pubDate>Thu, 22 Dec 2016 20:03:37 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/pm/%E5%81%9A%E5%A5%BD%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
+      <description>
+
+&lt;h3 id=&#34;版本管理&#34;&gt;版本管理&lt;/h3&gt;
+
+&lt;p&gt;版本管理的内容主要是梳理出当前版本中的功能点，输出文档，以配合以后版本的更新和迭代等。我第一次撰写用于版本管理的功能梳理文档时，将产品的每一个部分（比如说每一个页面）划分为三个维度：包含的字段、包含的功能、可进行的操作。这个梳理过程是非常细致的，最后的效果是实现对产品的每一个功能点和整体架构的把握。&lt;/p&gt;
+
+&lt;p&gt;在产品文档中有一些与之相似或者关联的，比如说：&lt;/p&gt;
+
+&lt;h3 id=&#34;产品说明文档&#34;&gt;产品说明文档&lt;/h3&gt;
+
+&lt;p&gt;PRD(Product Requirement Document)是面向开发人员的一份产品说明书，可以称作是项目说明文档，包含产品的功能划分、交互流程、字段说明、内部逻辑。&lt;/p&gt;
+
+&lt;h3 id=&#34;产品说明书&#34;&gt;产品说明书&lt;/h3&gt;
+
+&lt;p&gt;除了面向开发人员，还有一份面向运营人员的产品说明书，比如说包含对产品后台管理部分的操作说明，因而目的不是开发而是操作。&lt;/p&gt;
 </description>
     </item>
     
@@ -469,16 +542,6 @@
     </item>
     
     <item>
-      <title>撰写文档和传递感受</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E5%92%8C%E4%BC%A0%E9%80%92%E6%84%9F%E5%8F%97/</link>
-      <pubDate>Sat, 12 Nov 2016 22:08:47 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E6%96%87%E6%A1%A3%E5%92%8C%E4%BC%A0%E9%80%92%E6%84%9F%E5%8F%97/</guid>
-      <description>&lt;p&gt;除非钻研奇巧淫技，不然必然存在和别人之间的理解方式和思维习惯上的鸿沟，如果不克制不矫正，就陷入了“故意不让别人懂”的嫌疑里。此时为了尽量洗脱“故意不让别人懂”的嫌疑，同时又避免自己陷入“一直在做错事”的泥沼里，只有不停“试错”，如果原来的方式不对，那么换一种“正确”的方式，如果这正确的方式也不能带来正果，那指不定该换另一种“错误”的方式呢。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>有关敏捷（Agile）软件开发</title>
       <link>https://riddledle.github.io/hugoblog/post/translation/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</link>
       <pubDate>Mon, 07 Nov 2016 00:22:09 +0800</pubDate>
@@ -748,114 +811,6 @@
 &lt;p&gt;程序员们阅读完产品经理给出的产品需求说明书之后，凭借程序员一贯的思维方式往往难以形成清晰且可执行的逻辑，订单中心的基本逻辑用语言表述是曲折的，这时一套&lt;strong&gt;流程图&lt;/strong&gt;可以帮助大家的理解。&lt;/p&gt;
 
 &lt;p&gt;特别的，开发订单支付系统时，在&lt;strong&gt;限制用户操作&lt;/strong&gt;和&lt;strong&gt;调控订单处理进度&lt;/strong&gt;两个层面，特别需要对订单逻辑有清晰的规划，如若不然，将导致一些重复劳动和目标不明确等问题，导致开发效率下降。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>用户中心（Auth）梳理</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%EF%BC%88Auth%EF%BC%89%E6%A2%B3%E7%90%86/</link>
-      <pubDate>Tue, 01 Nov 2016 15:06:07 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%EF%BC%88Auth%EF%BC%89%E6%A2%B3%E7%90%86/</guid>
-      <description>
-
-&lt;p&gt;用户中心（Authority）相较其它板块来说，逻辑较为简单，但是优先级和使用频率是很高的。&lt;/p&gt;
-
-&lt;p&gt;以下参考&lt;a href=&#34;https://www.wilddog.com/&#34;&gt;野狗&lt;/a&gt;（wilddog）官方文档中的身份认证部分，对用户中心的逻辑简单梳理。&lt;/p&gt;
-
-&lt;h2 id=&#34;组成元素&#34;&gt;组成元素&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;ID：用来标识用户的身份；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;用户属性：包括用户的ID，主邮箱地址，名称，照片地址；&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;用户属性属于用户信息的一部分，连同用户的登陆信息共同组成&lt;strong&gt;用户信息&lt;/strong&gt;部分&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Provider（提供者）：Provider 是身份认证提供方，即电子邮箱地址与密码，或是手机号码，或是第三方平台（微信，微博，QQ）账号等；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;当前用户：进行注册或登陆操作后的用户，成为当前用户；&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;用户生命周期：指用户从注册或登陆到退出登陆这之间的变化过程，包含三种状态：&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;用户注册或登陆成功&lt;/li&gt;
-&lt;li&gt;Token刷新&lt;/li&gt;
-&lt;li&gt;退出登陆&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;身份认证令牌（Token）：用于获取访问用户的权限，包含三种类型：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;ID Token：用户获取用户的访问权限&lt;/li&gt;
-&lt;li&gt;access Token：用户获取第三方身份认证提供商用户的访问权限&lt;/li&gt;
-&lt;li&gt;custom Token：用于获取已有账户体系中用户的访问权限&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;用户管理&#34;&gt;用户管理&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;创建用户&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;获取用户信息，包括获取：&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;当前用户&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;用户属性&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Provider的用户属性&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;更新用户信息，包括更新：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;用户属性&lt;/li&gt;
-&lt;li&gt;邮箱地址&lt;/li&gt;
-&lt;li&gt;登陆密码&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;删除用户&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;重新进行身份认证&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;认证方式&#34;&gt;认证方式&lt;/h2&gt;
-
-&lt;p&gt;认证方式有很多种，根据产品特性和实际情况进行取舍。&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;邮箱认证&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;手机认证&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;第三方应用帐号认证&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;自定义身份认证&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;匿名认证&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;​&lt;/p&gt;
 </description>
     </item>
     
