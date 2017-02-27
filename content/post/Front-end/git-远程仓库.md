@@ -1,6 +1,6 @@
 +++
 date = "2016-09-08T19:42:29+08:00"
-description = "git的一些操作"
+description = "调试记录"
 title = "git远程仓库"
 
 +++

@@ -1,6 +1,6 @@
 +++
 date = "2016-09-10T17:28:05+08:00"
-description = "Using hugo "
+description = "using hugo "
 title = "Hugo"
 
 +++
