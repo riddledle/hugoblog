@@ -5,9 +5,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="Riddle">
-		<meta name="description" content="riddle&#39;s notes">
+		
 		<meta name="generator" content="Hugo 0.16" />
-		<title>Taiga——敏捷软件开发管理工具 &middot; Riddle&#39;s</title>
+		<title>Taiga-敏捷软件开发管理工具 &middot; Riddle</title>
 		<link rel="shortcut icon" href="https://riddledle.github.io/hugoblog/images/favicon.ico">
 		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/style.css">
 		<link rel="stylesheet" href="https://riddledle.github.io/hugoblog/css/highlight.css">
@@ -18,7 +18,7 @@
 		
 
 		
-		<link href="https://riddledle.github.io/hugoblog/index.xml" rel="alternate" type="application/rss+xml" title="Riddle&#39;s" />
+		<link href="https://riddledle.github.io/hugoblog/index.xml" rel="alternate" type="application/rss+xml" title="Riddle" />
 		
 	</head>
 
@@ -41,7 +41,7 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>Taiga——敏捷软件开发管理工具</h1>
+                    <h1>Taiga-敏捷软件开发管理工具</h1>
                     <h2 class="headline">
                     November 3, 2016 
                     <br>
@@ -55,29 +55,156 @@
 
 <p>项目管理工具很多，Taigo针对大部分工具粗糙难看的缺点改造了自己的产品，希望以优美的设计和形态为用户带去愉快的工作体验。</p>
 
-<p>试用后感觉确实比同类型产品更美观，元素设计包含了感情。</p>
-
 <p><img src="http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%883.09.25.png" alt="" /></p>
 
 <p><img src="http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%888.58.19.png" alt="" /></p>
 
-<hr />
+<h2 id="名词解释">名词解释</h2>
 
-<p>这里提一下有关敏捷开发和项目管理的三个名词。参考Taiga官网的说明进行解释。</p>
+<h3 id="product-owner-产品负责人">Product Owner（产品负责人）</h3>
 
-<h2 id="scrum-迭代式增量">Scrum（迭代式增量）</h2>
+<p>在敏捷开发团队里有个职位叫做Product Owner（产品负责人，或产品拥有者），它的很多职能和Product Manager（产品经理）是相通的，如产品研发、产品愿景定义、设计思考等，不同的是，所处的环境是敏捷开发，那么产品负责人更多的担当起了掌舵手的角色，需要管理用户故事和敏捷需求、管理需求优先级，发布敏捷计划、跟踪产品开发进展、管理敏捷项目合同等。</p>
+
+<h3 id="user-story-用户需求"><strong>User Story</strong>（用户需求）</h3>
+
+<p>用户需求是从用户的角度来描述用户渴望得到的功能，即是将用户需求描述为敏捷需求的桥梁，关于如何写好用户需求，可以搜索到很多规范和要点，需要注意的是描述时不要使用技术性语言，而是通俗的描述性语言。</p>
+
+<h3 id="backlog-仓库"><strong>Backlog</strong>（仓库）</h3>
+
+<p>一个仓库优先收集了一些未来需要使用的用户需求和任务。产品的仓库与整个产品需要完成的任务息息相关，包括那些与目前产品蓝图相符的，以及那些目前不符但是未来会需要的。</p>
+
+<p>也就是说，仓库会被提前规划和评估，那么团队就可以从仓库中最顶部的用户需求着手开发。</p>
+
+<p>堆里最顶部的用户需求，会被放进下一次的迭代里并被开发。</p>
+
+<h3 id="sprint-冲刺"><strong>Sprint</strong>（冲刺）</h3>
+
+<p>一次冲刺是“迭代”的增量式说法。一次迭代是团队打造产品的下一次提升的过程。</p>
+
+<p>为了保证团队在集中处理一些用户需求时它们不会变动，我们创建了一个独立的区域叫做冲刺，团队需要在规定时间内开发和发布这部分的用户需求。当冲刺区的用户需求都被完成后，这次冲刺就算结束，可以开始下一次迭代。</p>
+
+<p>一个普通的工作流程是，创建一个新的冲刺，然后把用户需求里最顶部的部分拖进来，直到保证这部分用户需求在团队发挥最大工作效力的情况下，能够按时完成。当团队内部达成对这次冲刺安排的一致认同时，就可以开始冲刺了。</p>
+
+<h3 id="epics-跨任务"><strong>Epics</strong>（跨任务）</h3>
+
+<p>如果你用敏捷开发的模式工作，那你一定听说过Epics，其实Epics没有正式的定义，不过Taiga团队还是调查出了一个比较靠谱的概念。</p>
+
+<p>提问：Epic和User Story之间的区别是什么？</p>
+
+<p>回答：准确的说，Epic是比用户需求更大的对象并且能包含许多用户需求。规划你的仓库时，你会在下面的情况注意到Epic：</p>
+
+<ul>
+<li>用户需求太复杂，描述模糊；</li>
+<li>用户需求太庞大，无法在理想时间内实现；</li>
+<li>对于策略性规划来说Epic很有用；</li>
+<li>一个Epic通常定义比较模糊，而且可以包含许多组成部份；</li>
+<li>一个Epic是很好的为团队服务的信息容器，胜过对单独对象确立的用户需求。</li>
+</ul>
+
+<p>模糊来说Epics是将很多任务中有交集的部分组成一个集合，从而为这众多的项目提供策略，这便于寻找项目之间的等级关系和相关联性。</p>
+
+<h3 id="scrum-迭代式">Scrum（迭代式）</h3>
 
 <p>Scrum是项目管理中一种迭代和增进的敏捷软件开发方法。</p>
 
-<p>最终确定的仓库中的所有任务（backlog）被划分成短小可执行的子任务（sprints）并规定执行时间，直至所有任务完成。</p>
+<p>最终确定的仓库中的所有任务被划分成短小可执行的子任务并规定执行时间，直至所有任务完成。</p>
 
-<h2 id="kanban-任务看板">Kanban（任务看板）</h2>
+<h3 id="kanban-看板">Kanban（看板）</h3>
 
-<p>看板式开发也是敏捷软件开发中的一个方法论，它将项目划分为阶段（stages），这样便于追踪进度。</p>
+<p>看板式开发也是敏捷软件开发中的一个方法论，它将项目划分为阶段，这样便于追踪进度。</p>
 
-<h2 id="epics-multiproject-跨任务">Epics multiproject（跨任务）</h2>
+<h2 id="随便看看">随便看看</h2>
 
-<p>模糊来说Epics是将很多任务中有交集的部分组成一个集合，从而为这众多的项目提供策略，这便于寻找项目之间的等级关系和相关联性。</p>
+<h3 id="appstructurio">AppStructurio</h3>
+
+<p>在taiga上看到一个叫做［AppStructurio］的Project，以下是一条US：</p>
+
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/ustory.png" alt="" /></p>
+
+<blockquote>
+<p>描述：</p>
+
+<p>在主页面，我希望能够通过Facebook或者Github登入。</p>
+
+<p>成功认证后，我希望看到我的<a href="https://cn.gravatar.com/">Gravatar</a>。</p>
+
+<p>分配：</p>
+
+<ul>
+<li>在<a href="https://auth0.com/">auth0.com</a>上建立项目</li>
+<li>开发登入功能</li>
+</ul>
+</blockquote>
+
+<p>另一条UI相关的US：</p>
+
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/ustory2.png" alt="" /></p>
+
+<p>这个US是希望为Angular 2.0找到一套性感的UI组件：</p>
+
+<blockquote>
+<p>分配：</p>
+
+<ul>
+<li>UI控件库之间的比较</li>
+<li>对最佳选择的理由陈述</li>
+<li>提交依赖到前端项目</li>
+</ul>
+</blockquote>
+
+<h3 id="appstructurio-1">AppStructurio</h3>
+
+<p>接着从Most Active项目里面挑了一个叫做［AppStructurio］的项目：</p>
+
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/issues.png" alt="" /></p>
+
+<p>看起来是个智能家居项目，某条US：</p>
+
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/smarthomeissue.png" alt="" /></p>
+
+<p>这是一个涉及可视化建设的US：</p>
+
+<blockquote>
+<p>描述：</p>
+
+<p>作为一个顾客</p>
+
+<p>我希望浏览构造器</p>
+
+<p>这样我就可以创造一个控制面板</p>
+
+<p>它包含4个Action：</p>
+
+<p>AC-1-添加一个组件</p>
+
+<p>AC-2-移除一个组件</p>
+
+<p>AC-3-保存一个组件</p>
+
+<p>AC-4-取消添加一个组件</p>
+</blockquote>
+
+<p>他人回复：</p>
+
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/comment.png" alt="" /></p>
+
+<blockquote>
+<ol>
+<li>询问Taras或者Lurii我们是否需要像在地图里一样上传背景图片（？）</li>
+<li>添加控制面板整体布局和风格</li>
+<li>加载已有组件列表并根据布局排列</li>
+<li>从列表拖拽组件到控制面板的地图中</li>
+<li>展示组件信息：组件名称；当前值（摄氏度, 湿度, 开／关等）；最后更新时间；“数据”图标</li>
+<li>展示地图上组件的删除按钮（“X”）并通过点击删除</li>
+<li>处理取消动作。使用确认信息并在确认后重导页面到主页</li>
+</ol>
+</blockquote>
+
+<p>处理后的面板看起来是这样的：</p>
+
+<p><img src="http://o7o0hlenq.bkt.clouddn.com/smarthome.jpg" alt="" /></p>
+
+<p>taiga用来敏捷开发感觉还是很对味的。</p>
 
                 </section>
             </article>
@@ -90,15 +217,6 @@
                         </div>
                     
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2friddledle.github.io%2fhugoblog%2fpost%2fpm%2fTaiga%25EF%25BC%258D%25E6%2595%258F%25E6%258D%25B7%25E8%25BD%25AF%25E4%25BB%25B6%25E5%25BC%2580%25E5%258F%2591%25E7%25AE%25A1%25E7%2590%2586%25E5%25B7%25A5%25E5%2585%25B7%2f - Taiga%e2%80%94%e2%80%94%e6%95%8f%e6%8d%b7%e8%bd%af%e4%bb%b6%e5%bc%80%e5%8f%91%e7%ae%a1%e7%90%86%e5%b7%a5%e5%85%b7 "><span class="icon-twitter"> Tweet</span></a>
-
-<a class="facebook" href="#" onclick="
-    window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
-      'facebook-share-dialog',
-      'width=626,height=436');
-    return false;"><span class="icon-facebook-rect"> Share</span>
-</a>
 
                 </section>
             </footer>
@@ -111,49 +229,7 @@
     
         
         <li>
-            <a href="https://riddledle.github.io/hugoblog/post/Riddle%27s/">Riddle&#39;s<aside class="dates">Dec 31</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
-            <a href="https://riddledle.github.io/hugoblog/post/pm/%E4%BA%A7%E5%93%81%E5%B0%8F%E7%99%BD%E7%9A%84%E5%85%AD%E9%A1%B9%E7%B4%A0%E8%B4%A8/">产品小白的六项素质<aside class="dates">Dec 22</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
-            <a href="https://riddledle.github.io/hugoblog/post/pm/%E5%81%9A%E5%A5%BD%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/">做好版本管理<aside class="dates">Dec 22</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
-            <a href="https://riddledle.github.io/hugoblog/post/pm/%E5%8F%91%E7%8E%B0%E4%B9%8B%E6%97%85onTaiga/">发现之旅onTaiga<aside class="dates">Dec 1</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
-            <a href="https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E7%AB%9E%E5%93%81%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/">撰写竞品体验报告<aside class="dates">Nov 28</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
             <a href="https://riddledle.github.io/hugoblog/post/translation/Material-Design/">Material Design<aside class="dates">Nov 21</aside></a>
-        </li>
-        
-   
-    
-        
-        <li>
-            <a href="https://riddledle.github.io/hugoblog/post/pm/%E9%82%AE%E7%AE%B1Tip/">邮箱Tip<aside class="dates">Nov 18</aside></a>
         </li>
         
    
@@ -167,15 +243,25 @@
     
         
         <li>
-            <a href="https://riddledle.github.io/hugoblog/post/translation/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/">有关敏捷（Agile）软件开发<aside class="dates">Nov 7</aside></a>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/Hugo%EF%BC%8D%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%BC%95%E6%93%8E/">Hugo-静态页面引擎<aside class="dates">Nov 3</aside></a>
         </li>
         
    
     
         
         <li>
-            <a href="https://riddledle.github.io/hugoblog/post/pm/sketch%E5%B7%A5%E5%85%B7/">Sketch工具<aside class="dates">Nov 7</aside></a>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/">Taiga-敏捷软件开发管理工具<aside class="dates">Nov 3</aside></a>
         </li>
+        
+   
+    
+        
+        <li>
+            <a href="https://riddledle.github.io/hugoblog/post/pm/Trello%EF%BC%8D%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/">Trello-任务管理工具<aside class="dates">Oct 6</aside></a>
+        </li>
+        
+   
+    
         
    
 </ul>
@@ -183,7 +269,7 @@
     
     <p class="small">
     
-        © Copyright 2016 Riddle
+        © Copyright 2017 Riddle
     
     </p>
 </footer>

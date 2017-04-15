@@ -1,434 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Riddle&#39;s</title>
+    <title>Riddle</title>
     <link>https://riddledle.github.io/hugoblog/</link>
-    <description>Recent content on Riddle&#39;s</description>
+    <description>Recent content on Riddle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Dec 2016 12:58:40 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 21 Nov 2016 17:00:47 +0800</lastBuildDate>
     <atom:link href="https://riddledle.github.io/hugoblog/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Riddle&#39;s</title>
-      <link>https://riddledle.github.io/hugoblog/post/Riddle%27s/</link>
-      <pubDate>Sat, 31 Dec 2016 12:58:40 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/Riddle%27s/</guid>
-      <description>
-
-&lt;h2 id=&#34;历程&#34;&gt;历程&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;tech+lyrics&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;起初建立了自己的&lt;a href=&#34;https://github.com/hexojs/hexo&#34;&gt;hexo&lt;/a&gt;博客；&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;tech＋lyrics＋notes&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;加入一些随笔，添加分类和标签云；&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;tech&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;制作了一份类似&lt;a href=&#34;http://edyfox.codecarver.org/html/index.html&#34;&gt;滇狐&lt;/a&gt;的主页；&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;lyrics+notes&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;放在原先的hexo博客里；&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;lyrics&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;用一套类似wiki的模版&lt;a href=&#34;https://github.com/wzpan/hexo-theme-wixo&#34;&gt;wixo&lt;/a&gt;，将歌词存放起来；&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;PM&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;风格简约，内容垂直；&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;PM+&lt;/strong&gt;：&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;会有许多东西。&lt;/p&gt;
-
-&lt;h2 id=&#34;其他链接&#34;&gt;其他链接&lt;/h2&gt;
-
-&lt;h4 id=&#34;我的作品&#34;&gt;我的作品&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://riddledle.github.io/&#34;&gt;歌词收藏&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mikuscallion.github.io/LilyProject&#34;&gt;音乐FM&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;友情链接&#34;&gt;友情链接&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://shi-shi.net/&#34;&gt;shi-shi&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://mikuscallion.github.io/life/#!/app/list&#34;&gt;Life&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;书单&#34;&gt;书单&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《MacTalk跨越边界》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by池建强&lt;/code&gt;看完后关注了他的公众号MacTalk。学会了“腰间挂着两个滚烫的肾”这么个说法。“Talk is cheap,show me the code”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《绝对达成优秀团队养成术》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by横山信弘&lt;/code&gt;销售集团董事写的，一个职员译的&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《心理学常识速查速用大全集》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by京师心智&lt;/code&gt;被书名吸引后发现，全是小故事&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《日语语音教程》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by徐坚&lt;/code&gt;想弄清楚拗音促音拔音看的&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;《&lt;strong&gt;一本书读懂融资常识大全集&lt;/strong&gt;》&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by汇智书源&lt;/code&gt;“常识大全集系列”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;《&lt;strong&gt;商业思维导图&lt;/strong&gt;》&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by Christine Chopyak&lt;/code&gt;读得出作者的领导力和规划能力&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《记录，成为更好的自己》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by有道云笔记&amp;amp;萧秋水&lt;/code&gt;软广。话很多的产品分析&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《中国大学生就业》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by中华人民共和国教育部&lt;/code&gt;《知音》&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《游戏艺术设计原理》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by方兴／郑达&lt;/code&gt;建模，而不是编码&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《团队磋商的最佳艺术》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by约翰科沃斯都&lt;/code&gt;1995年英文版的译本，包装太新了吧&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《互联网＋技术融合风暴－构建平台协同战略与商业敏捷性》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by Rodney Heisterberg&lt;/code&gt;适合商人&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《云计算及应用》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by唐国纯&lt;/code&gt;对云计算有了更深了解&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《网站人性化评估》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by刘河伟&lt;/code&gt;居然是译本，资讯有点过时&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《超越可视化－DT时代的大数据沟通与决策》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by Zach Gemignani,Chris Gemignani,Richard Galentino，Patrick Schuermann&lt;/code&gt;干货！译得也好。全书行文保证概念意义和重要性穿插&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《经理人教练指南》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by Brian Emerson,Anne Loehr&lt;/code&gt;对外最重要是学习，对内最重要是激发潜能&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《i成瘾》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by LARRY ROSEN&lt;/code&gt;这里的i是internet和iphone的意思……&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《自戴的枷锁》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by 于欣&lt;/code&gt;讲述成瘾心态和行为的，例子太多理论不足&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;《爱是一种选择》&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;by 新心理学&lt;/code&gt;披着codependency外衣宣扬基督教的毒鸡汤&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>产品小白的六项素质</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E4%BA%A7%E5%93%81%E5%B0%8F%E7%99%BD%E7%9A%84%E5%85%AD%E9%A1%B9%E7%B4%A0%E8%B4%A8/</link>
-      <pubDate>Thu, 22 Dec 2016 20:57:10 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E4%BA%A7%E5%93%81%E5%B0%8F%E7%99%BD%E7%9A%84%E5%85%AD%E9%A1%B9%E7%B4%A0%E8%B4%A8/</guid>
-      <description>&lt;p&gt;可能是最近几天错会老板意图的次数太多，于是正好看到别人转发的关于产品经理成长的干货，其中一篇是围绕腾讯打造服务过程中对应届生产品小白的培养方式展开的，联想到自身的产品助理的体验，一面反省的同时一面激发自己更多的热情。&lt;/p&gt;
-
-&lt;p&gt;以下是别人提到的产品小白的六项素质：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;办公技能：日常软件基础使用&lt;/li&gt;
-&lt;li&gt;学习提炼能力：在指导下进行学习，有学习愿望&lt;/li&gt;
-&lt;li&gt;执行力／IQ：按要求行事，能够制定简单的工作计划&lt;/li&gt;
-&lt;li&gt;沟通能力：能够表达自己的要点&lt;/li&gt;
-&lt;li&gt;行业融入感：热爱互联网产业，热爱行业&lt;/li&gt;
-&lt;li&gt;心态胸怀：勤于思考，主动融入&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;先说一下为何是产品小白的呢，因为列举这六项的人还认为“产品小白基本上没有能力，只有素质”，也就是说把产品小白（应届毕业生产品助理）定位成只有情怀的白纸而已，如果这个假设成立，那么这里面就没有太多专业性的东西要讨论，纯粹是个人成长的经历问题了。&lt;/p&gt;
-
-&lt;p&gt;但是这样的假设很容易忽视个人潜力的存在。一个人的潜力是巨大的，甚至有时用“无限”来形容。在产品经理这样的市场中，最值得挖掘的恰恰是个人的潜力，而不是他本身固有的那些属性，因而我倒是认为以上那六点和个人的成长空间的相关性不大。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>做好版本管理</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E5%81%9A%E5%A5%BD%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</link>
-      <pubDate>Thu, 22 Dec 2016 20:03:37 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E5%81%9A%E5%A5%BD%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/</guid>
-      <description>
-
-&lt;h3 id=&#34;版本管理&#34;&gt;版本管理&lt;/h3&gt;
-
-&lt;p&gt;版本管理的内容主要是梳理出当前版本中的功能点，输出文档，以配合以后版本的更新和迭代等。我第一次撰写用于版本管理的功能梳理文档时，将产品的每一个部分（比如说每一个页面）划分为三个维度：包含的字段、包含的功能、可进行的操作。这个梳理过程是非常细致的，最后的效果是实现对产品的每一个功能点和整体架构的把握。&lt;/p&gt;
-
-&lt;p&gt;在产品文档中有一些与之相似或者关联的，比如说：&lt;/p&gt;
-
-&lt;h3 id=&#34;产品说明文档&#34;&gt;产品说明文档&lt;/h3&gt;
-
-&lt;p&gt;PRD(Product Requirement Document)是面向开发人员的一份产品说明书，可以称作是项目说明文档，包含产品的功能划分、交互流程、字段说明、内部逻辑。&lt;/p&gt;
-
-&lt;h3 id=&#34;产品说明书&#34;&gt;产品说明书&lt;/h3&gt;
-
-&lt;p&gt;除了面向开发人员，还有一份面向运营人员的产品说明书，比如说包含对产品后台管理部分的操作说明，因而目的不是开发而是操作。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>发现之旅onTaiga</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E5%8F%91%E7%8E%B0%E4%B9%8B%E6%97%85onTaiga/</link>
-      <pubDate>Thu, 01 Dec 2016 20:20:27 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E5%8F%91%E7%8E%B0%E4%B9%8B%E6%97%85onTaiga/</guid>
-      <description>&lt;p&gt;通过浏览Taiga上面有趣的敏捷开发项目，从外部也就是很表层的地方来稍微了解一下Agile开发的一些“行业规范”和其他人的习惯等。&lt;/p&gt;
-
-&lt;p&gt;比如首先看到的是这个：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/ustory.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个叫做AppStructurio的项目，没有Description。这个US说的是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;描述：&lt;/p&gt;
-
-&lt;p&gt;在主页面，我希望能够通过Facebook或者Github登入。&lt;/p&gt;
-
-&lt;p&gt;成功认证后，我希望看到我的公认头像。&lt;/p&gt;
-
-&lt;p&gt;分配：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;在auth0.com上建立项目&lt;/li&gt;
-&lt;li&gt;开发登入功能&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://cn.gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;是提供用户公认头像的网站，&lt;a href=&#34;https://auth0.com/&#34;&gt;auth0&lt;/a&gt;是一款身份认证系统。&lt;/p&gt;
-
-&lt;p&gt;这儿的US描述遵循了“谁＋需要什么功能＋期望获得什么效果”的规范，以帮助理解。&lt;/p&gt;
-
-&lt;p&gt;在这个项目的US里又看到了下面这个：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/ustory2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;这个US是希望为Angular 2.0找到一套性感的UI组件，说的是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;分配：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;UI控件库之间的比较&lt;/li&gt;
-&lt;li&gt;对最佳选择的理由陈述&lt;/li&gt;
-&lt;li&gt;提交依赖到前端项目&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这是一个产品相关的US，包含对UI产品的分析和选择。&lt;/p&gt;
-
-&lt;p&gt;顺着这个项目找到其Product Owner：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/productowner.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;从Timeline来看是个专业的项目经理，创建了许多从前端到后端的开发任务。&lt;/p&gt;
-
-&lt;p&gt;以上这个项目Issues很少，接着从Most Active项目里面挑了一个叫做Smart Home的项目：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/issues.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;如此多的Issues，是个很庞大且系统化的智能家居项目，参与人员有39人。&lt;/p&gt;
-
-&lt;p&gt;打开其中一个Issue,是个US：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/smarthomeissue.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;这是一个涉及可视化建设的US，简单的描述是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;描述：&lt;/p&gt;
-
-&lt;p&gt;作为一个顾客&lt;/p&gt;
-
-&lt;p&gt;我希望浏览构造器&lt;/p&gt;
-
-&lt;p&gt;这样我就可以创造一个控制面板&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;它包含4个Action：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;AC-1-添加一个组件&lt;/p&gt;
-
-&lt;p&gt;AC-2-移除一个组件&lt;/p&gt;
-
-&lt;p&gt;AC-3-保存一个组件&lt;/p&gt;
-
-&lt;p&gt;AC-4-取消添加一个组件&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;第一条评论是这样的：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/comment.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;说的是：&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;询问Taras或者Lurii我们是否需要像在地图里一样上传背景图片（？）&lt;/li&gt;
-&lt;li&gt;添加控制面板整体布局和风格&lt;/li&gt;
-&lt;li&gt;加载已有组件列表并根据布局排列&lt;/li&gt;
-&lt;li&gt;从列表拖拽组件到控制面板的地图中&lt;/li&gt;
-&lt;li&gt;展示组件信息：组件名称；当前值（摄氏度, 湿度, 开／关等）；最后更新时间；“数据”图标&lt;/li&gt;
-&lt;li&gt;展示地图上组件的删除按钮（“X”）并通过点击删除&lt;/li&gt;
-&lt;li&gt;处理取消动作。使用确认信息并在确认后重导页面到主页&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;处理后的面板看起来是这样的：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/smarthome.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;无论是US的描述还是Comment都是尽量详尽和规范的，因为规范化所以阅读和理解起来快速、没有歧义。&lt;/p&gt;
-
-&lt;p&gt;另外，发现Taiga不是自适应的，或许应该考虑推出客户端或者升级到自适应网页。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>撰写竞品体验报告</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E7%AB%9E%E5%93%81%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/</link>
-      <pubDate>Mon, 28 Nov 2016 19:30:27 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E6%92%B0%E5%86%99%E7%AB%9E%E5%93%81%E4%BD%93%E9%AA%8C%E6%8A%A5%E5%91%8A/</guid>
-      <description>&lt;p&gt;在竞品分析阶段，需要做的事情主要是确认竞品，搜集数据，整合信息，对比分析，制定策略等。得益于前人们不断摸索而积累下的经验，撰写相关文档时有对应的体系框架可循，适当学习和借鉴可以帮助自己的体验报告和分析文章涵盖尽量全面的点，并且有侧重的着墨。&lt;/p&gt;
-
-&lt;p&gt;例如，某款竞品的体验报告的结构可以大致分为：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E7%AB%9E%E5%93%81.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;其中：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;概况Part：体验竞品的时间，设备，当前版本号，是决定当前体验报告时效性和历史参考价值的因素；&lt;/li&gt;
-&lt;li&gt;市场状况Part：首先需要明确产品所属的市场，然后有针对性地利用网络搜集相关信息，从官方渠道，社会舆论，数据统计等途径获得市场的描述，在时间维度上跨越过去现在未来，对市场状况进行综述和简析；&lt;/li&gt;
-&lt;li&gt;需求分析Part：列出需求前确定目标用户，从目标用户的角度思考需求，提取出需求中最具代表性者；&lt;/li&gt;
-&lt;li&gt;战略层Part：描述竞品在市场上的主要竞争力，以及竞品公司制定的短期产品战略和未来景愿等；&lt;/li&gt;
-&lt;li&gt;范围层Part：列出竞品当前版本所覆盖的功能范围，主要涉猎了哪些区域，也可对竞品的历代更新中功能范围的改动进行罗列对比；&lt;/li&gt;
-&lt;li&gt;结构层Part：拆分竞品的主要结构，使产品的骨架结构展露无疑，轻重板块一目了然，虽然不需要如撰写PRD一般详尽，但是对大版块梳理完毕后，对其中重点版本的进一步展开梳理也是有必要的；&lt;/li&gt;
-&lt;li&gt;框架层Part：框架是包裹内容的容器，不同的框架下可以盛放相同的结构或者内容，框架的架构不同，产品的性能和气质等也不同，对框架的描述主要集中在产品最外部主要使用的交互模式等；&lt;/li&gt;
-&lt;li&gt;表现层Part：表现层是展现在用户眼前的东西，包含UI设计，UE设计，产品使用时的流畅程度等，即产品的颜值和外形；&lt;/li&gt;
-&lt;li&gt;数据概况Part：通过搜集官方数据，第三方数据以及自己统计计算，将数据进行集中展示，与产品联系起来加以利用以发挥数据的价值，客串数据分析师的角色；&lt;/li&gt;
-&lt;li&gt;建议策略Part：既然是提出建议，意味着要指出目前产品存在的缺陷，所以这里需要分清一下“批评”与“贬低”的区别，也就是说在提出改进意见的时候，应当是客观公正的而不是在降低产品本身价值的前提下为了改进而改进；从C端切入，可以提出一些产品细节和功能上的修改意见，从B端切入，则可以从企业方针和市场走向的角度给予战略性意见；&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;自己在撰写竞品体验报告时，对整个过程的每个阶段都很有印象，每个环节都是浓墨重彩的，概括描述起来：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;前期搜集：搜集信息的过程和平时普通的上网不同，如何整合搜集到的信息，筛选，分类，并且进行陈述，每个人有自己的方式，搜集信息的过程是熟悉竞品的过程，或许是漫长的，但是此后只需将脑海中的概念具像到文字即可；搜集信息的途径除了Internet还可以是调研用户口碑，追溯产品历史，自己亲自使用揣摩等；&lt;/li&gt;
-&lt;li&gt;中期雕琢：雕琢的意思有点类似搜集时候对信息的整理，但是到了中期，已经需要将自己获取的和思考诞生的策略方针和结论等落实到文字，表达陈述，所以雕琢的过程是围绕产品，不断把握所要分析的产品的气质并且努力挖掘自己脑海中最具价值信息的漫长风暴；&lt;/li&gt;
-&lt;li&gt;后期整合：整合的最大意义是节省阅读者的时间，也就是节省老板的时间，使其直接获取价值和制定策略，因此整合时需要把第一步和最后一步之间所有最具有价值的东西抽取出来，升华。整合对自身而言还有一个意义，回顾一下自己截至目前为止所做的所有工作，慢慢地容错和消化，最终完善和提升。&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
     <item>
       <title>Material Design</title>
@@ -476,37 +55,7 @@
 
 &lt;p&gt;&lt;a href=&#34;https://material.google.com/#&#34;&gt;原文&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;翻译整理。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>邮箱Tip</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E9%82%AE%E7%AE%B1Tip/</link>
-      <pubDate>Fri, 18 Nov 2016 17:12:21 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E9%82%AE%E7%AE%B1Tip/</guid>
-      <description>&lt;p&gt;关于“用企鹅邮箱／带数字的邮箱，会不会显得漏，让简历直接被刷掉”这样问题的讨论，不同职业岗位的人各执经验意见，如果考虑得多，可以从知识层次，学历背景，思维方式，生活品质等各种层面来举证用企鹅邮箱或者带数字邮箱的人是否真的普遍漏，考虑得少，也可以单纯认为用企鹅邮箱的人就是怀旧而已，甚至是不屑为自己增添额外的记忆量。&lt;/p&gt;
-
-&lt;p&gt;大部分时候使用企鹅邮箱时，也不会因带有火星文的昵称而羞耻，这是一段可以凝结并被呈现的历史，有一代人的青春（或者童年）的记忆在里面，如果是耻于它的过时性，许多东西在发生的一刻就过时了，而且比起眼下许多形态更加夸张，观念更加脱俗的热点和网络文化来说，那点点火星文不算什么。&lt;/p&gt;
-
-&lt;p&gt;也就是说用什么样的邮箱或许可以说明“是什么”但是却不能很有力地说明“不是什么”，用iCloud邮箱说明是苹果用户，用Gmail说明习惯翻墙，用企业邮箱说明是企业人员，但是不能说，用企鹅邮箱的人就不会用苹果系统不会翻墙不会在大企业任职呀。&lt;/p&gt;
-
-&lt;p&gt;关于情怀的部分到此结束。让我放弃从中二时期就坚持用的163邮箱的直接原因是，真的不知道为什么那么多有价值的邮件被扔进垃圾邮件里。&lt;/p&gt;
-
-&lt;p&gt;为了找Trello的邮箱验证邮件，163的邮箱被我翻了底朝天，不是一遍不是两遍，三遍！为什么三遍都没想到去看看垃圾邮件呢，因为这是邮箱验证邮件啊！&lt;/p&gt;
-
-&lt;p&gt;最后看到垃圾邮件里躺着一封包装严谨的Trello官方邮件的时候真的决定再也不会在任何地方填这个用了七八年的邮箱了。&lt;/p&gt;
-
-&lt;p&gt;别提什么大环境大背景敏感信息背后算法，辜负信任这种事情真是有一无二，而且带来的损失是大是小也无法估算。&lt;/p&gt;
-
-&lt;p&gt;既然如此我也没有继续忍受它丑陋页面的理由了……&lt;/p&gt;
-
-&lt;p&gt;拥挤的布局，大杂烩的新闻信息，广告，把最初使人产生一点好感的问候信息压缩在中间那么一点点，增加用户记忆量的层级管理，再加上辜负信任的垃圾邮件分类系统，让一切的忍受没有了理由。&lt;/p&gt;
-
-&lt;p&gt;虽然把常用邮箱换成了Gmail，扛着“网络通信不畅”收不到邮件的风险，但是用Gmail规避了漏的嫌疑，界面洗眼睛，不用担心邮件被奇奇怪怪地扔进垃圾邮件，而且和自己的google账号牢牢结合绑定，良处多多。&lt;/p&gt;
-
-&lt;p&gt;如果身边同学朋友还愿意使用企鹅邮箱，我也会继续用；如果工作上要使用海外邮箱，我也会拿出最常用的；如果网易或者国内其它邮箱品牌的界面哪一天设计得美到窒息，我说不定继续换回去，谁知道。&lt;/p&gt;
+&lt;p&gt;Riddle翻译整理。&lt;/p&gt;
 </description>
     </item>
     
@@ -516,9 +65,7 @@
       <pubDate>Tue, 15 Nov 2016 12:50:10 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/post/translation/10-Differences-between-Customer-Reporting-and-Data-Products/</guid>
-      <description>&lt;p&gt;关于创新公司是如何增强面向顾客的数据产品的解决方案，我们谈论了很多。例如，GoToMeeting发布了一项名为“Insights”的新功能，将发送会议的统计数据给你。下面是Juice最近一次Lunch&amp;amp;Learn的信息（图略）。&lt;/p&gt;
-
-&lt;p&gt;DJ Patil(U.S 数据科学主席)将数据产品定义为“通过对数据的使用促进最终成果诞生的产品”。我将数据产品描述为“彻底了解分析结果从而为顾客带去价值”。但是有个常提的问题：数据产品和我们已有的顾客报告之间有何差别？&lt;/p&gt;
+      <description>&lt;p&gt;DJ Patil(U.S 数据科学主席)将数据产品定义为“通过对数据的使用促进最终成果诞生的产品”。我将数据产品描述为“彻底了解分析结果从而为顾客带去价值”。但是有个常提的问题：数据产品和我们已有的顾客报告之间有何差别？&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;不是总结数据，而是解决问题。&lt;/strong&gt;大多数报告仅仅是对数据作双向的来回讨论。一个数据产品应当从顾客的痛点出发，并且讨论如何利用数据产生对问题的透视和做出更好的决策。&lt;/li&gt;
@@ -537,105 +84,19 @@
 
 &lt;p&gt;&lt;a href=&#34;http://www.juiceanalytics.com/writing/10-differences-between-customer-reporting-and-data-products&#34;&gt;原文&lt;/a&gt;来自&lt;a href=&#34;http://www.juiceanalytics.com/writing/&#34;&gt;Juice Analytics&lt;/a&gt;，&lt;/p&gt;
 
-&lt;p&gt;翻译整理。&lt;/p&gt;
+&lt;p&gt;Riddle翻译整理。&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>有关敏捷（Agile）软件开发</title>
-      <link>https://riddledle.github.io/hugoblog/post/translation/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</link>
-      <pubDate>Mon, 07 Nov 2016 00:22:09 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/translation/%E6%9C%89%E5%85%B3%E6%95%8F%E6%8D%B7%EF%BC%88Agile%EF%BC%89%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</guid>
-      <description>
-
-&lt;p&gt;使用Taiga的过程让我熟悉了Agile开发的许多内容，同时Taiga上有许多Public的项目，Team一般不大，因为Taiga免费版是可以创建1个Private项目，无限个Public项目的，同时限制Team在4人以内，想要拥有更多Private项目就要付费，不过，尽管是相对小规模的项目，但是还是可以看到世界各地许多国家的人（主要是欧美和拉美）的项目管理进程。&lt;/p&gt;
-
-&lt;h2 id=&#34;相关twitter&#34;&gt;相关Twitter：&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%887.49.38.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%889.01.57.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;更多名词&#34;&gt;更多名词&lt;/h2&gt;
-
-&lt;p&gt;很多名词&lt;a href=&#34;https://tree.taiga.io/support/&#34;&gt;官方Support&lt;/a&gt;提供了很细致到位的说明，这里只翻译下：&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Product Owner：&lt;/strong&gt;在Agile开发团队里有个职位叫做Product Owner（产品负责人，或产品拥有者），它的很多职能和Product Manager（产品经理）是相通的，如产品研发、产品愿景定义、设计思考等，不同的是，所处的环境是Agile开发，那么产品负责人更多的担当起了掌舵手的角色，需要管理用户故事和敏捷需求、管理需求优先级，发布敏捷计划、跟踪产品开发进展、管理敏捷项目合同等；&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;User Story：&lt;/strong&gt;用户故事是从用户的角度来描述用户渴望得到的功能，即是将用户需求描述为敏捷需求的桥梁，关于如何写好用户故事，可以搜索到很多规范和要点，需要注意的是描述时不要使用技术性语言，而是通俗的描述性语言；&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Backlog：&lt;/strong&gt;一个仓库（Backlog）优先收集了一些未来需要使用的用户故事和任务。产品库（Product Backlog）与整个产品需要完成的任务息息相关，包括那些与目前产品蓝图相符的，以及那些目前不符但是未来会需要的。&lt;/p&gt;
-
-&lt;p&gt;也就是说，仓库会被提前规划和评估，那么团队就可以从仓库中最顶部的用户故事着手开发。&lt;/p&gt;
-
-&lt;p&gt;堆里最顶部的用户故事，会被放进下一次的迭代里并被开发。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Sprint：&lt;/strong&gt;一次冲刺（Sprint）是“迭代”的增量式说法。一次迭代是团队打造产品的下一次提升的过程。&lt;/p&gt;
-
-&lt;p&gt;为了保证团队在集中处理一些用户故事时它们不会变动，我们创建了一个独立的区域叫做冲刺（Sprint），团队需要在规定时间内开发和发布这部分的用户故事。当冲刺区的用户故事都被完成后，这次冲刺就算结束，可以开始下一次迭代。&lt;/p&gt;
-
-&lt;p&gt;一个普通的工作流程是，创建一个新的冲刺，然后把用户故事里最顶部的部分拖进来，直到保证这部分用户故事在团队发挥最大工作效力的情况下，能够按时完成。当团队内部达成对这次冲刺安排的一致认同时，就可以开始冲刺了。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Epics：&lt;/strong&gt;如果你用敏捷开发的模式工作，那你一定听说过Epics，其实Epics没有正式的定义，不过Taiga团队还是调查出了一个比较靠谱的概念。&lt;/p&gt;
-
-&lt;p&gt;提问：Epic和User Story之间的区别是什么？&lt;/p&gt;
-
-&lt;p&gt;回答：准确的说，Epic是比用户故事更大的对象并且能包含许多用户故事。规划你的仓库时，你会在下面的情况注意到Epic：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;用户故事太复杂，描述模糊；&lt;/li&gt;
-&lt;li&gt;用户故事太庞大，无法在理想时间内实现；&lt;/li&gt;
-&lt;li&gt;对于策略性规划来说Epic很有用；&lt;/li&gt;
-&lt;li&gt;一个Epic通常定义比较模糊，而且可以包含许多组成部份；&lt;/li&gt;
-&lt;li&gt;一个Epic是很好的为团队服务的信息容器，胜过对单独对象确立的用户故事。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;我的个人理解：Epic就是把大家不理解的，但一两句话又说不清的蓝图性决策记录下来。&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Sketch工具</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/sketch%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Mon, 07 Nov 2016 00:21:43 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/sketch%E5%B7%A5%E5%85%B7/</guid>
-      <description>&lt;p&gt;我接触&lt;a href=&#34;https://www.sketchapp.com/&#34;&gt;Sketch&lt;/a&gt;制作的设计稿时，确实感到非常优美。&lt;/p&gt;
-
-&lt;p&gt;我自己制作原型时，首先使用Axure，有关Axure的使用感受择篇再论，Axure拖出来的原型比较朴素，做交互很快，考虑到设计因素，我换了Sketch来制作一个网页原型，没有交互。&lt;/p&gt;
-
-&lt;p&gt;有关Sketch和Axure的讨论可以看&lt;a href=&#34;https://www.zhihu.com/question/26712715&#34;&gt;知乎&lt;/a&gt;上的热门问题，浏览下来的感受是大部分PM还是愿意选择Sketch来制作自己的原型的，这个愿意是基于Sketch强大的能力和优美的设计，只是利用Sketch的阶段或场景不尽相同，有人的建议是，先用Axure等专业原型制作工具拖出简易的原型，再放入Sketch中加工；或者，先用Sketch制作顺眼优美的静态图，再贴到Axure上去。&lt;/p&gt;
-
-&lt;p&gt;从制作原型时的愉悦感受和顺手程度上来说，我个人感受确实是Sketch的更好，甚至我有点爱上了那些优美的界面。具体来说一些优点：&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;无限画布，灵活优雅；&lt;/li&gt;
-&lt;li&gt;参考线和测量精准，能设计到位；&lt;/li&gt;
-&lt;li&gt;快速锁定或解除宽高比，添加或取消阴影，自动复制配色等UX细节；&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;我个人认为对一款工具的喜好与否并不涉及到职业规范等严肃问题，但是在知乎的热门问题里，显然大家对产品是否有必要如此在意设计有分歧，仅从自身的经历来说，我不觉得关心设计的产品经理会显得“不专业”（就如同有许多本身就兼任设计的产品经理存在），关心产品的设计感和外观，从细节设计里感受产品的气质和传递的价值观，这不失为考量产品的一个部分，如果能够充分用心感受到这些，那在认知用户心理、捕捉市场气息方面应该也不会做的不好。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hugo文档再读</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/</link>
+      <title>Hugo-静态页面引擎</title>
+      <link>https://riddledle.github.io/hugoblog/post/pm/Hugo%EF%BC%8D%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%BC%95%E6%93%8E/</link>
       <pubDate>Thu, 03 Nov 2016 16:06:12 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/pm/Hugo%E6%96%87%E6%A1%A3%E5%86%8D%E8%AF%BB/</guid>
+      <guid>https://riddledle.github.io/hugoblog/post/pm/Hugo%EF%BC%8D%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%BC%95%E6%93%8E/</guid>
       <description>
 
-&lt;p&gt;我曾对搭建Hugo博客的过程进行了简述，前一阵团队讨论时，提起了Go语言，&lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;作为一个用Go语言写成的引擎，确实有许多光彩值得呈现，尤其是它极快的构建速度，于是重读文档，主要是首页的Brief Description和文档的Introduction部分，也练习翻译。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;HUGO－一个快速且现代化的静态页面引擎&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;－一个快速且现代化的静态页面引擎&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;让网页恢复趣味&#34;&gt;让网页恢复趣味&lt;/h3&gt;
 
@@ -653,19 +114,9 @@
 
 &lt;p&gt;Hugo配合你的工作方式。使用任何你喜欢的URL结构来组织内容。使用你自己的索引和分类来划分内容。用任何格式来定义你的元数据：YAML，TOML，JSON。最棒的是，Hugo看上去不需要额外配置即可处理这些格式差异。Hugo就这么工作。&lt;/p&gt;
 
-&lt;h3 id=&#34;评价&#34;&gt;评价&lt;/h3&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;评价这边主要是夸奖Hugo的快速。&lt;/p&gt;
-&lt;/blockquote&gt;
-
 &lt;h3 id=&#34;开源且免费&#34;&gt;开源且免费&lt;/h3&gt;
 
 &lt;p&gt;Hugo是开源并且完全免费的。&lt;/p&gt;
-
-&lt;h3 id=&#34;用爱打造&#34;&gt;用爱打造&lt;/h3&gt;
-
-&lt;p&gt;Hugo是spf13和朋友们用爱打造的。我们欢迎一切贡献。&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -688,7 +139,7 @@
     </item>
     
     <item>
-      <title>Taiga——敏捷软件开发管理工具</title>
+      <title>Taiga-敏捷软件开发管理工具</title>
       <link>https://riddledle.github.io/hugoblog/post/pm/Taiga%EF%BC%8D%E6%95%8F%E6%8D%B7%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
       <pubDate>Thu, 03 Nov 2016 15:08:41 +0800</pubDate>
       
@@ -699,118 +150,200 @@
 
 &lt;p&gt;项目管理工具很多，Taigo针对大部分工具粗糙难看的缺点改造了自己的产品，希望以优美的设计和形态为用户带去愉快的工作体验。&lt;/p&gt;
 
-&lt;p&gt;试用后感觉确实比同类型产品更美观，元素设计包含了感情。&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%883.09.25.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-07%20%E4%B8%8B%E5%8D%888.58.19.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;h2 id=&#34;名词解释&#34;&gt;名词解释&lt;/h2&gt;
 
-&lt;p&gt;这里提一下有关敏捷开发和项目管理的三个名词。参考Taiga官网的说明进行解释。&lt;/p&gt;
+&lt;h3 id=&#34;product-owner-产品负责人&#34;&gt;Product Owner（产品负责人）&lt;/h3&gt;
 
-&lt;h2 id=&#34;scrum-迭代式增量&#34;&gt;Scrum（迭代式增量）&lt;/h2&gt;
+&lt;p&gt;在敏捷开发团队里有个职位叫做Product Owner（产品负责人，或产品拥有者），它的很多职能和Product Manager（产品经理）是相通的，如产品研发、产品愿景定义、设计思考等，不同的是，所处的环境是敏捷开发，那么产品负责人更多的担当起了掌舵手的角色，需要管理用户故事和敏捷需求、管理需求优先级，发布敏捷计划、跟踪产品开发进展、管理敏捷项目合同等。&lt;/p&gt;
+
+&lt;h3 id=&#34;user-story-用户需求&#34;&gt;&lt;strong&gt;User Story&lt;/strong&gt;（用户需求）&lt;/h3&gt;
+
+&lt;p&gt;用户需求是从用户的角度来描述用户渴望得到的功能，即是将用户需求描述为敏捷需求的桥梁，关于如何写好用户需求，可以搜索到很多规范和要点，需要注意的是描述时不要使用技术性语言，而是通俗的描述性语言。&lt;/p&gt;
+
+&lt;h3 id=&#34;backlog-仓库&#34;&gt;&lt;strong&gt;Backlog&lt;/strong&gt;（仓库）&lt;/h3&gt;
+
+&lt;p&gt;一个仓库优先收集了一些未来需要使用的用户需求和任务。产品的仓库与整个产品需要完成的任务息息相关，包括那些与目前产品蓝图相符的，以及那些目前不符但是未来会需要的。&lt;/p&gt;
+
+&lt;p&gt;也就是说，仓库会被提前规划和评估，那么团队就可以从仓库中最顶部的用户需求着手开发。&lt;/p&gt;
+
+&lt;p&gt;堆里最顶部的用户需求，会被放进下一次的迭代里并被开发。&lt;/p&gt;
+
+&lt;h3 id=&#34;sprint-冲刺&#34;&gt;&lt;strong&gt;Sprint&lt;/strong&gt;（冲刺）&lt;/h3&gt;
+
+&lt;p&gt;一次冲刺是“迭代”的增量式说法。一次迭代是团队打造产品的下一次提升的过程。&lt;/p&gt;
+
+&lt;p&gt;为了保证团队在集中处理一些用户需求时它们不会变动，我们创建了一个独立的区域叫做冲刺，团队需要在规定时间内开发和发布这部分的用户需求。当冲刺区的用户需求都被完成后，这次冲刺就算结束，可以开始下一次迭代。&lt;/p&gt;
+
+&lt;p&gt;一个普通的工作流程是，创建一个新的冲刺，然后把用户需求里最顶部的部分拖进来，直到保证这部分用户需求在团队发挥最大工作效力的情况下，能够按时完成。当团队内部达成对这次冲刺安排的一致认同时，就可以开始冲刺了。&lt;/p&gt;
+
+&lt;h3 id=&#34;epics-跨任务&#34;&gt;&lt;strong&gt;Epics&lt;/strong&gt;（跨任务）&lt;/h3&gt;
+
+&lt;p&gt;如果你用敏捷开发的模式工作，那你一定听说过Epics，其实Epics没有正式的定义，不过Taiga团队还是调查出了一个比较靠谱的概念。&lt;/p&gt;
+
+&lt;p&gt;提问：Epic和User Story之间的区别是什么？&lt;/p&gt;
+
+&lt;p&gt;回答：准确的说，Epic是比用户需求更大的对象并且能包含许多用户需求。规划你的仓库时，你会在下面的情况注意到Epic：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;用户需求太复杂，描述模糊；&lt;/li&gt;
+&lt;li&gt;用户需求太庞大，无法在理想时间内实现；&lt;/li&gt;
+&lt;li&gt;对于策略性规划来说Epic很有用；&lt;/li&gt;
+&lt;li&gt;一个Epic通常定义比较模糊，而且可以包含许多组成部份；&lt;/li&gt;
+&lt;li&gt;一个Epic是很好的为团队服务的信息容器，胜过对单独对象确立的用户需求。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;模糊来说Epics是将很多任务中有交集的部分组成一个集合，从而为这众多的项目提供策略，这便于寻找项目之间的等级关系和相关联性。&lt;/p&gt;
+
+&lt;h3 id=&#34;scrum-迭代式&#34;&gt;Scrum（迭代式）&lt;/h3&gt;
 
 &lt;p&gt;Scrum是项目管理中一种迭代和增进的敏捷软件开发方法。&lt;/p&gt;
 
-&lt;p&gt;最终确定的仓库中的所有任务（backlog）被划分成短小可执行的子任务（sprints）并规定执行时间，直至所有任务完成。&lt;/p&gt;
+&lt;p&gt;最终确定的仓库中的所有任务被划分成短小可执行的子任务并规定执行时间，直至所有任务完成。&lt;/p&gt;
 
-&lt;h2 id=&#34;kanban-任务看板&#34;&gt;Kanban（任务看板）&lt;/h2&gt;
+&lt;h3 id=&#34;kanban-看板&#34;&gt;Kanban（看板）&lt;/h3&gt;
 
-&lt;p&gt;看板式开发也是敏捷软件开发中的一个方法论，它将项目划分为阶段（stages），这样便于追踪进度。&lt;/p&gt;
+&lt;p&gt;看板式开发也是敏捷软件开发中的一个方法论，它将项目划分为阶段，这样便于追踪进度。&lt;/p&gt;
 
-&lt;h2 id=&#34;epics-multiproject-跨任务&#34;&gt;Epics multiproject（跨任务）&lt;/h2&gt;
+&lt;h2 id=&#34;随便看看&#34;&gt;随便看看&lt;/h2&gt;
 
-&lt;p&gt;模糊来说Epics是将很多任务中有交集的部分组成一个集合，从而为这众多的项目提供策略，这便于寻找项目之间的等级关系和相关联性。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>更换搜索引擎</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E6%9B%B4%E6%8D%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</link>
-      <pubDate>Tue, 01 Nov 2016 15:35:26 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E6%9B%B4%E6%8D%A2%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E/</guid>
-      <description>&lt;p&gt;我个人使用百度进行搜索的体验越来越差，&lt;strong&gt;整合性低，广告多，搜索范围窄&lt;/strong&gt;，因此我考虑更换常用的搜索引擎。&lt;/p&gt;
+&lt;h3 id=&#34;appstructurio&#34;&gt;AppStructurio&lt;/h3&gt;
 
-&lt;p&gt;利用百度，360，搜狗，必应搜索“riddle”：&lt;/p&gt;
+&lt;p&gt;在taiga上看到一个叫做［AppStructurio］的Project，以下是一条US：&lt;/p&gt;
 
-&lt;p&gt;百度贡献的结果，往往有种华而不实的感觉，即使有和“riddle”相关的音乐，但有占据如此大块版面的必要么？&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.31.53.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;360搜索贡献的结果，看起来有点毛糙，指向性不强。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.36.31.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;打开搜狗搜索首页，看到如下内容，弃之。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-03%20%E4%B8%8B%E5%8D%884.35.06.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;必应的搜索速度很快，结果中的第一条就是Wikipedia，而且必应词典也很实用，可以说是速度，整合性，实用性兼备。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-11-05%20%E4%B8%8B%E5%8D%881.23.16.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;最终选择了使用必应。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>混合开发技术相关</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/</link>
-      <pubDate>Tue, 01 Nov 2016 15:12:18 +0800</pubDate>
-      
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E6%B7%B7%E5%90%88%E5%BC%80%E5%8F%91%E6%8A%80%E6%9C%AF%E7%9B%B8%E5%85%B3/</guid>
-      <description>
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/ustory.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Hybrid App（混合模式移动应用）是指介于Web App、Native App这两者之间的app，兼具“Native App良好用户交互体验的优势”和“Web App跨平台开发的优势”。&lt;/p&gt;
+&lt;p&gt;描述：&lt;/p&gt;
+
+&lt;p&gt;在主页面，我希望能够通过Facebook或者Github登入。&lt;/p&gt;
+
+&lt;p&gt;成功认证后，我希望看到我的&lt;a href=&#34;https://cn.gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;分配：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在&lt;a href=&#34;https://auth0.com/&#34;&gt;auth0.com&lt;/a&gt;上建立项目&lt;/li&gt;
+&lt;li&gt;开发登入功能&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&#34;优势&#34;&gt;优势&lt;/h3&gt;
+&lt;p&gt;另一条UI相关的US：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/ustory2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这个US是希望为Angular 2.0找到一套性感的UI组件：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;分配：&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;兼容多平台，因此开发效率较高，开发成本较低，较适合需要快速试错或快速占领市场的产品；&lt;/li&gt;
-&lt;li&gt;能够顺利访问手机的多种功能，保证产品功能的可拓展性；&lt;/li&gt;
-&lt;li&gt;App Store中可下载，利于产品的推广；&lt;/li&gt;
-&lt;li&gt;可线下使用，保证用户的残留度；&lt;/li&gt;
-&lt;li&gt;Hybrid App中，Native和Web各自所占的比例自由，因此降低了开发时的难度；&lt;/li&gt;
-&lt;li&gt;界面布局和风格设计自由，保证了产品的特色；&lt;/li&gt;
-&lt;li&gt;从业务开发上讲，没有版本问题，有Bug能够及时修复；&lt;/li&gt;
-&lt;li&gt;性能快，不会带来较差的用户体验。&lt;/li&gt;
+&lt;li&gt;UI控件库之间的比较&lt;/li&gt;
+&lt;li&gt;对最佳选择的理由陈述&lt;/li&gt;
+&lt;li&gt;提交依赖到前端项目&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/blockquote&gt;
 
-&lt;h3 id=&#34;弊端&#34;&gt;弊端&lt;/h3&gt;
+&lt;h3 id=&#34;appstructurio-1&#34;&gt;AppStructurio&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;就用户体验来说，Hybrid App是比不上原生应用的；&lt;/li&gt;
-&lt;li&gt;因为需要连接网络，所以性能会稍慢；&lt;/li&gt;
-&lt;li&gt;目前混合开发的技术还不是很成熟，因此学习成本较高，在开发时供学习调研的资料也比较少。&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;接着从Most Active项目里面挑了一个叫做［AppStructurio］的项目：&lt;/p&gt;
 
-&lt;h2 id=&#34;总结&#34;&gt;总结&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/issues.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;应用混合开发模式，可以实现高效率，低成本的开发，实现快速试错和抢占市场的目标，充分利用web端的灵活性可以解决开发中具体问题，同时带去最接近Native的体验。&lt;/p&gt;
+&lt;p&gt;看起来是个智能家居项目，某条US：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/smarthomeissue.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;这是一个涉及可视化建设的US：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;描述：&lt;/p&gt;
+
+&lt;p&gt;作为一个顾客&lt;/p&gt;
+
+&lt;p&gt;我希望浏览构造器&lt;/p&gt;
+
+&lt;p&gt;这样我就可以创造一个控制面板&lt;/p&gt;
+
+&lt;p&gt;它包含4个Action：&lt;/p&gt;
+
+&lt;p&gt;AC-1-添加一个组件&lt;/p&gt;
+
+&lt;p&gt;AC-2-移除一个组件&lt;/p&gt;
+
+&lt;p&gt;AC-3-保存一个组件&lt;/p&gt;
+
+&lt;p&gt;AC-4-取消添加一个组件&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;他人回复：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/comment.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;询问Taras或者Lurii我们是否需要像在地图里一样上传背景图片（？）&lt;/li&gt;
+&lt;li&gt;添加控制面板整体布局和风格&lt;/li&gt;
+&lt;li&gt;加载已有组件列表并根据布局排列&lt;/li&gt;
+&lt;li&gt;从列表拖拽组件到控制面板的地图中&lt;/li&gt;
+&lt;li&gt;展示组件信息：组件名称；当前值（摄氏度, 湿度, 开／关等）；最后更新时间；“数据”图标&lt;/li&gt;
+&lt;li&gt;展示地图上组件的删除按钮（“X”）并通过点击删除&lt;/li&gt;
+&lt;li&gt;处理取消动作。使用确认信息并在确认后重导页面到主页&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;处理后的面板看起来是这样的：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/smarthome.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;taiga用来敏捷开发感觉还是很对味的。&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>善用流程图梳理较复杂的订单支付系统</title>
-      <link>https://riddledle.github.io/hugoblog/post/pm/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</link>
-      <pubDate>Tue, 01 Nov 2016 15:06:28 +0800</pubDate>
+      <title>Trello-任务管理工具</title>
+      <link>https://riddledle.github.io/hugoblog/post/pm/Trello%EF%BC%8D%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Thu, 06 Oct 2016 16:23:22 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/pm/%E8%AE%A2%E5%8D%95%E6%94%AF%E4%BB%98%E7%B3%BB%E7%BB%9F%E5%A4%A7%E8%87%B4%E6%B5%81%E7%A8%8B/</guid>
-      <description>&lt;p&gt;O2O电商产品往往都具有订单中心和支付系统，流畅严谨的逻辑和符合用户习惯的交互将会给用户带去舒适的体验，在开发的过程中依据产品需求实现相应板块的衔接也是值得注意的环节。&lt;/p&gt;
+      <guid>https://riddledle.github.io/hugoblog/post/pm/Trello%EF%BC%8D%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
+      <description>
 
-&lt;p&gt;程序员们阅读完产品经理给出的产品需求说明书之后，凭借程序员一贯的思维方式往往难以形成清晰且可执行的逻辑，订单中心的基本逻辑用语言表述是曲折的，这时一套&lt;strong&gt;流程图&lt;/strong&gt;可以帮助大家的理解。&lt;/p&gt;
+&lt;h1 id=&#34;trello-https-trello-com&#34;&gt;&lt;a href=&#34;(https://trello.com/)&#34;&gt;Trello&lt;/a&gt;&lt;/h1&gt;
 
-&lt;p&gt;特别的，开发订单支付系统时，在&lt;strong&gt;限制用户操作&lt;/strong&gt;和&lt;strong&gt;调控订单处理进度&lt;/strong&gt;两个层面，特别需要对订单逻辑有清晰的规划，如若不然，将导致一些重复劳动和目标不明确等问题，导致开发效率下降。&lt;/p&gt;
+&lt;p&gt;Trello提供清单式的管理方式，默认主题为稳重的蓝色调，支持google账号登录，层级非常丰富：Boards &amp;gt; Lists &amp;gt; Cards &amp;gt; Comments &amp;gt; Labels ，Slogan：&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;“无限灵活。使用超级方便。移动应用程序超棒。完全免费。&lt;em&gt;Trello&lt;/em&gt; 能够跟踪一切,大至图片,小至记录细节。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Trello除了用来进行团队协作，也可以帮助个人进行愿望清单的管理，比如这套Template即可用于LifeStyle的管理：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-07%20%E4%B8%8B%E5%8D%881.23.41.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;描述：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://o7o0hlenq.bkt.clouddn.com/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-10-07%20%E4%B8%8B%E5%8D%881.24.01.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;实际用的时候不用这么隆重也可以，用来备忘也挺好的。&lt;/p&gt;
+
+&lt;p&gt;看板工具用起来很飘逸，用Trello安排一些日常的小任务还是挺顺手的。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://riddledle.github.io/hugoblog/about/</link>
+      <pubDate>Thu, 08 Sep 2016 20:03:14 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/about/</guid>
+      <description>&lt;p&gt;Riddle是产品经理。&lt;/p&gt;
+
+&lt;p&gt;不定期更新吧，一些体验和搬运国外的内容并翻译。&lt;/p&gt;
 </description>
     </item>
     

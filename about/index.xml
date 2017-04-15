@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abouts on Riddle&#39;s</title>
+    <title>Abouts on Riddle</title>
     <link>https://riddledle.github.io/hugoblog/about/</link>
-    <description>Recent content in Abouts on Riddle&#39;s</description>
+    <description>Recent content in Abouts on Riddle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Sep 2016 20:03:14 +0800</lastBuildDate>
@@ -15,7 +15,9 @@
       <pubDate>Thu, 08 Sep 2016 20:03:14 +0800</pubDate>
       
       <guid>https://riddledle.github.io/hugoblog/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m simply complex.&lt;/p&gt;
+      <description>&lt;p&gt;Riddle是产品经理。&lt;/p&gt;
+
+&lt;p&gt;不定期更新吧，一些体验和搬运国外的内容并翻译。&lt;/p&gt;
 </description>
     </item>
     
