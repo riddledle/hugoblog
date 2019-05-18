@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://riddledle.github.io/hugoblog/"
 languageCode = "en-us"
-title = "Riddle's"
+title = "Riddle"
 theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -10,10 +10,10 @@ disqusShortname = ""
 
 [params]
 	name = "Riddle"
-	description = "riddle's notes"
-	bio = "Patience - Passion - Perseverance"
+	description = ""
+	bio = ""
 	# Enter optionally your twitter account
-	twitter = ""
+	# twitter = ""
 	enableRSS = true
 
 	# Add custom assets with their paths relative to the static folder
@@ -34,8 +34,8 @@ disqusShortname = ""
 	copyright = ""
 	# Sharing options and author information in posts
 	aboutAuthor = ""
-	tweet = ""
-	share = ""
+	# tweet = ""
+	# share = ""
 	# 404 page
 	title404 = ""
 	subtitle404 = ""
@@ -46,4 +46,3 @@ disqusShortname = ""
     # socialIconStyle = "rounded"
 
 # Add additional social link entries underneath
-
