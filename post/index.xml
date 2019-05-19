@@ -1,61 +1,311 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Riddle</title>
+    <title>Posts on Movies Express</title>
     <link>https://riddledle.github.io/hugoblog/post/</link>
-    <description>Recent content in Posts on Riddle</description>
+    <description>Recent content in Posts on Movies Express</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Feb 2018 13:55:04 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 19:48:15 +0800</lastBuildDate>
     <atom:link href="https://riddledle.github.io/hugoblog/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Caffe使用说明和在mac上安装Caffe</title>
-      <link>https://riddledle.github.io/hugoblog/post/Caffe%E7%AE%80%E4%BB%8B%E5%92%8C%E5%9C%A8mac%E4%B8%8A%E5%AE%89%E8%A3%85Caffe/</link>
-      <pubDate>Wed, 07 Feb 2018 13:55:04 +0800</pubDate>
+      <title>Unzip password of Alita: Battle Angel</title>
+      <link>https://riddledle.github.io/hugoblog/post/alitabattleangelKd002d4110A9662F/</link>
+      <pubDate>Sun, 19 May 2019 19:48:15 +0800</pubDate>
       
-      <guid>https://riddledle.github.io/hugoblog/post/Caffe%E7%AE%80%E4%BB%8B%E5%92%8C%E5%9C%A8mac%E4%B8%8A%E5%AE%89%E8%A3%85Caffe/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;介绍：&lt;/strong&gt;&lt;/p&gt;
+      <guid>https://riddledle.github.io/hugoblog/post/alitabattleangelKd002d4110A9662F/</guid>
+      <description>&lt;p&gt;Hi,&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://caffe.berkeleyvision.org/tutorial/&#34;&gt;Caffe&lt;/a&gt;是一个深度学习框架。&lt;/p&gt;
+&lt;p&gt;Thanks for your support. The code and product information appears as follows:&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;说明：&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Items&lt;/th&gt;
+&lt;th&gt;Info&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
 
-&lt;p&gt;英文文档去官网上看，这儿我把说明书首页的概念提炼出来，首先对caffe有一个认识，同时回顾深度学习的概念，然后说明书的Tour部分详解了caffe的各种结构，我也会对每一层都整体介绍一下。以下是根据官方说明书的顺序和内容作的介绍和讲解。&lt;/p&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Product Name&lt;/td&gt;
+&lt;td&gt;Alita: Battle Angel&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;&lt;u&gt;指导：&lt;/u&gt;总而言之，caffe是一个深度学习框架，接下来的文章介绍的是它的理念（哲学），结构和用处，使用这个框架之前，最好有机器学习和神经网络的储备知识，但是这儿也会稍微介绍。&lt;/p&gt;
+&lt;tr&gt;
+&lt;td&gt;Price Cost&lt;/td&gt;
+&lt;td&gt;$3.99&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;&lt;u&gt;哲学：&lt;/u&gt;caffe的五个特色：压缩，高速，模块化，开放性，社区化&lt;/p&gt;
+&lt;tr&gt;
+&lt;td&gt;Code Info&lt;/td&gt;
+&lt;td&gt;Kd002d4110A9662F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 
-&lt;p&gt;&lt;u&gt;浏览：&lt;/u&gt;目录如下&lt;/p&gt;
+&lt;p&gt;Please backup the code by yourself. If high-definition version of this movie comes out later on in the future, you can download and unzip that with this code as well.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://caffe.berkeleyvision.org/tutorial/net_layer_blob.html&#34;&gt;Nets, Layers, and Blobs 网络，层，团&lt;/a&gt;: 剖析caffe的模型结构&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://caffe.berkeleyvision.org/tutorial/forward_backward.html&#34;&gt;Forward / Backward 前进／后退&lt;/a&gt;: 复合模型中必需的计算&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://caffe.berkeleyvision.org/tutorial/loss.html&#34;&gt;Loss 损失&lt;/a&gt;: 训练计划是用loss定义的&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://caffe.berkeleyvision.org/tutorial/solver.html&#34;&gt;Solver 解算机&lt;/a&gt;: 实现最优化&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://caffe.berkeleyvision.org/tutorial/layers.html&#34;&gt;Layer Catalogue 层目录&lt;/a&gt;: 层结构是模型的基本单元&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://caffe.berkeleyvision.org/tutorial/interfaces.html&#34;&gt;Interfaces 界面&lt;/a&gt;: 命令行, Python, MATLAB Caffe.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://caffe.berkeleyvision.org/tutorial/data.html&#34;&gt;Data 数据&lt;/a&gt;: 如何调整数据&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://caffe.berkeleyvision.org/tutorial/convolution.html&#34;&gt;Caffeinated Convolution caffe卷积&lt;/a&gt;: 如何计算卷积&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;An email contains your order ID has also been sent to your email address on Paypal account. If your code is lost, you can always retrieve it by providing you order ID to us.&lt;/p&gt;
 
-&lt;p&gt;&lt;u&gt;深度学习：&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;Need any help please contact: movesexpressinc@gmail.com&lt;/p&gt;
 
-&lt;p&gt;这里主要介绍了网上一些可以直接获取的深度学习的资料，特别是和视觉相关的，英文内容，直接阅读。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Illustration&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://sites.google.com/site/deeplearningcvpr2014/&#34;&gt;Tutorial on Deep Learning for Vision&lt;/a&gt; from CVPR ‘14&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://neuralnetworksanddeeplearning.com/index.html&#34;&gt;Neural Networks and Deep Learning&lt;/a&gt; by Michael Nielsen&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.cs.nyu.edu/~yann/talks/lecun-ranzato-icml2013.pdf&#34;&gt;Deep Learning Tutorial&lt;/a&gt; by Yann LeCun (NYU, Facebook) and Marc’Aurelio Ranzato (Facebook). ICML 2013 tutorial.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://deeplearning.net/tutorial/deeplearning.pdf&#34;&gt;LISA Deep Learning Tutorial&lt;/a&gt; by the LISA Lab directed by Yoshua Bengio (U. Montréal).&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The charge is a reward for us to help maintain costs and can also help to control the amount of play so that box office won&amp;rsquo;t be impacted.
+Password will shown automatically after payment.
+The entire movie package needs password to unzip after downloading.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unzip password of Avengers: Endgame</title>
+      <link>https://riddledle.github.io/hugoblog/post/avengersendgamedc43dd65BA9172AA/</link>
+      <pubDate>Sun, 19 May 2019 19:48:15 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/avengersendgamedc43dd65BA9172AA/</guid>
+      <description>&lt;p&gt;Hi,&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;Thanks for your support. The code and product information appears as follows:&lt;/p&gt;
 
-&lt;p&gt;然后跟随目录，开始看一下caffe的结构，首先：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Items&lt;/th&gt;
+&lt;th&gt;Info&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
 
-&lt;p&gt;&lt;u&gt;Nets, Layers, and Blobs 网络，层，团：&lt;/u&gt;&lt;/p&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Product Name&lt;/td&gt;
+&lt;td&gt;Avengers: Endgame&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Price Cost&lt;/td&gt;
+&lt;td&gt;$4.99&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Code Info&lt;/td&gt;
+&lt;td&gt;dc43dd65BA9172AA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Please backup the code by yourself. If high-definition version of this movie comes out later on in the future, you can download and unzip that with this code as well.&lt;/p&gt;
+
+&lt;p&gt;An email contains your order ID has also been sent to your email address on Paypal account. If your code is lost, you can always retrieve it by providing you order ID to us.&lt;/p&gt;
+
+&lt;p&gt;Need any help please contact: movesexpressinc@gmail.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Illustration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The charge is a reward for us to help maintain costs and can also help to control the amount of play so that box office won&amp;rsquo;t be impacted.
+Password will shown automatically after payment.
+The entire movie package needs password to unzip after downloading.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unzip password of Game of Thrones Season 8</title>
+      <link>https://riddledle.github.io/hugoblog/post/gameofthronesseason8Kb4cfcdf301404Ad/</link>
+      <pubDate>Sun, 19 May 2019 19:48:15 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/gameofthronesseason8Kb4cfcdf301404Ad/</guid>
+      <description>&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;Thanks for your support. The code and product information appears as follows:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Items&lt;/th&gt;
+&lt;th&gt;Info&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Product Name&lt;/td&gt;
+&lt;td&gt;Game of Thrones Season 8&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Price Cost&lt;/td&gt;
+&lt;td&gt;$5.99&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Code Info&lt;/td&gt;
+&lt;td&gt;Kb4cfcdf301404Ad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Please backup the code by yourself. If high-definition version of this movie comes out later on in the future, you can download and unzip that with this code as well.&lt;/p&gt;
+
+&lt;p&gt;An email contains your order ID has also been sent to your email address on Paypal account. If your code is lost, you can always retrieve it by providing you order ID to us.&lt;/p&gt;
+
+&lt;p&gt;Need any help please contact: movesexpressinc@gmail.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Illustration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The charge is a reward for us to help maintain costs and can also help to control the amount of play so that box office won&amp;rsquo;t be impacted.
+Password will shown automatically after payment.
+The entire movie package needs password to unzip after downloading.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unzip password of Green book</title>
+      <link>https://riddledle.github.io/hugoblog/post/greenbookK9f342608d8eEaa3/</link>
+      <pubDate>Sun, 19 May 2019 19:48:15 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/greenbookK9f342608d8eEaa3/</guid>
+      <description>&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;Thanks for your support. The code and product information appears as follows:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Items&lt;/th&gt;
+&lt;th&gt;Info&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Product Name&lt;/td&gt;
+&lt;td&gt;Green Book&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Price Cost&lt;/td&gt;
+&lt;td&gt;$3.99&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Code Info&lt;/td&gt;
+&lt;td&gt;K9f342608d8eEaa3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Please backup the code by yourself. If high-definition version of this movie comes out later on in the future, you can download and unzip that with this code as well.&lt;/p&gt;
+
+&lt;p&gt;An email contains your order ID has also been sent to your email address on Paypal account. If your code is lost, you can always retrieve it by providing you order ID to us.&lt;/p&gt;
+
+&lt;p&gt;Need any help please contact: movesexpressinc@gmail.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Illustration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The charge is a reward for us to help maintain costs and can also help to control the amount of play so that box office won&amp;rsquo;t be impacted.
+Password will shown automatically after payment.
+The entire movie package needs password to unzip after downloading.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unzip password of Hellboy</title>
+      <link>https://riddledle.github.io/hugoblog/post/hellboyf28639CC82F78673/</link>
+      <pubDate>Sun, 19 May 2019 19:48:15 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/hellboyf28639CC82F78673/</guid>
+      <description>&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;Thanks for your support. The code and product information appears as follows:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Items&lt;/th&gt;
+&lt;th&gt;Info&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Product Name&lt;/td&gt;
+&lt;td&gt;Hellboy&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Price Cost&lt;/td&gt;
+&lt;td&gt;$3.99&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Code Info&lt;/td&gt;
+&lt;td&gt;f28639CC82F78673&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Please backup the code by yourself. If high-definition version of this movie comes out later on in the future, you can download and unzip that with this code as well.&lt;/p&gt;
+
+&lt;p&gt;An email contains your order ID has also been sent to your email address on Paypal account. If your code is lost, you can always retrieve it by providing you order ID to us.&lt;/p&gt;
+
+&lt;p&gt;Need any help please contact: movesexpressinc@gmail.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Illustration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The charge is a reward for us to help maintain costs and can also help to control the amount of play so that box office won&amp;rsquo;t be impacted.
+Password will shown automatically after payment.
+The entire movie package needs password to unzip after downloading.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unzip password of How to Train Your Dragon: The Hidden World</title>
+      <link>https://riddledle.github.io/hugoblog/post/howtotrainyourdragonthehiddenworldKA07A288d0360FA4/</link>
+      <pubDate>Sun, 19 May 2019 19:48:15 +0800</pubDate>
+      
+      <guid>https://riddledle.github.io/hugoblog/post/howtotrainyourdragonthehiddenworldKA07A288d0360FA4/</guid>
+      <description>&lt;p&gt;Hi,&lt;/p&gt;
+
+&lt;p&gt;Thanks for your support. The code and product information appears as follows:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Items&lt;/th&gt;
+&lt;th&gt;Info&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Product Name&lt;/td&gt;
+&lt;td&gt;How to Train Your Dragon: The Hidden World&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Price Cost&lt;/td&gt;
+&lt;td&gt;$4.99&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Code Info&lt;/td&gt;
+&lt;td&gt;KA07A288d0360FA4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Please backup the code by yourself. If high-definition version of this movie comes out later on in the future, you can download and unzip that with this code as well.&lt;/p&gt;
+
+&lt;p&gt;An email contains your order ID has also been sent to your email address on Paypal account. If your code is lost, you can always retrieve it by providing you order ID to us.&lt;/p&gt;
+
+&lt;p&gt;Need any help please contact: movesexpressinc@gmail.com&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Illustration&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The charge is a reward for us to help maintain costs and can also help to control the amount of play so that box office won&amp;rsquo;t be impacted.
+Password will shown automatically after payment.
+The entire movie package needs password to unzip after downloading.&lt;/p&gt;
 </description>
     </item>
     
