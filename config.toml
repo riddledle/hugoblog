@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://riddledle.github.io/hugoblog/"
 languageCode = "en-us"
-title = "Riddle"
+title = "Movies Express"
 theme = "hugo-cactus-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
@@ -9,11 +9,11 @@ googleAnalytics = ""
 disqusShortname = ""
 
 [params]
-	name = "Riddle"
+	name = "Movies Express"
 	description = ""
 	bio = ""
 	# Enter optionally your twitter account
-	# twitter = ""
+	twitter = "moviesexpress2"
 	enableRSS = true
 
 	# Add custom assets with their paths relative to the static folder
@@ -34,7 +34,7 @@ disqusShortname = ""
 	copyright = ""
 	# Sharing options and author information in posts
 	aboutAuthor = ""
-	# tweet = ""
+	# tweet = "moviesexpress2"
 	# share = ""
 	# 404 page
 	title404 = ""
